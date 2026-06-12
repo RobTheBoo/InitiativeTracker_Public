@@ -17,6 +17,10 @@ Repository pubblico per il download dell'installer Windows.
 - Questo repository non contiene il codice sorgente del progetto.
 - Qui vengono pubblicati solo i pacchetti pronti all'uso per Windows.
 
+## Privacy
+
+- Informativa privacy: [PRIVACY-POLICY.md](./PRIVACY-POLICY.md)
+
 ## Problemi / Supporto
 
 Se il download non parte o l'installer non si avvia, apri una issue in questo repository con:
