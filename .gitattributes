@@ -1,0 +1,2 @@
+catalog/v1/*.json text eol=lf
+catalog/v1/packages/*.json text eol=lf

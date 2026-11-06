@@ -10,8 +10,8 @@
       "description": "Small, original English-language fixture for validating catalog downloads.",
       "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/94a29f8a2347dbebb7baad4a6ec155484cd832da/catalog/v1/packages/original-sample-1.0.0.json",
       "format": "json",
-      "sizeBytes": 1120,
-      "sha256": "88d15ef16e59533a68b8fac3c751b07fb28b7b5979543d2e2f656956366a5be5",
+      "sizeBytes": 1079,
+      "sha256": "a56c3f7b3a6f03016ee0826d3d5ab6ded617d21fb530c9748088933b864783ab",
       "license": "CC0-1.0",
       "source": {
         "name": "Original fixture created for InitiativeTracker_Public",
