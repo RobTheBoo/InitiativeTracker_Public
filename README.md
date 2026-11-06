@@ -8,10 +8,13 @@ Repository pubblico per il download dell'installer Windows.
 
 ## Catalogo dati
 
-- Manifest: [catalogo JSON](https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/main/catalog/v1/manifest.json)
+- Manifest v1: [catalogo legacy](https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/main/catalog/v1/manifest.json)
+- Manifest v2: [catalogo con distribuzione incorporata](https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/main/catalog/v2/manifest.json)
 - Struttura e validazione: [documentazione catalogo](./catalog/v1/README.md)
 
-Il manifest indica provenienza, licenza, avvisi, stato di verifica, dimensione e checksum SHA-256 di ogni pacchetto. Si pubblicano solo pacchetti con diritti di redistribuzione verificati; il catalogo iniziale contiene un fixture originale di prova e non include contenuti PSRD-Data.
+Il catalogo v1 mantiene il fixture originale di prova. Il catalogo v2 contiene una selezione limitata di 21 incantesimi, divisa in due pacchetti e revisionata voce per voce; non è il database PSRD-Data completo e gli altri record restano esclusi e non revisionati. Ogni manifest riporta provenienza, licenza, avvisi, dimensione e SHA-256. `redistributionStatus: "verified"` è un'attestazione del publisher, non una garanzia legale né una revisione legale indipendente.
+
+L'identificatore ruleset `PTFD` (edizione `1e`) è usato per compatibilità tecnica. I pacchetti non sono affiliati, sponsorizzati né approvati da titolari di marchi o diritti.
 
 ## Installazione
 

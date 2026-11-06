@@ -12,7 +12,7 @@ MAX_PACKAGE_BYTES = 2 * 1024 * 1024
 MAX_PACKAGE_ITEMS = 500
 PINNED_URL = re.compile(
     r"^https://raw\.githubusercontent\.com/RobTheBoo/"
-    r"InitiativeTracker_Public/([0-9a-f]{40})/catalog/v1/packages/([^/]+\.json)$"
+    r"InitiativeTracker_Public/([0-9a-f]{40})/catalog/v([12])/packages/([^/]+\.json)$"
 )
 SHA256 = re.compile(r"^[a-f0-9]{64}$")
 VERSION = re.compile(r"^[0-9]+\.[0-9]+\.[0-9]+$")
@@ -44,7 +44,11 @@ def validate_catalog(
 ):
     manifest = read_json(manifest_path)
     require(isinstance(manifest, dict), "Manifest must be a JSON object")
-    require(manifest.get("schemaVersion") == 1, "Manifest schemaVersion must be 1")
+    manifest_schema_version = manifest.get("schemaVersion")
+    require(
+        type(manifest_schema_version) is int and manifest_schema_version in (1, 2),
+        "Manifest schemaVersion must be 1 or 2",
+    )
     require(
         isinstance(manifest.get("catalogVersion"), str)
         and VERSION.fullmatch(manifest["catalogVersion"]),
@@ -62,6 +66,8 @@ def validate_catalog(
             "notices", "source", "ruleset",
             "categories", "language",
         )
+        if manifest_schema_version == 2:
+            required += ("assetSchemaVersion",)
         for field in required:
             require(field in entry, f"Package entry is missing {field}")
         package_id = entry["id"]
@@ -89,7 +95,7 @@ def validate_catalog(
         if allow_placeholder and isinstance(url, str) and PLACEHOLDER in url:
             require(
                 url.endswith(
-                    "/catalog/v1/packages/"
+                    f"/catalog/v{manifest_schema_version}/packages/"
                     + package_id
                     + "-"
                     + entry["version"]
@@ -104,9 +110,19 @@ def validate_catalog(
                 f"{package_id}: downloadUrl must pin a package to an immutable commit SHA",
             )
             require(
-                match.group(2) == package_id + "-" + entry["version"] + ".json",
+                int(match.group(2)) == manifest_schema_version,
+                f"{package_id}: asset URL version does not match manifest schemaVersion",
+            )
+            require(
+                match.group(3) == package_id + "-" + entry["version"] + ".json",
                 f"{package_id}: asset filename does not match id and version",
             )
+        asset_schema_version = entry.get("assetSchemaVersion", manifest_schema_version)
+        require(
+            type(asset_schema_version) is int
+            and asset_schema_version == manifest_schema_version,
+            f"{package_id}: assetSchemaVersion must match manifest schemaVersion",
+        )
 
         source = entry["source"]
         require(
@@ -192,8 +208,8 @@ def validate_catalog(
             ) from error
         require(isinstance(asset, dict), f"{package_id}: asset must be a JSON object")
         require(
-            asset.get("schemaVersion") == 1,
-            f"{package_id}: asset schemaVersion must be 1",
+            asset.get("schemaVersion") == asset_schema_version,
+            f"{package_id}: asset schemaVersion does not match manifest",
         )
         require(asset.get("id") == package_id, f"{package_id}: asset id does not match")
         require(
@@ -236,10 +252,12 @@ def validate_catalog(
                 f"{package_id}: invalid item field type",
             )
         distribution = asset.get("distribution")
-        requires_embedded_legal = bool(OGL_LICENSE.search(entry["license"]))
+        requires_embedded_legal = (
+            manifest_schema_version == 2 or bool(OGL_LICENSE.search(entry["license"]))
+        )
         require(
             not requires_embedded_legal or isinstance(distribution, dict),
-            f"{package_id}: OGL packages must embed distribution text in the asset",
+            f"{package_id}: this package schema requires embedded distribution text",
         )
         if distribution is not None:
             validate_distribution(distribution, items, package_id, entry["license"])

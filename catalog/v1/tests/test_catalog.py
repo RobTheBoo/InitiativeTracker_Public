@@ -129,7 +129,9 @@ class CatalogValidationTests(unittest.TestCase):
         )
         with tempfile.TemporaryDirectory() as folder:
             target, asset_dir = self.write_catalog_variant(folder, manifest, asset)
-            with self.assertRaisesRegex(CatalogValidationError, "must embed distribution"):
+            with self.assertRaisesRegex(
+                CatalogValidationError, "requires embedded distribution"
+            ):
                 validate_catalog(target, asset_dir)
 
     def test_accepts_ogl_distribution_with_full_texts_and_item_mappings(self):
