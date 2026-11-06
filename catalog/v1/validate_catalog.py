@@ -57,7 +57,8 @@ def validate_catalog(
         require(isinstance(entry, dict), "Every package entry must be an object")
         required = (
             "id", "name", "version", "description", "downloadUrl", "format",
-            "sizeBytes", "sha256", "license", "source", "ruleset",
+            "sizeBytes", "sha256", "license", "redistributionStatus",
+            "notices", "source", "ruleset",
             "categories", "language",
         )
         for field in required:
@@ -122,6 +123,17 @@ def validate_catalog(
         require(
             isinstance(entry["license"], str) and bool(entry["license"]),
             f"{package_id}: license must be specified",
+        )
+        require(
+            entry["redistributionStatus"] == "verified",
+            f"{package_id}: redistribution rights must be verified before publication",
+        )
+        notices = entry["notices"]
+        require(
+            isinstance(notices, list)
+            and bool(notices)
+            and all(isinstance(notice, str) and notice.strip() for notice in notices),
+            f"{package_id}: at least one non-empty package notice is required",
         )
         ruleset = entry["ruleset"]
         require(

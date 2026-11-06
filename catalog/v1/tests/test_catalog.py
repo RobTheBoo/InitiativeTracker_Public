@@ -31,6 +31,8 @@ class CatalogValidationTests(unittest.TestCase):
         self.assertLessEqual(package["sizeBytes"], MAX_PACKAGE_BYTES)
         self.assertLessEqual(len(asset["items"]), MAX_PACKAGE_ITEMS)
         self.assertEqual(package["license"], "CC0-1.0")
+        self.assertEqual(package["redistributionStatus"], "verified")
+        self.assertTrue(package["notices"])
 
     def test_prepare_manifest_pins_the_data_commit(self):
         commit = "a" * 40
@@ -76,6 +78,24 @@ class CatalogValidationTests(unittest.TestCase):
             target.write_text(json.dumps(manifest), encoding="utf-8")
             with self.assertRaisesRegex(CatalogValidationError, "immutable commit SHA"):
                 validate_catalog(target, ROOT / "packages", allow_placeholder=True)
+
+    def test_rejects_package_without_verified_redistribution_rights(self):
+        manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+        manifest["packages"][0]["redistributionStatus"] = "unverified"
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / "manifest.json"
+            target.write_text(json.dumps(manifest), encoding="utf-8")
+            with self.assertRaisesRegex(CatalogValidationError, "must be verified"):
+                validate_catalog(target, ROOT / "packages")
+
+    def test_rejects_package_without_notices(self):
+        manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+        manifest["packages"][0]["notices"] = []
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / "manifest.json"
+            target.write_text(json.dumps(manifest), encoding="utf-8")
+            with self.assertRaisesRegex(CatalogValidationError, "at least one"):
+                validate_catalog(target, ROOT / "packages")
 
     def test_rejects_more_than_500_items(self):
         manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))

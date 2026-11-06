@@ -13,6 +13,11 @@
       "sizeBytes": 1079,
       "sha256": "a56c3f7b3a6f03016ee0826d3d5ab6ded617d21fb530c9748088933b864783ab",
       "license": "CC0-1.0",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Original example content created for InitiativeTracker_Public; not derived from PSRD-Data.",
+        "Released under CC0-1.0."
+      ],
       "source": {
         "name": "Original fixture created for InitiativeTracker_Public",
         "url": "https://github.com/RobTheBoo/InitiativeTracker_Public",

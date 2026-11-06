@@ -6,7 +6,9 @@ The app reads the stable manifest at:
 
 Each package points to a JSON asset using a full, immutable Git commit SHA in its `raw.githubusercontent.com` URL. The client should verify byte length and lowercase SHA-256 before parsing. The asset is plain JSON, so no archive extraction is needed.
 
-Each asset is `{schemaVersion: 1, id, name, ruleset: {id, edition}, items: [...]}`; each item has `id`, `category`, `name`, `description`, and object-valued `rulesData`. Limits are 500 items and 2 MiB (2,097,152 bytes). The manifest includes version, exact size and digest, license, source name/URL/revision, ruleset, categories, and language. `manifest.schema.json` describes the manifest contract.
+Each asset is `{schemaVersion: 1, id, name, ruleset: {id, edition}, items: [...]}`; each item has `id`, `category`, `name`, `description`, and object-valued `rulesData`. Limits are 500 items and 2 MiB (2,097,152 bytes). Every manifest package must include its license, source name/URL/revision, notices, and `redistributionStatus: "verified"` alongside version, exact size and digest, ruleset, categories, and language. The schema and validator reject packages without these fields or without verified redistribution rights.
+
+The verified status is a required publisher attestation, not an automated legal or content review. Before setting it, confirm the rights for the exact included material and satisfy any license and attribution obligations. Keep unverified content out of the manifest and package directory; do not infer permissions or notices from a parser's license or another dataset.
 
 ## Validate
 

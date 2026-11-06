@@ -11,7 +11,7 @@ Repository pubblico per il download dell'installer Windows.
 - Manifest: [catalogo JSON](https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/main/catalog/v1/manifest.json)
 - Struttura e validazione: [documentazione catalogo](./catalog/v1/README.md)
 
-Il manifest indica provenienza, licenza, dimensione e checksum SHA-256 di ogni pacchetto. Il catalogo iniziale contiene solo un fixture originale di prova; non include contenuti PSRD-Data.
+Il manifest indica provenienza, licenza, avvisi, stato di verifica, dimensione e checksum SHA-256 di ogni pacchetto. Si pubblicano solo pacchetti con diritti di redistribuzione verificati; il catalogo iniziale contiene un fixture originale di prova e non include contenuti PSRD-Data.
 
 ## Installazione
 
