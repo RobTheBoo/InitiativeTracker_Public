@@ -152,6 +152,11 @@ class CatalogValidationTests(unittest.TestCase):
             ],
             "notices": [
                 {
+                    "id": "test-designation",
+                    "type": "designation",
+                    "text": "Designation notice",
+                },
+                {
                     "id": "test-section15",
                     "type": "section15",
                     "text": "Complete Section 15 notice included for structural testing.",

@@ -303,7 +303,8 @@ def validate_distribution(distribution, items, package_id, manifest_license):
         require(notice["id"] not in notice_ids, f"{package_id}: duplicate notice id")
         notice_ids.add(notice["id"])
         require(
-            notice["type"] in ("section15", "copyright", "attribution", "other"),
+            notice["type"]
+            in ("section15", "copyright", "attribution", "designation", "other"),
             f"{package_id}: unsupported notice type",
         )
         if notice["type"] == "section15":
