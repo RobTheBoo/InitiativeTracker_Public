@@ -1,7 +1,7 @@
 {
   "$schema": "./manifest.schema.json",
   "schemaVersion": 2,
-  "catalogVersion": "2.3.0",
+  "catalogVersion": "2.4.0",
   "packages": [
     {
       "id": "core-reviewed-spells",
@@ -283,6 +283,96 @@
       "assetSchemaVersion": 2,
       "sizeBytes": 80272,
       "sha256": "c4ca356a7ead9653600d8ff64271bcdc5ce054f0009af9725a103bafce55462b",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "The spell descriptions and spell rules data are Open Game Content under OGL 1.0a.",
+        "The package includes the complete OGL 1.0a and the PRD Section 15 copyright notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook and PRD",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "spell"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-reviewed-spells-batch10",
+      "name": "Core rules: reviewed spells, tenth additional set",
+      "version": "1.0.0",
+      "description": "Fifteen individually reviewed core spells with complete rules descriptions and OGL notices.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/7a12f00640dfa46d28c6c353993acc9ac1e22063/catalog/v2/packages/core-reviewed-spells-batch10-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 87858,
+      "sha256": "82b4ad05c743a050afab6e0a02076ddb3653189dd6fd21d7181d4688bdcc755a",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "The spell descriptions and spell rules data are Open Game Content under OGL 1.0a.",
+        "The package includes the complete OGL 1.0a and the PRD Section 15 copyright notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook and PRD",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "spell"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-reviewed-spells-batch11",
+      "name": "Core rules: reviewed spells, eleventh additional set",
+      "version": "1.0.0",
+      "description": "Two individually reviewed core spells with complete rules descriptions, lists and OGL notices.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/7a12f00640dfa46d28c6c353993acc9ac1e22063/catalog/v2/packages/core-reviewed-spells-batch11-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 62313,
+      "sha256": "21150e897b50eea63beefd7562d5dfaf68b5556b4e5286735fc450e8a805a17b",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "The spell descriptions and spell rules data are Open Game Content under OGL 1.0a.",
+        "The package includes the complete OGL 1.0a and the PRD Section 15 copyright notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook and PRD",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "spell"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-reviewed-spells-batch12",
+      "name": "Core rules: reviewed spells, twelfth additional set",
+      "version": "1.0.0",
+      "description": "Fourteen individually reviewed core spells with complete rules descriptions and OGL notices.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/7a12f00640dfa46d28c6c353993acc9ac1e22063/catalog/v2/packages/core-reviewed-spells-batch12-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 85385,
+      "sha256": "2506493e4edde8323c7058dec7d44223083f958a4f67ecae7b3e20753b4910da",
       "license": "OGL-1.0a",
       "redistributionStatus": "verified",
       "notices": [
