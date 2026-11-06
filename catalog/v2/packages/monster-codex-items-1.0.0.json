@@ -1,0 +1,1178 @@
+{
+  "schemaVersion": 2,
+  "id": "monster-codex-items",
+  "name": "Monster Codex: game items",
+  "ruleset": {
+    "id": "PTFD",
+    "edition": "1e"
+  },
+  "items": [
+    {
+      "id": "item-abrakarn-viper",
+      "category": "item",
+      "name": "Abrakarn Viper",
+      "description": "Mundane equipment entry; price 150,000 gp.",
+      "rulesData": {
+        "group": "Abrakarn Viper",
+        "details": {
+          "casterLevel": "8th",
+          "price": "150,000 gp"
+        },
+        "tableFields": [
+          {
+            "field": "Requirements",
+            "value": "Craft Construct, animate object, confusion, geas/quest, shield other",
+            "subsection": "Construction"
+          },
+          {
+            "field": "Skill",
+            "value": "Craft (armor), Craft (blacksmithing), or Craft (weapons) DC 21",
+            "subsection": "Construction"
+          },
+          {
+            "field": "Cost",
+            "value": "80,000 gp",
+            "subsection": "Construction"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Drow/Example Drow/Abrakarn Viper/Abrakarn Viper"
+      }
+    },
+    {
+      "id": "item-alchemical-blood",
+      "category": "item",
+      "name": "Alchemical Blood",
+      "description": "Mundane equipment entry; price 40 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Vampire Equipment",
+        "details": {
+          "price": "40 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Vampires/New Rules/Vampire Equipment/Alchemical Blood"
+      }
+    },
+    {
+      "id": "item-alchemical-sling-bullet",
+      "category": "item",
+      "name": "Alchemical Sling Bullet",
+      "description": "Mundane equipment entry; price 5 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Hobgoblin Equipment",
+        "details": {
+          "price": "5 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Hobgoblins/New Rules/Hobgoblin Equipment/Alchemical Sling Bullet"
+      }
+    },
+    {
+      "id": "item-ambush-cauldron",
+      "category": "item",
+      "name": "Ambush Cauldron",
+      "description": "Mundane equipment entry; price 28,000 gp, weight 60 lbs.",
+      "rulesData": {
+        "group": "Orc Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "12th",
+          "price": "28,000 gp",
+          "weight": "60 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "14,000 gpCraft Wondrous Item, pass without trace",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Orcs/New Rules/Orc Magic Items/Ambush Cauldron"
+      }
+    },
+    {
+      "id": "item-banner-of-the-rushing-horde",
+      "category": "item",
+      "name": "Banner of the Rushing Horde",
+      "description": "Mundane equipment entry; price 60,000 gp, weight 5 lbs.",
+      "rulesData": {
+        "group": "Orc Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "10th",
+          "price": "60,000 gp",
+          "weight": "5 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "30,000 gpCraft Wondrous Item, bull's strength",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Orcs/New Rules/Orc Magic Items/Banner of the Rushing Horde"
+      }
+    },
+    {
+      "id": "item-barbed-troll-claws",
+      "category": "item",
+      "name": "Barbed Troll Claws",
+      "description": "Mundane equipment entry; price 20 gp, weight 4 lbs.",
+      "rulesData": {
+        "group": "Troll Equipment",
+        "details": {
+          "price": "20 gp",
+          "weight": "4 lbs."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Trolls/New Rules/Troll Equipment/Barbed Troll Claws"
+      }
+    },
+    {
+      "id": "item-bloodfeast-shield",
+      "category": "item",
+      "name": "Bloodfeast shield",
+      "description": "Mundane equipment entry; price 18,770 gp, weight 15 lbs.",
+      "rulesData": {
+        "group": "Vampire Magic Items",
+        "details": {
+          "aura": "strong necromancy",
+          "slot": "shield",
+          "casterLevel": "12th",
+          "price": "18,770 gp",
+          "weight": "15 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "9,545 gpCraft Magic Arms and Armor, vampiric touch",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Vampires/New Rules/Vampire Magic Items/Bloodfeast shield"
+      }
+    },
+    {
+      "id": "item-bloodletting-thimble",
+      "category": "item",
+      "name": "Bloodletting Thimble",
+      "description": "Mundane equipment entry; price 2,000 gp, weight -.",
+      "rulesData": {
+        "group": "Vampire Magic Items",
+        "details": {
+          "aura": "faint enchantment",
+          "slot": "ring",
+          "casterLevel": "3rd",
+          "price": "2,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "1,000 gpForge Ring, enthrall",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Vampires/New Rules/Vampire Magic Items/Bloodletting Thimble"
+      }
+    },
+    {
+      "id": "item-bolas-bolts",
+      "category": "item",
+      "name": "Bolas Bolts",
+      "description": "Mundane equipment entry; price 20 gp.",
+      "rulesData": {
+        "group": "Duergar Equipment",
+        "details": {
+          "price": "20 gp"
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Duergar/New Rules/Duergar Equipment/Bolas Bolts"
+      }
+    },
+    {
+      "id": "item-bombchucker",
+      "category": "item",
+      "name": "Bombchucker",
+      "description": "Mundane equipment entry; price 12 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Hobgoblin Equipment",
+        "details": {
+          "price": "12 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Hobgoblins/New Rules/Hobgoblin Equipment/Bombchucker"
+      }
+    },
+    {
+      "id": "item-burning",
+      "category": "item",
+      "name": "Burning",
+      "description": "Mundane equipment entry; price +2 bonus.",
+      "rulesData": {
+        "group": "Fire Giant Magic Items",
+        "details": {
+          "aura": "strong evocation",
+          "casterLevel": "12th",
+          "price": "+2 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "+2 bonusCraft Magic Arms and Armor, elemental touch",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Fire Giants/New Rules/Fire Giant Magic Items/Burning"
+      }
+    },
+    {
+      "id": "item-cap-of-enervation",
+      "category": "item",
+      "name": "Cap of Enervation",
+      "description": "Mundane equipment entry; price 3,500 gp, weight -.",
+      "rulesData": {
+        "group": "Boggard Magic Items",
+        "details": {
+          "aura": "faint necromancy",
+          "slot": "head",
+          "casterLevel": "5th",
+          "price": "3,500 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "1,750 gpCraft Wondrous Item, ray of enfeeblement, vampiric touch",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Boggards/New Rules/Boggard Magic Items/Cap of Enervation"
+      }
+    },
+    {
+      "id": "item-catalytic",
+      "category": "item",
+      "name": "Catalytic",
+      "description": "Mundane equipment entry; price +1 bonus.",
+      "rulesData": {
+        "group": "Ratfolk Magic Items",
+        "details": {
+          "aura": "strong evocation",
+          "casterLevel": "12th",
+          "price": "+1 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "+1 bonusCraft Magic Arms and Armor, acid arrow",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Ratfolk/New Rules/Ratfolk Magic Items/Catalytic"
+      }
+    },
+    {
+      "id": "item-cave-dweller-s-greataxe",
+      "category": "item",
+      "name": "Cave dweller's Greataxe",
+      "description": "Mundane equipment entry; price 8,305 gp, weight 9 lbs.",
+      "rulesData": {
+        "group": "Troglodyte Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "11th",
+          "price": "8,305 gp",
+          "weight": "9 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "4,305 gpCraft Magic Arms and Armor, calcific touch",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Troglodytes/New Rules/Troglodyte Magic Items/Cave dwellers Greataxe"
+      }
+    },
+    {
+      "id": "item-caver-s-bolt",
+      "category": "item",
+      "name": "Caver's Bolt",
+      "description": "Mundane equipment entry; price 6,000 gp, weight 1/2 lb.",
+      "rulesData": {
+        "group": "Drow Magic Items",
+        "details": {
+          "aura": "moderate evocation",
+          "slot": "none",
+          "casterLevel": "5th",
+          "price": "6,000 gp",
+          "weight": "1/2 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "3,000 gpCraft Wondrous Item, force hook charge",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Drow/New Rules/Drow Magic Items/Cavers Bolt"
+      }
+    },
+    {
+      "id": "item-cloak-of-the-troll-king",
+      "category": "item",
+      "name": "Cloak of the Troll King",
+      "description": "Mundane equipment entry; price 9,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Troll Magic Items",
+        "details": {
+          "aura": "faint evocation",
+          "slot": "shoulders",
+          "casterLevel": "5th",
+          "price": "9,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "4,500 gpCraft Wondrous Item, burning hands, cause fear",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Trolls/New Rules/Troll Magic Items/Cloak of the Troll King"
+      }
+    },
+    {
+      "id": "item-crashing-boots",
+      "category": "item",
+      "name": "Crashing Boots",
+      "description": "Mundane equipment entry; price 8,800 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Orc Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "feet",
+          "casterLevel": "8th",
+          "price": "8,800 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "4,400 gpCraft Wondrous Item, bull's strength, enlarge person",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Orcs/New Rules/Orc Magic Items/Crashing Boots"
+      }
+    },
+    {
+      "id": "item-elixir-of-oppression",
+      "category": "item",
+      "name": "Elixir of Oppression",
+      "description": "Mundane equipment entry; price 600 gp, weight -.",
+      "rulesData": {
+        "group": "Bugbear Magic Items",
+        "details": {
+          "aura": "faint transmutationThis elixir is normally made from the juice of tomb herald brambles, though other formulae have also been discovered. It allows creatures with the scent ability to smell fear, and instills a bloodlust in the imbiber when it's facing a fearful creature. The imbiber gains a +4 competence bonus on Perception checks made with the scent ability, and a successful DC 15 Perception check allows the imbiber to determine by scent whether a creature is shaken, frightened, or panicked. Once a creature's condition has been identified, the imbiber gains a +2 morale bonus on attack rolls and opposed skill checks against that opponent.These effects last for 1d4+1 hours. If a creature drinks a second elixir of oppression within 24 hours of the first, it is sickened for 24 hours and does not gain the benefits of the second dose.",
+          "slot": "none",
+          "casterLevel": "3rd",
+          "price": "600 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "300 gpCraft Wondrous Item, scare",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Bugbears/New Rules/Bugbear Magic Items/Elixir of Oppression"
+      }
+    },
+    {
+      "id": "item-extractor-s-gloves",
+      "category": "item",
+      "name": "Extractor's Gloves",
+      "description": "Mundane equipment entry; price 5,000 gp, weight -.",
+      "rulesData": {
+        "group": "Drow Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "hands",
+          "casterLevel": "5th",
+          "price": "5,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "Cost",
+            "value": "2,500 gp",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Drow/New Rules/Drow Magic Items/Extractors Gloves"
+      }
+    },
+    {
+      "id": "item-fervor-juice",
+      "category": "item",
+      "name": "Fervor Juice",
+      "description": "Mundane equipment entry; price 50 gp.",
+      "rulesData": {
+        "group": "Hobgoblin Equipment",
+        "details": {
+          "price": "50 gp"
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Hobgoblins/New Rules/Hobgoblin Equipment/Fervor Juice"
+      }
+    },
+    {
+      "id": "item-flindbar",
+      "category": "item",
+      "name": "Flindbar",
+      "description": "Mundane equipment entry; price 9 gp.",
+      "rulesData": {
+        "group": "Gnoll Equipment",
+        "details": {
+          "price": "9 gp"
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Gnolls/New Rules/Gnoll Equipment/Flindbar"
+      }
+    },
+    {
+      "id": "item-flying-straps",
+      "category": "item",
+      "name": "Flying Straps",
+      "description": "Mundane equipment entry; price varies, weight 10 lbs.",
+      "rulesData": {
+        "group": "Goblin Equipment",
+        "details": {
+          "price": "varies",
+          "weight": "10 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "Flying straps",
+            "value": "10 gp",
+            "subsection": "Flying Straps"
+          },
+          {
+            "field": "Flying straps, masterwork",
+            "value": "80 gp",
+            "subsection": "Flying Straps"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Goblins/Goblin Archetype/Goblin Equipment/Flying Straps"
+      }
+    },
+    {
+      "id": "item-fog-cutting-lenses",
+      "category": "item",
+      "name": "Fog-Cutting Lenses",
+      "description": "Mundane equipment entry; price 8,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Frost Giant Magic Items",
+        "details": {
+          "aura": "faint transmutation",
+          "slot": "face",
+          "casterLevel": "5th",
+          "price": "8,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "4,000 gpCraft Wondrous Item, darkvision, fog cloud",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Frost Giants/New Rules/Frost Giant Magic Items/Fog-Cutting Lenses"
+      }
+    },
+    {
+      "id": "item-frostblood-axe",
+      "category": "item",
+      "name": "Frostblood Axe",
+      "description": "Mundane equipment entry; price 40,310 gp, weight 6 lbs.",
+      "rulesData": {
+        "group": "Frost Giant Magic Items",
+        "details": {
+          "aura": "moderate necromancy [evil]",
+          "slot": "none",
+          "casterLevel": "10th",
+          "price": "40,310 gp",
+          "weight": "6 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "20,310 gpCraft Wondrous Item, bleed, bless, chill metal, death knell, divine favor",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Frost Giants/New Rules/Frost Giant Magic Items/Frostblood Axe"
+      }
+    },
+    {
+      "id": "item-gauntlets-of-rending",
+      "category": "item",
+      "name": "Gauntlets of Rending",
+      "description": "Mundane equipment entry; price 8,000 gp, weight 4 lbs.",
+      "rulesData": {
+        "group": "Troll Magic Items",
+        "details": {
+          "aura": "faint evocation",
+          "slot": "hands",
+          "casterLevel": "5th",
+          "price": "8,000 gp",
+          "weight": "4 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "4,000 gpCraft Magic Arms and Armor, magic weapon",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Trolls/New Rules/Troll Magic Items/Gauntlets of Rending"
+      }
+    },
+    {
+      "id": "item-gorthek-masks",
+      "category": "item",
+      "name": "Gorthek Masks",
+      "description": "Mundane equipment entry; price 5,800 gp, weight 75 lbs.",
+      "rulesData": {
+        "group": "Orc Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "12th",
+          "price": "5,800 gp",
+          "weight": "75 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "2,900 gpCraft Wondrous Item, speak with animals, versatile weapon",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Orcs/New Rules/Orc Magic Items/Gorthek Masks"
+      }
+    },
+    {
+      "id": "item-gorthek-saddle",
+      "category": "item",
+      "name": "Gorthek Saddle",
+      "description": "Mundane equipment entry; price 50 gp, weight 75 lbs.",
+      "rulesData": {
+        "group": "Orc Equipment",
+        "details": {
+          "price": "50 gp",
+          "weight": "75 lbs."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Orcs/New Rules/Orc Equipment/Gorthek Saddle"
+      }
+    },
+    {
+      "id": "item-headband-of-vermin-control",
+      "category": "item",
+      "name": "Headband of Vermin Control",
+      "description": "Mundane equipment entry; price 1,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Duergar Magic Item",
+        "details": {
+          "aura": "faint transmutation",
+          "slot": "headband",
+          "casterLevel": "5th",
+          "price": "1,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "500 gpCraft Wondrous Item, control vermin *",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Duergar/New Rules/Duergar Magic Item/Headband of Vermin Control"
+      }
+    },
+    {
+      "id": "item-horn-harness",
+      "category": "item",
+      "name": "Horn Harness",
+      "description": "Mundane equipment entry; price 30 gp, weight 20 lbs.",
+      "rulesData": {
+        "group": "Orc Equipment",
+        "details": {
+          "price": "30 gp",
+          "weight": "20 lbs."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Orcs/New Rules/Orc Equipment/Horn Harness"
+      }
+    },
+    {
+      "id": "item-horror-dust",
+      "category": "item",
+      "name": "Horror Dust",
+      "description": "Mundane equipment entry; price 600 gp, weight -.",
+      "rulesData": {
+        "group": "Bugbear Magic Items",
+        "details": {
+          "aura": "faint necromancy",
+          "slot": "none",
+          "casterLevel": "3rd",
+          "price": "600 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "300 gpCraft Wondrous Item, cause fear",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Bugbears/New Rules/Bugbear Magic Items/Horror Dust"
+      }
+    },
+    {
+      "id": "item-hunter-s-nose-ring",
+      "category": "item",
+      "name": "Hunter's Nose Ring",
+      "description": "Mundane equipment entry; price 10,000 gp, weight -.",
+      "rulesData": {
+        "group": "Gnoll Magic Items",
+        "details": {
+          "aura": "faint transmutation",
+          "slot": "head",
+          "casterLevel": "3rd",
+          "price": "10,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "5,000 gpCraft Wondrous Item, bloodhound, platinum ring worth 250 gp",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Gnolls/New Rules/Gnoll Magic Items/Hunters Nose Ring"
+      }
+    },
+    {
+      "id": "item-hyena-shawl",
+      "category": "item",
+      "name": "Hyena Shawl",
+      "description": "Mundane equipment entry; price 11,000 gp, weight -.",
+      "rulesData": {
+        "group": "Gnoll Magic Items",
+        "details": {
+          "aura": "moderate abjuration and necromancy",
+          "slot": "head",
+          "casterLevel": "8th",
+          "price": "11,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "5,500 gpCraft Wondrous Item, fear",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Gnolls/New Rules/Gnoll Magic Items/Hyena Shawl"
+      }
+    },
+    {
+      "id": "item-irongrip-gauntlets",
+      "category": "item",
+      "name": "Irongrip Gauntlets",
+      "description": "Mundane equipment entry; price 4,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Frost Giant Magic Items",
+        "details": {
+          "aura": "faint transmutation",
+          "slot": "hands",
+          "casterLevel": "3rd",
+          "price": "4,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "2,000 gpCraft Wondrous Item, bull's strength, enlarge person",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Frost Giants/New Rules/Frost Giant Magic Items/Irongrip Gauntlets"
+      }
+    },
+    {
+      "id": "item-light-killer-s-grease",
+      "category": "item",
+      "name": "Light-Killer's Grease",
+      "description": "Mundane equipment entry; price 25 gp.",
+      "rulesData": {
+        "group": "Drow Equipment",
+        "details": {
+          "price": "25 gp"
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Drow/New Rules/Drow Equipment/Light-Killers Grease"
+      }
+    },
+    {
+      "id": "item-pugwampi-braid",
+      "category": "item",
+      "name": "Pugwampi Braid",
+      "description": "Mundane equipment entry; price 9,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Gnoll Magic Items",
+        "details": {
+          "aura": "moderate necromancy",
+          "slot": "none",
+          "casterLevel": "8th",
+          "price": "9,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "4,500 gpCraft Wondrous Item, bestow curse",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Gnolls/New Rules/Gnoll Magic Items/Pugwampi Braid"
+      }
+    },
+    {
+      "id": "item-rhinarium-paste",
+      "category": "item",
+      "name": "Rhinarium Paste",
+      "description": "Mundane equipment entry; price 75 gp, weight 1/2 lb.",
+      "rulesData": {
+        "group": "Ratfolk Equipment",
+        "details": {
+          "price": "75 gp",
+          "weight": "1/2 lb."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Ratfolk/New Rules/Ratfolk Equipment/Rhinarium Paste"
+      }
+    },
+    {
+      "id": "item-riding-rat",
+      "category": "item",
+      "name": "Riding Rat",
+      "description": "Mundane equipment entry.",
+      "rulesData": {
+        "group": "Ratfolk Equipment",
+        "details": {},
+        "tableFields": [
+          {
+            "field": "Common",
+            "value": ": Price 50 gp; Weight 50 lbs.",
+            "subsection": "Riding Rat"
+          },
+          {
+            "field": "Combat trained",
+            "value": ": Price 75 gp; Weight 50 lbs.",
+            "subsection": "Riding Rat"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Ratfolk/New Rules/Ratfolk Equipment/Riding Rat"
+      }
+    },
+    {
+      "id": "item-serpent-necked-flail",
+      "category": "item",
+      "name": "Serpent-Necked Flail",
+      "description": "Mundane equipment entry; price 32,315 gp, weight 10 lbs.",
+      "rulesData": {
+        "group": "Serpentfolk Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "10th",
+          "price": "32,315 gp",
+          "weight": "10 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "16,165 gpCraft Magic Arms and Armor, haste",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Serpentfolk/New Rules/Serpentfolk Magic Items/Serpent-Necked Flail"
+      }
+    },
+    {
+      "id": "item-serpentine-choker",
+      "category": "item",
+      "name": "Serpentine Choker",
+      "description": "Mundane equipment entry; price 16,000 gp, weight -.",
+      "rulesData": {
+        "group": "Serpentfolk Magic Items",
+        "details": {
+          "aura": "moderate enchantment and necromancy",
+          "slot": "neck",
+          "casterLevel": "11th",
+          "price": "16,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "8,000 gpCraft Wondrous Item, geas/quest, suffocation",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Serpentfolk/New Rules/Serpentfolk Magic Items/Serpentine Choker"
+      }
+    },
+    {
+      "id": "item-signal-rocket",
+      "category": "item",
+      "name": "Signal Rocket",
+      "description": "Mundane equipment entry; price 100 gp, weight 3 lbs.",
+      "rulesData": {
+        "group": "Hobgoblin Equipment",
+        "details": {
+          "price": "100 gp",
+          "weight": "3 lbs."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Hobgoblins/New Rules/Hobgoblin Equipment/Signal Rocket"
+      }
+    },
+    {
+      "id": "item-slaver-s-crossbow",
+      "category": "item",
+      "name": "Slaver's Crossbow",
+      "description": "Mundane equipment entry; price varies.",
+      "rulesData": {
+        "group": "Duergar Equipment",
+        "details": {
+          "price": "varies"
+        },
+        "tableFields": [
+          {
+            "field": "Heavy",
+            "value": ": Weight 12 lbs.; Price 400 GP",
+            "subsection": "Slaver's Crossbow"
+          },
+          {
+            "field": "Light",
+            "value": ": Weight 6 lbs.; Price 250 GP",
+            "subsection": "Slaver's Crossbow"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Duergar/New Rules/Duergar Equipment/Slavers Crossbow"
+      }
+    },
+    {
+      "id": "item-snakebiter-arrow",
+      "category": "item",
+      "name": "Snakebiter Arrow",
+      "description": "Mundane equipment entry; price 306 gp, weight -.",
+      "rulesData": {
+        "group": "Serpentfolk Magic Items",
+        "details": {
+          "aura": "strong divination",
+          "slot": "none",
+          "casterLevel": "12th",
+          "price": "306 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "156 gpCraft Magic Arms and Armor, animate objects, poison, true strike",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Serpentfolk/New Rules/Serpentfolk Magic Items/Snakebiter Arrow"
+      }
+    },
+    {
+      "id": "item-spiderdraw",
+      "category": "item",
+      "name": "Spiderdraw",
+      "description": "Mundane equipment entry; price 40 gp, weight 1/2 lb.",
+      "rulesData": {
+        "group": "Drow Equipment",
+        "details": {
+          "price": "40 gp",
+          "weight": "1/2 lb."
+        },
+        "tableFields": [],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Drow/New Rules/Drow Equipment/Spiderdraw"
+      }
+    },
+    {
+      "id": "item-spikebones",
+      "category": "item",
+      "name": "Spikebones",
+      "description": "Mundane equipment entry; price 22,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Orc Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "7th",
+          "price": "22,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "11,000 gpCraft Wondrous Item, animate dead, spike growth",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Orcs/New Rules/Orc Magic Items/Spikebones"
+      }
+    },
+    {
+      "id": "item-steaming",
+      "category": "item",
+      "name": "Steaming",
+      "description": "Mundane equipment entry; price +2 bonus.",
+      "rulesData": {
+        "group": "Fire Giant Magic Items",
+        "details": {
+          "aura": "faint evocation",
+          "casterLevel": "3rd",
+          "price": "+2 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "+2 bonusCraft Magic Arms and Armor, elemental aura",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Fire Giants/New Rules/Fire Giant Magic Items/Steaming"
+      }
+    },
+    {
+      "id": "item-stench-spray-amulet",
+      "category": "item",
+      "name": "Stench Spray Amulet",
+      "description": "Mundane equipment entry; price 1,600 gp, weight -.",
+      "rulesData": {
+        "group": "Troglodyte Magic Items",
+        "details": {
+          "aura": "faint conjuration",
+          "slot": "neck",
+          "casterLevel": "3rd",
+          "price": "1,600 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "800 gpCraft Wondrous Item, grease",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Troglodytes/New Rules/Troglodyte Magic Items/Stench Spray Amulet"
+      }
+    },
+    {
+      "id": "item-venomsweat-salve",
+      "category": "item",
+      "name": "Venomsweat Salve",
+      "description": "Mundane equipment entry; price 2,500 gp, weight -.",
+      "rulesData": {
+        "group": "Boggard Magic Items",
+        "details": {
+          "aura": "moderate necromancy",
+          "slot": "none",
+          "casterLevel": "7th",
+          "price": "2,500 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "1,250 gpCraft Wondrous Item, poison",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Boggards/New Rules/Boggard Magic Items/Venomsweat Salve"
+      }
+    },
+    {
+      "id": "item-virulent",
+      "category": "item",
+      "name": "Virulent",
+      "description": "Mundane equipment entry; price +1 bonus.",
+      "rulesData": {
+        "group": "Ratfolk Magic Items",
+        "details": {
+          "aura": "faint necromancy",
+          "casterLevel": "5th",
+          "price": "+1 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "+1 bonusCraft Magic Arms and Armor, pernicious poison",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Ratfolk/New Rules/Ratfolk Magic Items/Virulent"
+      }
+    },
+    {
+      "id": "item-war-drums-of-savagery",
+      "category": "item",
+      "name": "War Drums of Savagery",
+      "description": "Mundane equipment entry; price 35,000 gp, weight 20 lbs.",
+      "rulesData": {
+        "group": "Orc Magic Items",
+        "details": {
+          "aura": "moderate enchantment",
+          "slot": "none",
+          "casterLevel": "10th",
+          "price": "35,000 gp",
+          "weight": "20 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "17,500 gpCraft Wondrous Item, rage",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Orcs/New Rules/Orc Magic Items/War Drums of Savagery"
+      }
+    },
+    {
+      "id": "item-winter-wolf-runetooth",
+      "category": "item",
+      "name": "Winter Wolf Runetooth",
+      "description": "Mundane equipment entry; price 2,500 gp, weight -.",
+      "rulesData": {
+        "group": "Frost Giant Magic Items",
+        "details": {
+          "aura": "moderate conjuration",
+          "slot": "none",
+          "casterLevel": "10th",
+          "price": "2,500 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "1,250 gpCraft Wondrous Item, summon nature's ally V",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Monster Codex/Rules/Frost Giants/New Rules/Frost Giant Magic Items/Winter Wolf Runetooth"
+      }
+    }
+  ],
+  "distribution": {
+    "redistributionStatus": "verified",
+    "licenses": [
+      {
+        "id": "OGL-1.0a",
+        "name": "Open Game License v1.0a",
+        "text": "OPEN GAME LICENSE Version 1.0a\n\nThe following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.\n\n1. Definitions: (a) \"Contributors\" means the copyright and/or trademark owners who have contributed Open Game Content; (b) \"Derivative Material\" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) \"Distribute\" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d) \"Open Game Content\" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) \"Product Identity\" means product and product line names, logos and identifying marks including trade dress; artifacts, creatures, characters, stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) \"Trademark\" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) \"Use\", \"Used\" or \"Using\" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) \"You\" or \"Your\" means the licensee in terms of this agreement.\n\n2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.\n\n3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.\n\n4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.\n\n5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.\n\n6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.\n\n7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.\n\n8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.\n\n9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.\n\n10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You distribute.\n\n11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.\n\n12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.\n\n13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.\n\n14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.\n\n15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.\n\nPathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.\n\nPathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.\n\nPathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.\n\nPathfinder Roleplaying Game GameMastery Guide. © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.\n\nPathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Advanced Player's Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn\n\nPathfinder Roleplaying Game Advanced Race Guide. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.\n\nPathfinder Roleplaying Game Monster Codex. © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.\n\nPathfinder Roleplaying Game NPC Codex. © 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Occult Adventures. © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.\n\nPathfinder Roleplaying Game Pathfinder Unchained. © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Byers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.\n\nPathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Equipment. © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.\n\nPathfinder Campaign Setting: Technology Guide. © 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.\n\nAnger of Angels. © 2003, Sean K Reynolds.\n\nAdvanced Bestiary. © 2004, Green Ronin Publishing, LLC; Author: Matt Sernett.\n\nBook of Fiends. © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.\n\nThe Book of Hallowed Might. © 2002, Monte J. Cook.\n\nMonte Cook's Arcana Unearthed. © 2003, Monte J. Cook.\n\nPath of the Magi. © 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.\n\nSkreyn's Register: The Bonds of Magic. © 2002, Sean K Reynolds.\n\nThe Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.\n\nTome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.\n\nKobold Quarterly Issue 7, © 2008, Open Design LLC, www.koboldquarterly.com; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!\n\nThe Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nAerial Servant from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterseon, based on original material by Gary Gygax.\n\nAdherer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Guy Shearer.\n\nAmphisbaena from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAngel, Monadic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAngel, Movanic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAnimal Lord from the Tome of Horrors, Revised, © 2002, Necromancer Games,Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAscomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAtomie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAurumvorax from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAxe Beak from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBaphomet from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nBat, Mobat from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Peterson and Clark Peterson, based on original material by Gary Gygax.\n\nBeetle, Slicer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBlindheim from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nBasidirond from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBrownie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nBunyip from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Dermot Jackson.\n\nCarbuncle from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene, based on original material by Albie Fiore.\n\nCaryatid Column from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nCave Fisher from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nCrypt Thing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nCrystal Ooze from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDaemon, Ceustodaemon (Guardian Daemon) from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Derghodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Guardian from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Hydrodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Piscodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDark Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.\n\nDark Stalker from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nDeath Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.\n\nDeath Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley.\n\nDecapus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nDemodand, Shaggy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Slimy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Tarry from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon, Shadow from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.\n\nDemon, Nabasu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Kostchtchie from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Pazuzu from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDire Corby from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jeff Wyndham.\n\nDisenchanter from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nDragon, Faerie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Brian Jaeger and Gary Gygax.\n\nDragon Horse from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDracolisk from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDust Digger from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nExecutioner's Hood from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nFlail Snail from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Tilbrook.\n\nFlind and Flindbar from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.\n\nFlumph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian McDowell and Douglas Naismith.\n\nFroghemoth from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nFoo Creature from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nForlarren from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone.\n\nGenie, Marid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGiant Slug from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGiant, Wood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Wizards of the Coast.\n\nGloomwing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGrippli from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\nNereid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGryph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.\n\nHangman Tree from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nHippocampus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.\n\nHuecuva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Underworld Oracle.\n\nIce Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nIron Cobra from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.\n\nJackalwere from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nKamadan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Nick Louth.\n\nKech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nKelpie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nKorred from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLeprechaun from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLurker Above from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMagma ooze from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nMarid from the Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nMihstu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nMite from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.\n\nMongrelman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nMoon Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMuckdweller from the Tome of Horrors Complete, © 20111, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nNabasu Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nNecrophidius from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.\n\nNereid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPhycomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPoltergeist from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lewis Pulsipher.\n\nQuickling from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nQuickwood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nRot Grub from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.\n\nRusset Mold from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSandman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nScarecrow from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nShadow Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.\n\nSkulk from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nSlime Mold from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSlithering Tracker from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSoul Eater from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by David Cook.\n\nSpriggan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.\n\nTenebrous Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTentamort from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Mike Roberts.\n\nTick, Giant & Dragon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTrapper from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nTroll, Ice from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Russell Cole.\n\nTroll, Rock from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nVegepygmy from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWolf-In-Sheep's-Clothing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWood Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.\n\nYellow Musk Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYellow Musk Zombie from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYeti from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nZombie, Juju from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax."
+      }
+    ],
+    "notices": [
+      {
+        "id": "paizo-product-identity-and-open-content",
+        "type": "designation",
+        "text": "Product Identity: The following items are hereby identified as Product Identity, as defined in the Open Game License 1.0a, Section 1(e), and are not Open Content: All trademarks, registered trademarks, proper names (characters, deities, etc.), dialogue, plots, storylines, locations, characters, artworks, and trade dress. (Elements that have previously been designated as Open Game Content are not included in this declaration.)\n\nOpen Content: Except for material designated as Product Identity (see above), the game mechanics of this Paizo Publishing game product are Open Game Content, as defined in the Open Game License version 1.0a Section 1(d). No portion of this work other than the material designated as Open Game Content may be reproduced in any form without written permission."
+      },
+      {
+        "id": "official-ogl-source",
+        "type": "attribution",
+        "text": "Paizo Publishing, LLC, Open Game License source declaration: https://legacy.aonprd.com/openGameLicense.html"
+      },
+      {
+        "id": "prd-section15",
+        "type": "section15",
+        "text": "15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.\n\nPathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.\n\nPathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.\n\nPathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.\n\nPathfinder Roleplaying Game GameMastery Guide. © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.\n\nPathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Advanced Player's Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn\n\nPathfinder Roleplaying Game Advanced Race Guide. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.\n\nPathfinder Roleplaying Game Monster Codex. © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.\n\nPathfinder Roleplaying Game NPC Codex. © 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Occult Adventures. © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.\n\nPathfinder Roleplaying Game Pathfinder Unchained. © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Byers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.\n\nPathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Equipment. © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.\n\nPathfinder Campaign Setting: Technology Guide. © 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.\n\nAnger of Angels. © 2003, Sean K Reynolds.\n\nAdvanced Bestiary. © 2004, Green Ronin Publishing, LLC; Author: Matt Sernett.\n\nBook of Fiends. © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.\n\nThe Book of Hallowed Might. © 2002, Monte J. Cook.\n\nMonte Cook's Arcana Unearthed. © 2003, Monte J. Cook.\n\nPath of the Magi. © 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.\n\nSkreyn's Register: The Bonds of Magic. © 2002, Sean K Reynolds.\n\nThe Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.\n\nTome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.\n\nKobold Quarterly Issue 7, © 2008, Open Design LLC, www.koboldquarterly.com; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!\n\nThe Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nAerial Servant from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterseon, based on original material by Gary Gygax.\n\nAdherer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Guy Shearer.\n\nAmphisbaena from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAngel, Monadic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAngel, Movanic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAnimal Lord from the Tome of Horrors, Revised, © 2002, Necromancer Games,Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAscomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAtomie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAurumvorax from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAxe Beak from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBaphomet from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nBat, Mobat from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Peterson and Clark Peterson, based on original material by Gary Gygax.\n\nBeetle, Slicer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBlindheim from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nBasidirond from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBrownie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nBunyip from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Dermot Jackson.\n\nCarbuncle from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene, based on original material by Albie Fiore.\n\nCaryatid Column from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nCave Fisher from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nCrypt Thing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nCrystal Ooze from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDaemon, Ceustodaemon (Guardian Daemon) from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Derghodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Guardian from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Hydrodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Piscodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDark Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.\n\nDark Stalker from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nDeath Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.\n\nDeath Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley.\n\nDecapus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nDemodand, Shaggy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Slimy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Tarry from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon, Shadow from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.\n\nDemon, Nabasu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Kostchtchie from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Pazuzu from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDire Corby from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jeff Wyndham.\n\nDisenchanter from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nDragon, Faerie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Brian Jaeger and Gary Gygax.\n\nDragon Horse from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDracolisk from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDust Digger from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nExecutioner's Hood from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nFlail Snail from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Tilbrook.\n\nFlind and Flindbar from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.\n\nFlumph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian McDowell and Douglas Naismith.\n\nFroghemoth from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nFoo Creature from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nForlarren from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone.\n\nGenie, Marid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGiant Slug from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGiant, Wood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Wizards of the Coast.\n\nGloomwing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGrippli from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\nNereid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGryph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.\n\nHangman Tree from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nHippocampus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.\n\nHuecuva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Underworld Oracle.\n\nIce Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nIron Cobra from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.\n\nJackalwere from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nKamadan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Nick Louth.\n\nKech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nKelpie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nKorred from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLeprechaun from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLurker Above from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMagma ooze from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nMarid from the Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nMihstu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nMite from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.\n\nMongrelman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nMoon Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMuckdweller from the Tome of Horrors Complete, © 20111, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nNabasu Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nNecrophidius from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.\n\nNereid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPhycomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPoltergeist from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lewis Pulsipher.\n\nQuickling from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nQuickwood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nRot Grub from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.\n\nRusset Mold from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSandman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nScarecrow from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nShadow Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.\n\nSkulk from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nSlime Mold from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSlithering Tracker from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSoul Eater from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by David Cook.\n\nSpriggan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.\n\nTenebrous Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTentamort from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Mike Roberts.\n\nTick, Giant & Dragon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTrapper from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nTroll, Ice from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Russell Cole.\n\nTroll, Rock from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nVegepygmy from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWolf-In-Sheep's-Clothing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWood Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.\n\nYellow Musk Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYellow Musk Zombie from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYeti from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nZombie, Juju from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax."
+      }
+    ],
+    "sources": [
+      {
+        "id": "psrd-monster-codex",
+        "name": "Pathfinder Roleplaying Game Monster Codex",
+        "url": "https://github.com/devonjones/PSRD-Data/blob/76ea4784604145ba3dea40eb56f83bb904759467/book-mc.db",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467",
+        "itemIds": [
+          "item-abrakarn-viper",
+          "item-alchemical-blood",
+          "item-alchemical-sling-bullet",
+          "item-ambush-cauldron",
+          "item-banner-of-the-rushing-horde",
+          "item-barbed-troll-claws",
+          "item-bloodfeast-shield",
+          "item-bloodletting-thimble",
+          "item-bolas-bolts",
+          "item-bombchucker",
+          "item-burning",
+          "item-cap-of-enervation",
+          "item-catalytic",
+          "item-cave-dweller-s-greataxe",
+          "item-caver-s-bolt",
+          "item-cloak-of-the-troll-king",
+          "item-crashing-boots",
+          "item-elixir-of-oppression",
+          "item-extractor-s-gloves",
+          "item-fervor-juice",
+          "item-flindbar",
+          "item-flying-straps",
+          "item-fog-cutting-lenses",
+          "item-frostblood-axe",
+          "item-gauntlets-of-rending",
+          "item-gorthek-masks",
+          "item-gorthek-saddle",
+          "item-headband-of-vermin-control",
+          "item-horn-harness",
+          "item-horror-dust",
+          "item-hunter-s-nose-ring",
+          "item-hyena-shawl",
+          "item-irongrip-gauntlets",
+          "item-light-killer-s-grease",
+          "item-pugwampi-braid",
+          "item-rhinarium-paste",
+          "item-riding-rat",
+          "item-serpent-necked-flail",
+          "item-serpentine-choker",
+          "item-signal-rocket",
+          "item-slaver-s-crossbow",
+          "item-snakebiter-arrow",
+          "item-spiderdraw",
+          "item-spikebones",
+          "item-steaming",
+          "item-stench-spray-amulet",
+          "item-venomsweat-salve",
+          "item-virulent",
+          "item-war-drums-of-savagery",
+          "item-winter-wolf-runetooth"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1280 @@
+{
+  "schemaVersion": 2,
+  "id": "bestiary-general-effects-batch16",
+  "name": "Generic effects, afflictions, and class features (16)",
+  "ruleset": {
+    "id": "PTFD",
+    "edition": "1e"
+  },
+  "items": [
+    {
+      "id": "effect-wild-shape-ultimate-magic-2",
+      "category": "effect",
+      "name": "Wild Shape",
+      "description": "A reincarnated druid gains this ability at 6th level, and it functions at her druid level – 2.",
+      "rulesData": {
+        "text": "A reincarnated druid gains this ability at 6th level, and it functions at her druid level – 2.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Reincarnated Druid/Wild Shape"
+      }
+    },
+    {
+      "id": "effect-aging-touch",
+      "category": "effect",
+      "name": "Aging Touch",
+      "description": "Your touch ages living creatures and objects.",
+      "rulesData": {
+        "text": "Your touch ages living creatures and objects. As a melee touch attack, you can deal 1 point of Strength damage for every two oracle levels you possess to living creatures. Against objects or constructs, you can deal 1d6 points of damage per oracle level. If used against an object in another creature's possession, treat this attack as a sunder combat maneuver. You can use this ability once per day, plus one additional time per day for every five oracle levels you possess.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Aging Touch"
+      }
+    },
+    {
+      "id": "effect-ancestral-weapon",
+      "category": "effect",
+      "name": "Ancestral Weapon",
+      "description": "You can summon a simple or martial weapon from your family's history that is appropriate for your current size.",
+      "rulesData": {
+        "text": "You can summon a simple or martial weapon from your family's history that is appropriate for your current size. You are considered proficient with this weapon. At 3rd level, the weapon is considered masterwork. At 7th level, 15th level, and 19th level, the weapon gains a cumulative +1 enhancement bonus. At 11th level, the weapon gains the ghost touch weapon property. You can use this ability for a number of minutes per day equal to your oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. The weapon disappears after 1 round if it leaves your grasp.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Ancestral Weapon"
+      }
+    },
+    {
+      "id": "effect-armor-mastery-ultimate-magic",
+      "category": "effect",
+      "name": "Armor Mastery",
+      "description": "You become more maneuverable while wearing armor.",
+      "rulesData": {
+        "text": "You become more maneuverable while wearing armor. You can move at your normal speed in medium armor that is made of metal. This does not grant proficiency in armor. At 5th level, whenever you are wearing metal armor, you reduce the armor check penalty by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1. At 10th level, and again at 15th level, these bonuses increase by 1.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Armor Mastery"
+      }
+    },
+    {
+      "id": "effect-bend-the-grain",
+      "category": "effect",
+      "name": "Bend the Grain",
+      "description": "Once per day as a standard action, you can shape or warp wooden objects.",
+      "rulesData": {
+        "text": "Once per day as a standard action, you can shape or warp wooden objects. This functions as either wood shape or warp wood . At 11th level, you can use this ability to push wood away from you, as repel wood . At 7th level, and again at 14th level, you can use this ability an additional time per day.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Bend the Grain"
+      }
+    },
+    {
+      "id": "effect-blood-of-heroes",
+      "category": "effect",
+      "name": "Blood of Heroes",
+      "description": "As a move action, you can call upon your ancestors to grant you extra bravery in battle.",
+      "rulesData": {
+        "text": "As a move action, you can call upon your ancestors to grant you extra bravery in battle. You gain a +1 morale bonus on attack rolls, damage rolls, and Will saves against fear for a number of rounds equal to your Charisma bonus. At 7th level, this bonus increases to +2, and at 14th level this bonus increases to +3. You can use this ability once per day, plus one additional time per day at 5th level, and every five levels thereafter.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Blood of Heroes"
+      }
+    },
+    {
+      "id": "effect-brain-drain-ultimate-magic",
+      "category": "effect",
+      "name": "Brain Drain",
+      "description": "You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet.",
+      "rulesData": {
+        "text": "You can take a standard action to violently probe the mind of a single intelligent enemy within 100 feet. The target receives a Will save to negate the effect and immediately knows the source of this harmful mental prying. Those who fail this save are wracked with pain, taking 1d4 points of damage for every oracle level you possess. After successfully attacking with this ability, you may use a full-round action to sort through the jumble of stolen thoughts and memories to make a single Knowledge check using the victim's skill bonus. The randomly stolen thoughts remain in your mind for a number of rounds equal to your Charisma modifier. Treat the knowledge gained as if you had used detect thoughts . This is a mind-affecting effect. You can use this ability once per day at 1st level, plus one additional time per day at 5th level and for every five levels beyond 5th.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Brain Drain"
+      }
+    },
+    {
+      "id": "effect-cloak-of-darkness",
+      "category": "effect",
+      "name": "Cloak of Darkness",
+      "description": "You conjure a cloak of shadowy darkness that grants you a +4 armor bonus and a +2 circumstance bonus on Stealth checks.",
+      "rulesData": {
+        "text": "You conjure a cloak of shadowy darkness that grants you a +4 armor bonus and a +2 circumstance bonus on Stealth checks. At 7th level, and every four levels thereafter, these bonuses increase by +2. You can use this cloak for 1 hour per day per oracle level. The duration does not need to be consecutive, but it must be spent in 1-hour increments.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Cloak of Darkness"
+      }
+    },
+    {
+      "id": "effect-dance-of-the-blades",
+      "category": "effect",
+      "name": "Dance of the Blades",
+      "description": "Your base speed increases by 10 feet.",
+      "rulesData": {
+        "text": "Your base speed increases by 10 feet. At 7th level, you gain a +1 bonus on attack rolls with a metal weapon in any round in which you move at least 10 feet. This bonus increases by +1 at 11th level, and every four levels thereafter. At 11th level, as a move action, you can maneuver your weapon to create a shield of whirling steel around yourself until the start of your next turn; non-incorporeal melee and ranged attacks against you have a 20% miss chance while the shield is active. You must be wielding a metal weapon to use this ability.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Dance of the Blades"
+      }
+    },
+    {
+      "id": "effect-erase-from-time",
+      "category": "effect",
+      "name": "Erase from Time",
+      "description": "As a melee touch attack, you can temporarily remove a creature from time altogether.",
+      "rulesData": {
+        "text": "As a melee touch attack, you can temporarily remove a creature from time altogether. The target creature must make a Fortitude save or vanish completely for a number of rounds equal to 1/2 your oracle level (minimum 1 round). No magic or divinations can detect the creature during this time, as it exists outside of time and space—in effect, the creature ceases to exist for the duration of this ability. At the end of the duration, the creature reappears unharmed in the space it last occupied (or the nearest possible space, if the original space is now occupied). You can use this ability once per day, plus one additional time per day at 11th level.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Erase from Time"
+      }
+    },
+    {
+      "id": "effect-fortune-ultimate-magic",
+      "category": "effect",
+      "name": "Fortune",
+      "description": "At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed.",
+      "rulesData": {
+        "text": "At 5th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. You can use this ability once per day at 5th level, and one additional time per day for every six oracle levels beyond 5th.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Dual-Cursed Oracle/Revelations/Fortune"
+      }
+    },
+    {
+      "id": "effect-gift-of-madness",
+      "category": "effect",
+      "name": "Gift of Madness",
+      "description": "You tap into the unthinkable void between the stars and cause a single living creature within 30 feet to become confused for 1 round.",
+      "rulesData": {
+        "text": "You tap into the unthinkable void between the stars and cause a single living creature within 30 feet to become confused for 1 round. A successful Will save negates the effect. This is a mind-affecting compulsion effect. At 7th level, the confusion lasts for a number of rounds equal to your oracle level. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Gift of Madness"
+      }
+    },
+    {
+      "id": "effect-gift-of-prophecy",
+      "category": "effect",
+      "name": "Gift of Prophecy",
+      "description": "Once per day, you can enter a trance to gain a glimpse of the future.",
+      "rulesData": {
+        "text": "Once per day, you can enter a trance to gain a glimpse of the future. This trance lasts for 1 minute, which must be uninterrupted and during which you can take no other actions. At 3rd level, you gain the benefits of an augury spell with 90% effectiveness. At 5th level, you gain the benefits of a divination spell with 90% effectiveness. At 9th level, the knowledge you gain is equivalent to a commune spell. None of these spell effects require material components. You must take this revelation at 3rd level.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Seer/Revelations/Gift of Prophecy"
+      }
+    },
+    {
+      "id": "effect-guiding-star-ultimate-magic",
+      "category": "effect",
+      "name": "Guiding Star",
+      "description": "As the heavens mystery revelation.",
+      "rulesData": {
+        "text": "As the heavens mystery revelation. You must take this revelation at 1st level.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Stargazer/Revelations/Guiding Star"
+      }
+    },
+    {
+      "id": "effect-interstellar-void-ultimate-magic",
+      "category": "effect",
+      "name": "Interstellar Void",
+      "description": "You call upon the frigid depths of outer space to bring a terrible chill to your enemies.",
+      "rulesData": {
+        "text": "You call upon the frigid depths of outer space to bring a terrible chill to your enemies. As a standard action, one target within 30 feet is cloaked in the void and takes 1d6 points of cold damage for every oracle level you possess. A successful Fortitude save halves this damage. At 10th level, the interstellar void is so extreme that a creature that fails its save is fatigued. At 15th level, a creature that fail its save is exhausted and stunned for 1 round. You can use this ability once per day plus one additional time per day at 10th level.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Interstellar Void"
+      }
+    },
+    {
+      "id": "effect-iron-constitution",
+      "category": "effect",
+      "name": "Iron Constitution",
+      "description": "You gain a +1 bonus on Fortitude saves.",
+      "rulesData": {
+        "text": "You gain a +1 bonus on Fortitude saves. At 7th level, and again at 14th level, this bonus increases by +1.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Iron Constitution"
+      }
+    },
+    {
+      "id": "effect-iron-skin-ultimate-magic-2",
+      "category": "effect",
+      "name": "Iron Skin",
+      "description": "Once per day, your skin hardens and takes on the appearance of iron, granting you DR 10/adamantine.",
+      "rulesData": {
+        "text": "Once per day, your skin hardens and takes on the appearance of iron, granting you DR 10/adamantine. This ability functions as stoneskin , using your oracle level as the caster level, except it only affects you. At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Iron Skin"
+      }
+    },
+    {
+      "id": "effect-iron-weapon",
+      "category": "effect",
+      "name": "Iron Weapon",
+      "description": "You can create a melee simple or martial weapon that lasts for 1 minute for every oracle level you possess.",
+      "rulesData": {
+        "text": "You can create a melee simple or martial weapon that lasts for 1 minute for every oracle level you possess. This weapon is appropriate for your size and entirely made of metal (even if it would normally include non-metal parts, such as a spear's shaft) but functions as if it were a normal weapon of its type. You are considered proficient with this weapon. The weapon disappears after 1 round if it leaves your grasp. At 3rd level, the blade is made of cold iron. At 7th level, 15th level, and 19th level, the blade gains a +1 enhancement bonus. At 11th level, the blade is made of adamantine. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Iron Weapon"
+      }
+    },
+    {
+      "id": "effect-knowledge-of-the-ages",
+      "category": "effect",
+      "name": "Knowledge of the Ages",
+      "description": "You can search through time to recall some bit of forgotten lore or information.",
+      "rulesData": {
+        "text": "You can search through time to recall some bit of forgotten lore or information. You can retry any Knowledge skill check you have made within the past minute, gaining an insight bonus on the check equal to your Charisma modifier. You can use this ability a number times per day equal to your Charisma modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Knowledge of the Ages"
+      }
+    },
+    {
+      "id": "effect-lignification",
+      "category": "effect",
+      "name": "Lignification",
+      "description": "Once per day, you can turn a creature into wood.",
+      "rulesData": {
+        "text": "Once per day, you can turn a creature into wood. As a standard action, you may direct your gaze against a single creature within 30 feet. The targeted creature (along with all its carried gear) must make a Fortitude save or turn into a mindless, inert statue made out of wood for a number of rounds equal to 1/2 your oracle level. This ability otherwise functions as a flesh to stone spell, except the target turns to wood instead of stone. This can be reverse by any effect that can reverse flesh to stone . At 15th level, you can use this ability twice per day. You must be at least 11th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Lignification"
+      }
+    },
+    {
+      "id": "effect-many-forms-ultimate-magic",
+      "category": "effect",
+      "name": "Many Forms",
+      "description": "As a standard action, you can assume the form of a Small or Medium humanoid, as the alter self spell.",
+      "rulesData": {
+        "text": "As a standard action, you can assume the form of a Small or Medium humanoid, as the alter self spell. At 7th level, you can assume the form of a Small or Medium animal, as beast shape I . At 11th level, you can assume the form of a Small or Medium magical beast, as beast shape III . At 15th level, you can assume a variety of forms, as greater polymorph . You can use this ability for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. You must be at least 3rd level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Many Forms"
+      }
+    },
+    {
+      "id": "effect-mental-acuity-ultimate-magic",
+      "category": "effect",
+      "name": "Mental Acuity",
+      "description": "As the lore mystery revelation.",
+      "rulesData": {
+        "text": "As the lore mystery revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Enlightened Philosopher/Revelations/Mental Acuity"
+      }
+    },
+    {
+      "id": "effect-misfortune-ultimate-magic",
+      "category": "effect",
+      "name": "Misfortune",
+      "description": "At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed.",
+      "rulesData": {
+        "text": "At 1st level, as an immediate action, you can force a creature within 30 feet to reroll any one d20 roll that it has just made before the results of the roll are revealed. The creature must take the result of the reroll, even if it's worse than the original roll. Once a creature has suffered from your misfortune, it cannot be the target of this revelation again for 1 day.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Dual-Cursed Oracle/Revelations/Misfortune"
+      }
+    },
+    {
+      "id": "effect-momentary-glimpse",
+      "category": "effect",
+      "name": "Momentary Glimpse",
+      "description": "Once per day, you can gain a glimpse into your immediate future.",
+      "rulesData": {
+        "text": "Once per day, you can gain a glimpse into your immediate future. On the round after you use this ability, you gain a +2 insight bonus on a single attack roll, saving throw, or skill check or to your Armor Class until the start of your next turn. At 5th level, and every four levels thereafter, you can use this ability one additional time per day.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Momentary Glimpse"
+      }
+    },
+    {
+      "id": "effect-natural-divination-ultimate-magic",
+      "category": "effect",
+      "name": "Natural Divination",
+      "description": "As the nature mystery revelation.",
+      "rulesData": {
+        "text": "As the nature mystery revelation. You must take this revelation at 1st level.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Seer/Revelations/Natural Divination"
+      }
+    },
+    {
+      "id": "effect-phantom-touch",
+      "category": "effect",
+      "name": "Phantom Touch",
+      "description": "As a standard action, you can perform a melee touch attack that causes a living creature to become shaken.",
+      "rulesData": {
+        "text": "As a standard action, you can perform a melee touch attack that causes a living creature to become shaken. This ability lasts for a number of rounds equal to 1/2 your oracle level (minimum 1 round). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Phantom Touch"
+      }
+    },
+    {
+      "id": "effect-pierce-the-veil",
+      "category": "effect",
+      "name": "Pierce the Veil",
+      "description": "Your bond with the alien denizens of the Dark Tapestry allows you to see in even the deepest darkness.",
+      "rulesData": {
+        "text": "Your bond with the alien denizens of the Dark Tapestry allows you to see in even the deepest darkness. You gain darkvision 60 feet. At 11th level, you can see perfectly in darkness of any kind, even in absolute darkness or the darkness created by a deeper darkness spell.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Pierce the Veil"
+      }
+    },
+    {
+      "id": "effect-planar-resistance",
+      "category": "effect",
+      "name": "Planar Resistance",
+      "description": "At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane.",
+      "rulesData": {
+        "text": "At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane. At 11th level, your energy resistance increases to 20.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Planar Oracle/Revelations/Planar Resistance"
+      }
+    },
+    {
+      "id": "effect-read-the-tapestry",
+      "category": "effect",
+      "name": "Read the Tapestry",
+      "description": "Once per day, you can spend 10 minutes meditating on the mysteries of the Dark Tapestry to send your mind to another plane and communicate with the strange or alien beings there.",
+      "rulesData": {
+        "text": "Once per day, you can spend 10 minutes meditating on the mysteries of the Dark Tapestry to send your mind to another plane and communicate with the strange or alien beings there. This functions as the contact other plane spell. You must be at least 7th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Read the Tapestry"
+      }
+    },
+    {
+      "id": "effect-rewind-time",
+      "category": "effect",
+      "name": "Rewind Time",
+      "description": "Once per day as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed.",
+      "rulesData": {
+        "text": "Once per day as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. At 11th level, and every four levels thereafter, you can use this ability an additional time per day. You must be at least 7th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Rewind Time"
+      }
+    },
+    {
+      "id": "effect-riddle-of-steel",
+      "category": "effect",
+      "name": "Riddle of Steel",
+      "description": "Your sacred bond with metal gives you insight into its form and function.",
+      "rulesData": {
+        "text": "Your sacred bond with metal gives you insight into its form and function. Once per day, you may spend 10 minutes meditating on the structure of a piece of unworked metal or ore to gain a +5 insight bonus on your next Craft check to make something using that metal.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Riddle of Steel"
+      }
+    },
+    {
+      "id": "effect-rusting-grasp",
+      "category": "effect",
+      "name": "Rusting Grasp",
+      "description": "Once per day as a standard action, you can perform a melee touch attack that rusts iron, as the rusting grasp spell.",
+      "rulesData": {
+        "text": "Once per day as a standard action, you can perform a melee touch attack that rusts iron, as the rusting grasp spell. At 11th level, and every four levels thereafter, you can use this ability an additional time per day. You must be at least 7th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Rusting Grasp"
+      }
+    },
+    {
+      "id": "effect-sacred-council",
+      "category": "effect",
+      "name": "Sacred Council",
+      "description": "As a move action, you can call upon your ancestors to provide council.",
+      "rulesData": {
+        "text": "As a move action, you can call upon your ancestors to provide council. This advice grants you a +2 bonus on any one d20 roll. This effect lasts for 1 round. You can use this ability a number of times per day equal to your Charisma bonus.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Sacred Council"
+      }
+    },
+    {
+      "id": "effect-speak-with-wood",
+      "category": "effect",
+      "name": "Speak with Wood",
+      "description": "You can talk to wood and learn what it knows.",
+      "rulesData": {
+        "text": "You can talk to wood and learn what it knows. You must spend 1 minute meditating on and communing with the wood. At the end of this time, you can speak with the wood. This functions as the stone tell spell, except with wood instead of stones. You can use this ability for 1 minute per oracle level. This duration does not need to be consecutive, but it must be used in 1-minute increments. You can speak with natural or worked wood. You must be at least 11th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Speak with Wood"
+      }
+    },
+    {
+      "id": "effect-speed-or-slow-time",
+      "category": "effect",
+      "name": "Speed or Slow Time",
+      "description": "As a standard action, you can speed up or slow down time, as either the haste or slow spell.",
+      "rulesData": {
+        "text": "As a standard action, you can speed up or slow down time, as either the haste or slow spell. You can use this ability once per day, plus one additional time per day at 12th level and 17th level. You must be at least 7th level before selecting this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Speed or Slow Time"
+      }
+    },
+    {
+      "id": "effect-spirit-shield",
+      "category": "effect",
+      "name": "Spirit Shield",
+      "description": "You can call upon the spirits of your ancestors to form a shield around you that blocks incoming attacks and grants you a +4 armor bonus.",
+      "rulesData": {
+        "text": "You can call upon the spirits of your ancestors to form a shield around you that blocks incoming attacks and grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this shield causes arrows, rays, and other ranged attacks requiring an attack roll against you to have a 50% miss chance. You can use this shield for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Spirit Shield"
+      }
+    },
+    {
+      "id": "effect-spirit-walk-ultimate-magic",
+      "category": "effect",
+      "name": "Spirit Walk",
+      "description": "You can become incorporeal and invisible.",
+      "rulesData": {
+        "text": "You can become incorporeal and invisible. While in this form, you can move in any direction and pass through solid objects. You can take no action other than to move while in this form. You remain in this form for a number of rounds equal to your oracle level, but you can end this effect prematurely as a standard action. You can use this ability once per day at 11th level, and twice per day at 15th level. You must be at least 11th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Spirit Walk"
+      }
+    },
+    {
+      "id": "effect-spirit-of-the-warrior",
+      "category": "effect",
+      "name": "Spirit of the Warrior",
+      "description": "You can summon the spirit of a great warrior ancestor and allow it to possess you, becoming a mighty warrior yourself.",
+      "rulesData": {
+        "text": "You can summon the spirit of a great warrior ancestor and allow it to possess you, becoming a mighty warrior yourself. You gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, and a +4 natural armor bonus to AC. Your base attack bonus while possessed equals your oracle level (which may give you additional attacks), and you gain the Improved Critical feat with a weapon of your choice. You can use this ability for 1 round for every 2 oracle levels you possess. This duration does not need to be consecutive, but it must be spent in 1-round increments. You must be at least 11th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Spirit of the Warrior"
+      }
+    },
+    {
+      "id": "effect-star-chart-ultimate-magic",
+      "category": "effect",
+      "name": "Star Chart",
+      "description": "As the heavens mystery revelation.",
+      "rulesData": {
+        "text": "As the heavens mystery revelation. You must take this revelation at 7th level.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Stargazer/Revelations/Star Chart"
+      }
+    },
+    {
+      "id": "effect-steel-scarf",
+      "category": "effect",
+      "name": "Steel Scarf",
+      "description": "As a swift action, you can harden a scarf, sleeve, cloak, or other piece of your clothing into something as hard as steel that stretches out to be up to 30 feet long.",
+      "rulesData": {
+        "text": "As a swift action, you can harden a scarf, sleeve, cloak, or other piece of your clothing into something as hard as steel that stretches out to be up to 30 feet long. You can then strike outward with it as if it were a weapon making a melee attack. For the purpose of this ability, you are proficient with this weapon. You can use the weapon to perform combat maneuvers. Make a melee attack roll against a creature within 30 feet; you may use Weapon Finesse with this attack. If you hit, the weapon deals 1d8 points of slashing damage + 1 point for every two oracle levels you possess. After this attack, the clothing returns to its normal length and hardness. You do not threaten an area with this weapon and cannot use it to make attacks of opportunity. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Steel Scarf"
+      }
+    },
+    {
+      "id": "effect-storm-of-souls",
+      "category": "effect",
+      "name": "Storm of Souls",
+      "description": "You can summon the spirits of your ancestors to attack in a ghostly barrage—their fury creates physical wounds on creatures in the area.",
+      "rulesData": {
+        "text": "You can summon the spirits of your ancestors to attack in a ghostly barrage—their fury creates physical wounds on creatures in the area. The storm has a range of 100 feet and is a 20-foot-radius burst. Objects and creatures in the area take 1d8 hit points of damage for every two oracle levels you possess. Undead creatures in the area take 1d8 points of damage for every oracle level you possess. A successful Fortitude save reduces the damage to half. You must be at least 7th level to select this revelation. You can use this ability once per day, plus one additional time per day at 11th level and every four levels thereafter.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Storm of Souls"
+      }
+    },
+    {
+      "id": "effect-temporal-celerity",
+      "category": "effect",
+      "name": "Temporal Celerity",
+      "description": "Whenever you roll for initiative, you can roll twice and take either result.",
+      "rulesData": {
+        "text": "Whenever you roll for initiative, you can roll twice and take either result. At 7th level, you can always act in the surprise round, but if you fail to notice the ambush, you act last, regardless of your initiative result (you act in the normal order in following rounds). At 11th level, you can roll for initiative three times and take any one of the results.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Temporal Celerity"
+      }
+    },
+    {
+      "id": "effect-thorn-burst",
+      "category": "effect",
+      "name": "Thorn Burst",
+      "description": "As a swift action, you can cause sharp splinters of wood to explode outward from your body.",
+      "rulesData": {
+        "text": "As a swift action, you can cause sharp splinters of wood to explode outward from your body. These splinters deal 1d6 points of piercing damage per two oracle levels (minimum 1d6) to all creatures within a 10-foot burst. A Reflex save halves this damage. In addition, the sharp splinters count as caltrops in the area until your next turn. You can use this ability once per day, plus one additional time per day at 5th level and every five levels thereafter.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Thorn Burst"
+      }
+    },
+    {
+      "id": "effect-time-flicker",
+      "category": "effect",
+      "name": "Time Flicker",
+      "description": "As a standard action, you can flicker in and out of time, gaining concealment (as the blur spell).",
+      "rulesData": {
+        "text": "As a standard action, you can flicker in and out of time, gaining concealment (as the blur spell). You can use this ability for 1 minute per oracle level that you possess per day. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 7th level, each time you activate this ability, you can treat it as the blink spell, though each round spent this way counts as 1 minute of your normal time flicker duration. You must be at least 3rd level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Time Flicker"
+      }
+    },
+    {
+      "id": "effect-time-hop",
+      "category": "effect",
+      "name": "Time Hop",
+      "description": "As a move action, you can teleport up to 10 feet per oracle level that you possess per day.",
+      "rulesData": {
+        "text": "As a move action, you can teleport up to 10 feet per oracle level that you possess per day. This teleportation must be used in 5-foot increments. This movement does not provoke attacks of opportunity. You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought. You must be at least 7th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Time Hop"
+      }
+    },
+    {
+      "id": "effect-time-sight",
+      "category": "effect",
+      "name": "Time Sight",
+      "description": "You can peer through the mists of time to see things as they truly are, as if using the true seeing spell.",
+      "rulesData": {
+        "text": "You can peer through the mists of time to see things as they truly are, as if using the true seeing spell. At 15th level, this functions like moment of prescience . At 18th level, this functions like foresight . You can use this ability for a number of minutes per day equal to your oracle level, but these minutes do not need to be consecutive. You must be at least 11th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Time/Revelations/Time Sight"
+      }
+    },
+    {
+      "id": "effect-touch-of-the-void",
+      "category": "effect",
+      "name": "Touch of the Void",
+      "description": "As a standard action, you can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every two oracle levels you possess.",
+      "rulesData": {
+        "text": "As a standard action, you can perform a melee touch attack that deals 1d6 points of cold damage + 1 point for every two oracle levels you possess. At 7th level, the touched creature must also make a Fortitude saving throw or be fatigued for a number of rounds equal to 1/2 your oracle level. This has no effect on a creature that is already fatigued. You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Touch of the Void"
+      }
+    },
+    {
+      "id": "effect-tree-form",
+      "category": "effect",
+      "name": "Tree Form",
+      "description": "As a standard action, you can assume the form of a Large living or dead tree or shrub, as tree shape .",
+      "rulesData": {
+        "text": "As a standard action, you can assume the form of a Large living or dead tree or shrub, as tree shape . At 9th level, you can assume the form of a Small or Medium plant creature, as plant shape I . At 11th level, you can assume the form of a Large plant creature, as plant shape II . At 13th level, you can assume the form of a Huge plant creature, as plant shape III . You can use this ability once per day, but the duration is 1 hour/level. You must be at least 3rd level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Tree Form"
+      }
+    },
+    {
+      "id": "effect-two-minds",
+      "category": "effect",
+      "name": "Two Minds",
+      "description": "You gain a +2 bonus on Will saves against enchantment spells or effects.",
+      "rulesData": {
+        "text": "You gain a +2 bonus on Will saves against enchantment spells or effects. At 7th level, you may reroll a failed Will save once per day as an immediate action. You must take the second result, even if it is worse.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Oracle Archetypes/Possessed Oracle/Revelations/Two Minds"
+      }
+    },
+    {
+      "id": "effect-vision-in-iron",
+      "category": "effect",
+      "name": "Vision in Iron",
+      "description": "You can use any piece of polished metal at least the size of a dagger as a scrying device, as if using the spell scrying .",
+      "rulesData": {
+        "text": "You can use any piece of polished metal at least the size of a dagger as a scrying device, as if using the spell scrying . At 15th level, this functions like greater scrying . You can scry for a number of rounds per day equal to your oracle level; these rounds do not need to be consecutive. You must be at least 7th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Metal/Revelations/Vision in Iron"
+      }
+    },
+    {
+      "id": "effect-voice-of-the-grave-ultimate-magic",
+      "category": "effect",
+      "name": "Voice of the Grave",
+      "description": "You can speak with the dead, as per the spell, for a number of rounds per day equal to your oracle level.",
+      "rulesData": {
+        "text": "You can speak with the dead, as per the spell, for a number of rounds per day equal to your oracle level. These rounds do not need to be consecutive. At 5th level, and every five levels thereafter, the dead creature you question takes a cumulative –2 penalty on its Will save to resist this effect.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Voice of the Grave"
+      }
+    },
+    {
+      "id": "effect-wings-of-darkness",
+      "category": "effect",
+      "name": "Wings of Darkness",
+      "description": ":As a swift action, you can manifest a set of translucent, inky wings that grant you a fly speed of 60 feet with good maneuverability.",
+      "rulesData": {
+        "text": ":As a swift action, you can manifest a set of translucent, inky wings that grant you a fly speed of 60 feet with good maneuverability. You can use these wings for 1 minute per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. At 11th level, you can use these wings to fly as if with overland flight once per day. Used in this way, the ability lasts for up to 1 hour per level, and counts as your total use of this ability for the day. You must be at least 7th level to select this revelation.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Dark Tapestry/Revelations/Wings of Darkness"
+      }
+    },
+    {
+      "id": "effect-wisdom-of-the-ancestors",
+      "category": "effect",
+      "name": "Wisdom of the Ancestors",
+      "description": "Once per day, you can enter a trance in which you commune with the spirits of your ancestors.",
+      "rulesData": {
+        "text": "Once per day, you can enter a trance in which you commune with the spirits of your ancestors. This trance lasts for 10 minutes, which must be uninterrupted and during which you can take no other actions. When you come out of this trance, you have gained mystical insight into the future. At 1st level, this insight acts as an augury spell with 80% effectiveness. At 5th level, the insight takes the form of a divination with 90% effectiveness. At 8th level, the knowledge you gain is equivalent to a commune spell. None of these spell effects require material components.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Ancestor/Revelations/Wisdom of the Ancestors"
+      }
+    },
+    {
+      "id": "effect-wood-armor",
+      "category": "effect",
+      "name": "Wood Armor",
+      "description": "You can conjure wooden armor around yourself, which grants you a +4 armor bonus.",
+      "rulesData": {
+        "text": "You can conjure wooden armor around yourself, which grants you a +4 armor bonus. At 7th level, and every four levels thereafter, this bonus increases by +2. At 13th level, this armor grants you DR 5/slashing. You can use this armor for 1 hour per day per oracle level. This duration does not need to be consecutive, but it must be spent in 1-hour increments. The armor vanishes if you remove it.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Wood Armor"
+      }
+    },
+    {
+      "id": "effect-wood-bond",
+      "category": "effect",
+      "name": "Wood Bond",
+      "description": "Your mystical bond with wood is such that your weapons become an extension of your body.",
+      "rulesData": {
+        "text": "Your mystical bond with wood is such that your weapons become an extension of your body. You gain a +1 competence bonus on attack rolls when wielding a weapon made of or mostly consisting of wood (such as a bow, club, quarterstaff, or spear). This bonus increases by +1 at 5th level and every five levels thereafter.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Wood Bond"
+      }
+    },
+    {
+      "id": "effect-wood-sight",
+      "category": "effect",
+      "name": "Wood Sight",
+      "description": "As a move action, you can alter your vision to see through underbrush and plant growth that would normally grant concealment, up to a range of 60 feet (though darkness and other obstacles still may block your sight).",
+      "rulesData": {
+        "text": "As a move action, you can alter your vision to see through underbrush and plant growth that would normally grant concealment, up to a range of 60 feet (though darkness and other obstacles still may block your sight). At 7th level, you can use this ability to see through wood or other plant material as easily as if it were transparent glass, penetrating a number of feet of wood equal to your oracle level. You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Wood Sight"
+      }
+    },
+    {
+      "id": "effect-wooden-weapon",
+      "category": "effect",
+      "name": "Wooden Weapon",
+      "description": "You can create a wooden club, quarterstaff, longspear, shortspear, or spear that lasts for 1 minute for every oracle level you possess.",
+      "rulesData": {
+        "text": "You can create a wooden club, quarterstaff, longspear, shortspear, or spear that lasts for 1 minute for every oracle level you possess. This weapon is appropriate for your size. You are considered proficient with the weapon. The weapon disappears after 1 round if it leaves your grasp. At 3rd level, the weapon is considered masterwork. At 7th level, 15th level, and 19th level, the weapon gains a +1 enhancement bonus. At 11th level, the weapon gains the keen weapon property (or the equivalent increase to its critical threat range, if it is a bludgeoning weapon). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Wooden Weapon"
+      }
+    },
+    {
+      "id": "effect-woodland-stride-ultimate-magic",
+      "category": "effect",
+      "name": "Woodland Stride",
+      "description": "You can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment.",
+      "rulesData": {
+        "text": "You can move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at your normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect you.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Oracle/Mysteries/Wood/Revelations/Woodland Stride"
+      }
+    },
+    {
+      "id": "effect-totem-transformation-ultimate-magic-2",
+      "category": "effect",
+      "name": "Totem Transformation",
+      "description": "At 2nd level, a saurian shaman may adopt an aspect of the saurian while retaining her normal form.",
+      "rulesData": {
+        "text": "At 2nd level, a saurian shaman may adopt an aspect of the saurian while retaining her normal form. This ability functions as the dragon shaman's totem transformation ability, but the druid may select from the following bonuses: movement (+10 enhancement bonus to land speed), scales (+2 natural armor bonus to AC), senses (low-light vision, scent), or natural weapons (bite [1d6], 2 claws [1d4] for a Medium druid, rake, +2 CMB to grapple). While using totem transformation, a saurian shaman may speak normally and can cast speak with animals (reptiles and dinosaurs only) at will.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Totem Transformation"
+      }
+    },
+    {
+      "id": "effect-totemic-summons-ultimate-magic-2",
+      "category": "effect",
+      "name": "Totemic Summons",
+      "description": "At 5th level, a saurian shaman may cast summon nature's ally as a standard action when summoning reptiles and dinosaurs, and these summoned creatures gain temporary hit points equal to her druid level.",
+      "rulesData": {
+        "text": "At 5th level, a saurian shaman may cast summon nature's ally as a standard action when summoning reptiles and dinosaurs, and these summoned creatures gain temporary hit points equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Totemic Summons"
+      }
+    },
+    {
+      "id": "effect-wild-empathy-ultimate-magic-2",
+      "category": "effect",
+      "name": "Wild Empathy",
+      "description": "A saurian shaman can use wild empathy with dinosaurs and reptiles as a full-round action with a +4 bonus.",
+      "rulesData": {
+        "text": "A saurian shaman can use wild empathy with dinosaurs and reptiles as a full-round action with a +4 bonus.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Wild Empathy"
+      }
+    },
+    {
+      "id": "effect-wild-shape-ultimate-magic-3",
+      "category": "effect",
+      "name": "Wild Shape",
+      "description": "At 6th level, a saurian shaman's wild shape ability functions at her druid level –2.",
+      "rulesData": {
+        "text": "At 6th level, a saurian shaman's wild shape ability functions at her druid level –2. If she takes on the form of a reptile or a dinosaur, she instead uses her druid level +2.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Saurian Shaman/Wild Shape"
+      }
+    },
+    {
+      "id": "effect-improved-scroll-casting",
+      "category": "effect",
+      "name": "Improved Scroll Casting",
+      "description": "At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a staff).",
+      "rulesData": {
+        "text": "At 10th level, the scrollmaster can cast a wizard spell from a scroll and use his own Intelligence score and relevant feats to set the DC for the spell, and can use his own caster level if it is higher than that of the scroll (similar to a caster using a staff). The scrollmaster must have already deciphered the writing on the scroll to use this ability. This ability replaces the 10th-level wizard bonus feat.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Wizard/Wizard Archetypes/Scrollmaster/Improved Scroll Casting"
+      }
+    },
+    {
+      "id": "effect-scroll-blade",
+      "category": "effect",
+      "name": "Scroll Blade",
+      "description": "A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a melee weapon.",
+      "rulesData": {
+        "text": "A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a melee weapon. In the hands of the wizard, the scroll acts as a short sword with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell on it counts as a masterwork short sword. The scrollmaster is proficient in this weapon, and feats and abilities that affect short swords (such as Weapon Focus) apply to this weapon. A scrollmaster cannot wield two scrollblades at the same time. Activating this ability is a free action. A scroll blade only retains its abilities in the hands of the scrollmaster. The scroll blade has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful hit by the scroll blade reduces its hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed. If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a scroll of empowered fireball counts as a 3rd-level spell). At 3rd level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus by 1 (minimum +1 enhancement bonus) to treat it as a reach weapon. For example, he could use a scroll of charm monster (a 4th-level wizard spell) as either a +2 short sword or a +1 short sword with reach. At 5th level, when using a 4th-level or higher wizard scroll as a scroll blade, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give any of the following weapon properties: defending , frost , icy burst , keen , ki focus , shock , shocking burst , speed . Adding any of these properties consumes an amount of enhancement bonus equal to the property's cost (see Table 15–9: Melee Weapon Special Abilities in the Core Rulebook ). The scrollmaster must know the prerequisite spell or spells to craft the weapon property in question (for example, he must know haste to be able to give his scroll blade the speed property). This ability replaces the wizard's arcane bond.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Wizard/Wizard Archetypes/Scrollmaster/Scroll Blade"
+      }
+    },
+    {
+      "id": "effect-scroll-shield",
+      "category": "effect",
+      "name": "Scroll Shield",
+      "description": "A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a light wooden shield.",
+      "rulesData": {
+        "text": "A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a light wooden shield. In the hands of the wizard, the scroll grants a +1 shield bonus with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell counts as a masterwork light shield sword. The scroll shield has no armor check penalty, arcane spell failure chance, or maximum Dexterity bonus. The scrollmaster is considered proficient in this shield. A scrollmaster can use a scrollblade in one hand and a scroll shield in the other hand. Activating this ability is a free action. A scroll shield only retains its abilities in the hands of the scrollmaster. The scroll shield has hardness 0 and hit points equal to the highest-level wizard spell on the scroll. Each successful attack roll against the wizard reduces the scroll shield's hit points by 1; this damage cannot be repaired, but does not affect casting from the scroll. When its hit points reach 0, the scroll is destroyed. At 5th level, when using a 3rd-level or higher wizard scroll as a scroll shield, the scrollmaster can choose to reduce its enhancement bonus (to a minimum of a +1 enhancement bonus) to give it any of the following shield properties: ghost touch , light fortification , moderate fortification . Adding any of these properties consumes an amount of bonus equal to the property's cost (see Table 15–5: Shield Special Abilities in the Core Rulebook ). The scrollmaster must know the prerequisite spell or spells to craft the shield property in question (for example, he must know limited wish to be able to give his scroll shield the fortification property). If a scroll contains a spell with a metamagic feat, this ability uses the original spell level of the spell (a scroll of empowered fireball counts as a 3rd-level spell).",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Wizard/Wizard Archetypes/Scrollmaster/Scroll Shield"
+      }
+    },
+    {
+      "id": "effect-know-direction",
+      "category": "effect",
+      "name": "Know Direction",
+      "description": "So long as she near a sizable body of water (at least a lake with a diameter of 1 mile or more), a sea witch may cast know direction at will as a spell-like ability.",
+      "rulesData": {
+        "text": "So long as she near a sizable body of water (at least a lake with a diameter of 1 mile or more), a sea witch may cast know direction at will as a spell-like ability.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Witch/Witch Archetypes/Sea Witch/Know Direction"
+      }
+    },
+    {
+      "id": "effect-sea-creature-empathy",
+      "category": "effect",
+      "name": "Sea Creature Empathy",
+      "description": "A sea witch can influence the attitude of water-dwelling animals and animals that live along coasts and shores, including birds, as if using wild empathy.",
+      "rulesData": {
+        "text": "A sea witch can influence the attitude of water-dwelling animals and animals that live along coasts and shores, including birds, as if using wild empathy. The sea witch uses her witch level as her druid level for this ability. If the sea witch has wild empathy from another class, her witch levels stack with the other class's levels to determine her wild empathy bonus for these kinds of creatures. This ability replaces the witch's 1st-level hex.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Witch/Witch Archetypes/Sea Witch/Sea Creature Empathy"
+      }
+    },
+    {
+      "id": "effect-slither",
+      "category": "effect",
+      "name": "Slither",
+      "description": "As a free action, you can distend and stretch your body to fit easily through narrow spaces for 1 round.",
+      "rulesData": {
+        "text": "As a free action, you can distend and stretch your body to fit easily through narrow spaces for 1 round. You can move freely through a tight space that would normally require a creature of your size to squeeze through. While slithering, you gain a +2 dodge bonus to Armor Class against attacks of opportunity provoked by your movement and a +2 bonus on CMB and on Escape Artist checks made to escape from a grapple. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Serpent Domain/Slither"
+      }
+    },
+    {
+      "id": "effect-venom-immunity-ultimate-magic",
+      "category": "effect",
+      "name": "Venom Immunity",
+      "description": "At 6th level, you gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype.",
+      "rulesData": {
+        "text": "At 6th level, you gain immunity to poisons from snakes, reptiles, and creatures with the reptilian subtype. At 12th level, you gain immunity to all poisons. This replaces venom immunity.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Serpent Domain/Venom Immunity"
+      }
+    },
+    {
+      "id": "effect-totem-transformation-ultimate-magic-3",
+      "category": "effect",
+      "name": "Totem Transformation",
+      "description": "At 2nd level, a shark shaman may adopt an aspect of the shark while retaining her normal form.",
+      "rulesData": {
+        "text": "At 2nd level, a shark shaman may adopt an aspect of the shark while retaining her normal form. This ability functions as the dragon shaman's totem transformation ability, but the druid may select from the following bonuses: movement (can breathe water, swim speed 30 feet), senses (scent 30 feet, scent 90 feet in water), natural weapons (bite 1d6 for a Medium shaman), or shark skin (+2 natural armor, creatures grappling the shaman take 1 point of slashing damage per round of grapple). While using totem transformation, the shark shaman may speak normally and can cast speak with animals (fish only) at will.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Totem Transformation"
+      }
+    },
+    {
+      "id": "effect-totemic-summons-ultimate-magic-3",
+      "category": "effect",
+      "name": "Totemic Summons",
+      "description": "At 5th level, a shark shaman may use summon nature's ally I to summon a stingray and summon nature's ally II to summon a manta ray.",
+      "rulesData": {
+        "text": "At 5th level, a shark shaman may use summon nature's ally I to summon a stingray and summon nature's ally II to summon a manta ray. She may cast summon nature's ally as a standard action when summoning rays and sharks, and summond rays and sharks gain a number of temporary hit points equal to her druid level. This ability otherwise functions as the dragon shaman's totemic summons ability.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Totemic Summons"
+      }
+    },
+    {
+      "id": "effect-wild-empathy-ultimate-magic-3",
+      "category": "effect",
+      "name": "Wild Empathy",
+      "description": "A shark shaman can use wild empathy with fish as a full-round action with a +4 bonus.",
+      "rulesData": {
+        "text": "A shark shaman can use wild empathy with fish as a full-round action with a +4 bonus.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Wild Empathy"
+      }
+    },
+    {
+      "id": "effect-wild-shape-ultimate-magic-4",
+      "category": "effect",
+      "name": "Wild Shape",
+      "description": "At 6th level, a shark shaman's wild shape ability functions at her druid level –2.",
+      "rulesData": {
+        "text": "At 6th level, a shark shaman's wild shape ability functions at her druid level –2. If she takes on the form of a shark, she instead uses her druid level +2.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Shark Shaman/Wild Shape"
+      }
+    },
+    {
+      "id": "effect-burden-of-sin",
+      "category": "effect",
+      "name": "Burden of Sin",
+      "description": "At 14th level, a sin eater may spend a full-round action to transfer one harmful affliction, condition, or spell effect from another creature to herself (this includes curses, possessions, and permanent effects such as petrification, or any condition that break enchantment can end or reverse).",
+      "rulesData": {
+        "text": "At 14th level, a sin eater may spend a full-round action to transfer one harmful affliction, condition, or spell effect from another creature to herself (this includes curses, possessions, and permanent effects such as petrification, or any condition that break enchantment can end or reverse). The effect to be transferred is chosen by the sin eater and affects her as if she were the original target, continuing its duration (if any) and preventing any further effect on the original bearer. For example, the inquisitor could transfer a lethal disease to herself, or petrify herself to restore a petrified comrade. The sin eater can use this ability as often as desired, even using it multiple times on the same creature. This ability replaces exploit weakness.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Inquisitor/Inquisitor Archetypes/Sin Eater/Burden of Sin"
+      }
+    },
+    {
+      "id": "effect-eat-sin",
+      "category": "effect",
+      "name": "Eat Sin",
+      "description": "At 1st level, as a free action, when the sin eater inquisitor kills an enemy, she may eat the sins of that enemy by spending 1 minute adjacent to its corpse.",
+      "rulesData": {
+        "text": "At 1st level, as a free action, when the sin eater inquisitor kills an enemy, she may eat the sins of that enemy by spending 1 minute adjacent to its corpse. This provokes attacks of opportunity. The inquisitor can rush this ritual, performing it as a full-round action that provokes attacks of opportunity, but she only gains half the normal benefit (see below). Eating the enemy's sins heals the inquisitor of a number of hit points of damage equal to 1d8 + her inquisitor level (maximum +5). The enemy must have been killed by the sin eater within the last hour, and it must have had at least as many Hit Dice as half the inquisitor's level. The inquisitor can use this ability once for each enemy she kills. This ability has no effect on mindless creatures or those with Intelligence 2 or less. At 5th level, the healing increases to 2d8 plus her inquisitor level (maximum +10); it increases to 3d8 + her inquisitor level (maximum +15) at 9th level and to 4d8 + her inquisitor level (maximum +20) at 13th level. In some faiths, this “eating” is a purely symbolic act, while in others, the inquisitor must eat a small amount of food and water as part of the ritual. A few extreme faiths actually require the inquisitor to eat some of the body of the slain enemy. At 8th level, when a sin eater eats the sins of a creature that would rise as an undead (such as someone slain by a shadow, spectre, or vampire), the sin eater may choose to accept 1 temporary negative level to absorb the taint in the corpse, preventing it from rising as an undead. This negative level can be removed with the appropriate magic, though it automatically expires after 24 hours, and never becomes a permanent negative level. At the GM's discretion, this ability may prevent a ghost from using its rejuvenation ability. This ability replaces an inquisitor's domain.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Inquisitor/Inquisitor Archetypes/Sin Eater/Eat Sin"
+      }
+    },
+    {
+      "id": "effect-speak-with-dead-ultimate-magic",
+      "category": "effect",
+      "name": "Speak with Dead",
+      "description": "At 6th level, when the inquisitor eats an enemy's sins, within 10 minutes of doing so, she can ask the remnants of the enemy's soul questions as if using speak with dead , with a caster level equal to her inquisitor level.",
+      "rulesData": {
+        "text": "At 6th level, when the inquisitor eats an enemy's sins, within 10 minutes of doing so, she can ask the remnants of the enemy's soul questions as if using speak with dead , with a caster level equal to her inquisitor level. She does not need the enemy's corpse to use this ability (she can eat sin, move away from the corpse, then use speak with dead ), though the soul gets a saving throw just as a corpse would. This ability replaces the bonus teamwork feat gained at 6th level.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Inquisitor/Inquisitor Archetypes/Sin Eater/Speak with Dead"
+      }
+    },
+    {
+      "id": "effect-enhance-healing",
+      "category": "effect",
+      "name": "Enhance Healing",
+      "description": "A number of times per day equal to his Charisma modifier, a songhealer can cause any healing effect from a spell completion or spell trigger item to function at a caster level equal to his class level.",
+      "rulesData": {
+        "text": "A number of times per day equal to his Charisma modifier, a songhealer can cause any healing effect from a spell completion or spell trigger item to function at a caster level equal to his class level. This ability replaces versatile performance.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Bard/Bard Archetypes/Songhealer/Enhance Healing"
+      }
+    },
+    {
+      "id": "effect-ink-cloud-ultimate-magic",
+      "category": "effect",
+      "name": "Ink Cloud",
+      "description": "While within water, an octopus can emit a 5-foot-radius sphere of ink once per minute as a swift action.",
+      "rulesData": {
+        "text": "While within water, an octopus can emit a 5-foot-radius sphere of ink once per minute as a swift action. This ink provides total concealment and persists for 1 minute.",
+        "sourceReference": "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Octopus/Blue-Ringed/Special Abilities/Ink Cloud"
+      }
+    },
+    {
+      "id": "effect-jet-ultimate-magic",
+      "category": "effect",
+      "name": "Jet",
+      "description": "The octopus can jet 60 feet in a straight line as a full-round action.",
+      "rulesData": {
+        "text": "The octopus can jet 60 feet in a straight line as a full-round action. This does not provoke attacks of opportunity.",
+        "sourceReference": "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Octopus/Blue-Ringed/Special Abilities/Jet"
+      }
+    },
+    {
+      "id": "effect-poison-ultimate-magic",
+      "category": "effect",
+      "name": "Poison",
+      "description": "Bite—injury; save Fort DC 10; frequency 1/round for 6 rounds; effect 1 Str; cure 1 save.",
+      "rulesData": {
+        "text": "Bite—injury; save Fort DC 10; frequency 1/round for 6 rounds; effect 1 Str; cure 1 save.",
+        "sourceReference": "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Octopus/Blue-Ringed/Special Abilities/Poison"
+      }
+    },
+    {
+      "id": "effect-poison-ultimate-magic-2",
+      "category": "effect",
+      "name": "Poison",
+      "description": "Sting—injury; save Fort DC 10; frequency 1/round for 6 rounds; effect sickened for 1 round; cure 1 save.",
+      "rulesData": {
+        "text": "Sting—injury; save Fort DC 10; frequency 1/round for 6 rounds; effect sickened for 1 round; cure 1 save.",
+        "sourceReference": "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Scorpion/Greensting/Special Abilities/Poison"
+      }
+    },
+    {
+      "id": "effect-poison-ultimate-magic-3",
+      "category": "effect",
+      "name": "Poison",
+      "description": "Bite—injury; save Fort DC 10; frequency 1/round for 2 rounds; effect daze 1 round; cure 1 save.",
+      "rulesData": {
+        "text": "Bite—injury; save Fort DC 10; frequency 1/round for 2 rounds; effect daze 1 round; cure 1 save.",
+        "sourceReference": "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Centipede/House/Special Abilities/Poison"
+      }
+    },
+    {
+      "id": "effect-shell-retreat",
+      "category": "effect",
+      "name": "Shell Retreat",
+      "description": "A turtle can retreat within its shell as a swift action, gaining a +2 enhancement bonus to its existing natural armor.",
+      "rulesData": {
+        "text": "A turtle can retreat within its shell as a swift action, gaining a +2 enhancement bonus to its existing natural armor. While in its shell, a turtle cannot take any action except to end the retreat. The turtle can end its retreat with a free action on its turn.",
+        "sourceReference": "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Turtle/Special Abilities/Shell Retreat"
+      }
+    },
+    {
+      "id": "effect-spiny-defense",
+      "category": "effect",
+      "name": "Spiny Defense",
+      "description": "As a move action, a hedgehog can roll itself up into a spiny ball.",
+      "rulesData": {
+        "text": "As a move action, a hedgehog can roll itself up into a spiny ball. While rolled up, it gains a +1 enhancement bonus to its existing natural armor, and any creature attempting to grapple the hedgehog takes 1d3 damage on making a grapple check. While rolled up, a hedgehog cannot take any action other than leaving this state. The hedgehog can leave this state as a move action.",
+        "sourceReference": "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Hedgehog/Special Abilities/Spiny Defense"
+      }
+    },
+    {
+      "id": "effect-water-dependency-ultimate-magic",
+      "category": "effect",
+      "name": "Water Dependency",
+      "description": "Crabs can survive out of the water for 1 hour per point of Constitution.",
+      "rulesData": {
+        "text": "Crabs can survive out of the water for 1 hour per point of Constitution. Beyond this limit, a crab runs the risk of suffocation, as if it were drowning.",
+        "sourceReference": "pfsrd://Ultimate Magic/Monsters/New Familiars/Small and Vermin Familiars/Familiar/Crab/King/Special Abilities/Water Dependency"
+      }
+    },
+    {
+      "id": "effect-deliver-touch-spells-ultimate-magic",
+      "category": "effect",
+      "name": "Deliver Touch Spells",
+      "description": "At 3rd level or higher, a gravewalker can use her poppet to deliver touch spells.",
+      "rulesData": {
+        "text": "At 3rd level or higher, a gravewalker can use her poppet to deliver touch spells. After casting a touch spell, as a full-round action, the witch can designate a target and stab a pin into her poppet, delivering the spell as a ranged touch attack. The target must be within range of her aura of desecration ability (see below).",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Witch/Witch Archetypes/Gravewalker/Spell Poppet/Deliver Touch Spells"
+      }
+    },
+    {
+      "id": "effect-force-athame",
+      "category": "effect",
+      "name": "Force Athame",
+      "description": "At 2nd level, a spellblade magus can sacrifice a prepared magus spell of 1st level or higher as a swift action to create a dagger of force in his off hand.",
+      "rulesData": {
+        "text": "At 2nd level, a spellblade magus can sacrifice a prepared magus spell of 1st level or higher as a swift action to create a dagger of force in his off hand. The athame lasts for 1 minute or until dismissed, has an enhancement bonus on attack and damage rolls equal to the level of the spell sacrificed (maximum +5), and is considered a weapon the spellblade is holding for purposes of his arcane pool feature (using the pool to add abilities to a held weapon applies to the magus's physical weapon and to the athame for no additional cost). The athame acts as a dagger, but the hand holding it is still considered free for the purpose of casting spells and delivering touch attacks. The magus can use the athame as if he were fighting with two weapons, or can use that hand to cast spells as part of the spell combat class ability (but not both in the same round). Attacks with the athame are force attacks and deal force damage. This ability replaces the spellstrike class feature.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Magus/Magus Archetypes/Spellblade/Force Athame"
+      }
+    },
+    {
+      "id": "effect-pool-sourced-athame",
+      "category": "effect",
+      "name": "Pool-Sourced Athame",
+      "description": "Instead of sacrificing a prepared spell to create the force athame, the magus can spend points from his arcane pool to do so.",
+      "rulesData": {
+        "text": "Instead of sacrificing a prepared spell to create the force athame, the magus can spend points from his arcane pool to do so. An athame created this way has an enhancement bonus equal to the number of arcane pool points spent.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Magus/Magus Archetypes/Spellblade/Spellblade Arcana/Pool-Sourced Athame"
+      }
+    },
+    {
+      "id": "effect-spellblade-parry",
+      "category": "effect",
+      "name": "Spellblade Parry",
+      "description": "When an enemy makes a melee attack roll against the magus, as an immediate action the magus can end the athame's duration to gain a deflection bonus to his Armor Class until the end of his next turn.",
+      "rulesData": {
+        "text": "When an enemy makes a melee attack roll against the magus, as an immediate action the magus can end the athame's duration to gain a deflection bonus to his Armor Class until the end of his next turn. This bonus is equal to the level of the spell sacrificed to create the athame (maximum +5).",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Magus/Magus Archetypes/Spellblade/Spellblade Arcana/Spellblade Parry"
+      }
+    },
+    {
+      "id": "effect-throw-athame",
+      "category": "effect",
+      "name": "Throw Athame",
+      "description": "As a standard action, a spellblade magus can throw his athame up to 60 feet as a ranged attack (no range penalty).",
+      "rulesData": {
+        "text": "As a standard action, a spellblade magus can throw his athame up to 60 feet as a ranged attack (no range penalty). If the athame misses, it returns automatically to the magus' hand just before his next turn. If the athame hits, it deals damage and its duration ends; the magus can choose to spend up to 2 points from his arcane pool to increase the thrown athame's damage by +1d6 for each point spent.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Magus/Magus Archetypes/Spellblade/Spellblade Arcana/Throw Athame"
+      }
+    },
+    {
+      "id": "effect-quarterstaff-defense",
+      "category": "effect",
+      "name": "Quarterstaff Defense",
+      "description": "At 7th level, while wielding a quarterstaff, the staff magus gains a shield bonus to his Armor Class equal to the enhancement bonus of the quarterstaff, including any enhancement bonus on that staff from his arcane pool class feature.",
+      "rulesData": {
+        "text": "At 7th level, while wielding a quarterstaff, the staff magus gains a shield bonus to his Armor Class equal to the enhancement bonus of the quarterstaff, including any enhancement bonus on that staff from his arcane pool class feature. At 13th level, this bonus increases by +3. This ability replaces the medium armor and heavy armor class abilities.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Magus/Magus Archetypes/Staff Magus/Quarterstaff Defense"
+      }
+    },
+    {
+      "id": "effect-quarterstaff-master",
+      "category": "effect",
+      "name": "Quarterstaff Master",
+      "description": "At 1st level, the staff magus gains the Quarterstaff Master feat as a bonus feat, even if he does not meet the normal prerequisites.",
+      "rulesData": {
+        "text": "At 1st level, the staff magus gains the Quarterstaff Master feat as a bonus feat, even if he does not meet the normal prerequisites. He only gains the benefit of this feat when wearing no armor or light armor.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Magus/Magus Archetypes/Staff Magus/Quarterstaff Master"
+      }
+    },
+    {
+      "id": "effect-staff-weapon",
+      "category": "effect",
+      "name": "Staff Weapon",
+      "description": "At 10th level, a staff magus treats any magical staff he is wielding as a magical quarterstaff with an enhancement bonus to attack and damage equal to the staff's caster level divided by 4 (minimum +1).",
+      "rulesData": {
+        "text": "At 10th level, a staff magus treats any magical staff he is wielding as a magical quarterstaff with an enhancement bonus to attack and damage equal to the staff's caster level divided by 4 (minimum +1). The staff must have at least 1 charge for the magus to use this ability. A staff magus can restore 1 charge to a staff by expending a number of points from his arcane pool equal to the level of the highest-level spell cast in the staff, as long as at least one spell in the staff is on the magus spell list. The magus cannot restore charges to more than one staff per day. This ability replaces fighter training.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Magus/Magus Archetypes/Staff Magus/Staff Weapon"
+      }
+    },
+    {
+      "id": "effect-eyes-of-the-storm-ultimate-magic",
+      "category": "effect",
+      "name": "Eyes of the Storm",
+      "description": "At 4th level, a storm druid can see through 10 feet of magical fog, mist, gas, wind, rain, or similar inclement weather conditions, ignoring any concealment it might grant.",
+      "rulesData": {
+        "text": "At 4th level, a storm druid can see through 10 feet of magical fog, mist, gas, wind, rain, or similar inclement weather conditions, ignoring any concealment it might grant. This distance increases by 5 feet for every 4 levels beyond 4th. This ability replaces resist nature's lure.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Eyes of the Storm"
+      }
+    },
+    {
+      "id": "effect-nature-bond-ultimate-magic",
+      "category": "effect",
+      "name": "Nature Bond",
+      "description": "A storm druid may not choose an animal companion.",
+      "rulesData": {
+        "text": "A storm druid may not choose an animal companion. A storm druid must choose the Air or Weather domain, or the Cloud, Storm, or Wind subdomain.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Nature Bond"
+      }
+    },
+    {
+      "id": "effect-storm-lord-ultimate-magic",
+      "category": "effect",
+      "name": "Storm Lord",
+      "description": "At 13th level, a storm druid is unaffected by natural and magical wind effects.",
+      "rulesData": {
+        "text": "At 13th level, a storm druid is unaffected by natural and magical wind effects. She also becomes immune to deafness and gains +2 bonus on saving throws against sonic effects. This ability replaces a thousand faces.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Storm Lord"
+      }
+    },
+    {
+      "id": "effect-stormvoice",
+      "category": "effect",
+      "name": "Stormvoice",
+      "description": "At 3rd level, a storm druid's voice can magically carry over howling winds and peals of thunder.",
+      "rulesData": {
+        "text": "At 3rd level, a storm druid's voice can magically carry over howling winds and peals of thunder. Whenever a Perception check is needed to hear the druid's voice, the DC is reduced by an amount equal to the druid's level. This ability replaces trackless step.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Stormvoice"
+      }
+    },
+    {
+      "id": "effect-windwalker",
+      "category": "effect",
+      "name": "Windwalker",
+      "description": "At 2nd level, the penalties from natural or magical wind effects are treated as one step less severe for a storm druid.",
+      "rulesData": {
+        "text": "At 2nd level, the penalties from natural or magical wind effects are treated as one step less severe for a storm druid. This ability replaces woodland stride.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Druid Archetypes/Storm Druid/Windwalker"
+      }
+    },
+    {
+      "id": "effect-natural-healing",
+      "category": "effect",
+      "name": "Natural Healing",
+      "description": "You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin.",
+      "rulesData": {
+        "text": "You can channel energy (as a cleric of your druid level) a number of times per day equal to 3 + your Charisma modifier, but only to heal animals, plants, and vermin. You may reduce the number of dice healed to cure ability damage (your choice) to all affected creatures, curing 1 point of ability damage for each d6 that the channel energy is reduced. You can take other feats to add to this ability, such as Extra Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Swamp Domain/Natural Healing"
+      }
+    },
+    {
+      "id": "effect-reed-hunter",
+      "category": "effect",
+      "name": "Reed Hunter",
+      "description": "At 6th level, you gain blindsense 30 feet with respect to concealment and cover from fog, vegetation, or water.",
+      "rulesData": {
+        "text": "At 6th level, you gain blindsense 30 feet with respect to concealment and cover from fog, vegetation, or water. At 12th level, this improves to blindsight 30 feet with respect to these conditions.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Swamp Domain/Reed Hunter"
+      }
+    },
+    {
+      "id": "effect-fused-link",
+      "category": "effect",
+      "name": "Fused Link",
+      "description": "Starting at 1st level, the synthesist forms a close bond with his eidolon.",
+      "rulesData": {
+        "text": "Starting at 1st level, the synthesist forms a close bond with his eidolon. Whenever the temporary hit points from his eidolon would be reduced to 0, the summoner can, as a free action, sacrifice any number of his own hit points. Each hit point sacrificed this way prevents 1 point of damage done to the eidolon (thus preventing the loss of the summoner's temporary hit points), preventing the eidolon from being killed and sent back to its home plane. This ability replaces life link.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Summoner/Summoner Archetypes/Synthesist/Fused Link"
+      }
+    },
+    {
+      "id": "effect-greater-shielded-meld",
+      "category": "effect",
+      "name": "Greater Shielded Meld",
+      "description": "At 12th level, whenever the synthesist is fused with his eidolon, he gains a +4 shield bonus to his Armor Class and a +4 circumstance bonus on his saving throws.",
+      "rulesData": {
+        "text": "At 12th level, whenever the synthesist is fused with his eidolon, he gains a +4 shield bonus to his Armor Class and a +4 circumstance bonus on his saving throws. This ability replaces greater shield ally.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Summoner/Summoner Archetypes/Synthesist/Greater Shielded Meld"
+      }
+    },
+    {
+      "id": "effect-maker-s-jump",
+      "category": "effect",
+      "name": "Maker's Jump",
+      "description": "At 6th level, whenever the synthesist is fused with his eidolon, the synthesist can cast dimension door as a spell-like ability using his caster level.",
+      "rulesData": {
+        "text": "At 6th level, whenever the synthesist is fused with his eidolon, the synthesist can cast dimension door as a spell-like ability using his caster level. This ability only affects the fused synthesist and eidolon. The synthesist can use this ability once per day at 6th level, plus one additional time per day for every six levels beyond 6th. This ability replaces maker's call and transposition.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Summoner/Summoner Archetypes/Synthesist/Makers Jump"
+      }
+    },
+    {
+      "id": "effect-shielded-meld",
+      "category": "effect",
+      "name": "Shielded Meld",
+      "description": "At 4th level, whenever the synthesist is fused with his eidolon, he gains a +2 shield bonus to his Armor Class and a +2 circumstance bonus on his saving throws.",
+      "rulesData": {
+        "text": "At 4th level, whenever the synthesist is fused with his eidolon, he gains a +2 shield bonus to his Armor Class and a +2 circumstance bonus on his saving throws. This ability replaces shield ally.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Summoner/Summoner Archetypes/Synthesist/Shielded Meld"
+      }
+    },
+    {
+      "id": "effect-split-forms",
+      "category": "effect",
+      "name": "Split Forms",
+      "description": "At 16th level, as a swift action, the synthesist and his fused eidolon can split into two creatures: the synthesist and the eidolon.",
+      "rulesData": {
+        "text": "At 16th level, as a swift action, the synthesist and his fused eidolon can split into two creatures: the synthesist and the eidolon. Both have the same evolutions. The synthesist emerges in a square adjacent to the eidolon if possible. All effects and spells currently targeting the fused synthesist-eidolon affect both the synthesist and the eidolon. The synthesist can use this ability for a number of rounds per day equal to his summoner level. He can end this effect at any time as a full-round action. For the duration of this effect, the eidolon functions as a normal eidolon of the summoner's class level. This ability replaces merge forms.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Summoner/Summoner Archetypes/Synthesist/Split Forms"
+      }
+    },
+    {
+      "id": "effect-domain-secret",
+      "category": "effect",
+      "name": "Domain Secret",
+      "description": "At 5th level, the theologian chooses one domain spell.",
+      "rulesData": {
+        "text": "At 5th level, the theologian chooses one domain spell. That spell becomes permanently modified with one of the following metamagic feats: Bouncing Spell, Disruptive Spell, Ectoplasmic Spell, Enlarge Spell, Extend Spell, Focused Spell, Intensified Spell, Silent Spell, Still Spell. This metamagic feat does not increase the level of the spell. Once chosen, this modification cannot be changed. The domain specialist need not have the metamagic feat to apply it to a spell using this ability. At every 5 levels after 5th, the domain specialist may choose an additional domain spell to modify in this way. She cannot modify the same spell more than once.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Cleric/Cleric Archetypes/Theologian/Domain Secret"
+      }
+    },
+    {
+      "id": "effect-corpse-companion",
+      "category": "effect",
+      "name": "Corpse Companion",
+      "description": "With a ritual requiring 8 hours, an undead lord can animate a single skeleton or zombie whose Hit Dice do not exceed her cleric level.",
+      "rulesData": {
+        "text": "With a ritual requiring 8 hours, an undead lord can animate a single skeleton or zombie whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed half her cleric level. She can dismiss her companion as a standard action, which destroys it.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Cleric/Cleric Archetypes/Undead Lord/Corpse Companion"
+      }
+    },
+    {
+      "id": "effect-unlife-healer",
+      "category": "effect",
+      "name": "Unlife Healer",
+      "description": "At 8th level, the undead lord's spells, spell-like abilities, and supernatural abilities used to heal undead heal an extra 50% damage.",
+      "rulesData": {
+        "text": "At 8th level, the undead lord's spells, spell-like abilities, and supernatural abilities used to heal undead heal an extra 50% damage. At 16th level, these effects automatically heal the maximum possible damage for the effect + the extra 50%. This does not stack with abilities or feats such as Empower Spell or Maximize Spell.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Cleric/Cleric Archetypes/Undead Lord/Unlife Healer"
+      }
+    },
+    {
+      "id": "effect-pack-tactics",
+      "category": "effect",
+      "name": "Pack Tactics",
+      "description": "At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are flanking (this applies even if that square is occupied by an object or creature).",
+      "rulesData": {
+        "text": "At 8th level, as a free action on your turn, you can designate an adjacent square; your attacks are treated as coming from that square for the purposes of determining whether or not you are flanking (this applies even if that square is occupied by an object or creature). This ends at the start of your next turn or if you move. If you are flanking a creature without using this ability, you may add your Wisdom bonus to your attack roll rather than the normal +2 flanking bonus. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Druid/Animal and Terrain Domains/Wolf Domain/Pack Tactics"
+      }
+    },
+    {
+      "id": "effect-cooperative-defense",
+      "category": "effect",
+      "name": "Cooperative Defense",
+      "description": "At 8th level, whenever a spell or effect targets you and one or more allies within 30 feet, you can use this ability to allow your allies to use your saving throw against the effect in place of their own.",
+      "rulesData": {
+        "text": "At 8th level, whenever a spell or effect targets you and one or more allies within 30 feet, you can use this ability to allow your allies to use your saving throw against the effect in place of their own. Each ally must make this choice individually before the rolls are made. Using this ability is an immediate action. You can use this ability once per day at 8th level, and one additional time per day for every four wizard levels beyond 8th.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Wizard/Elemental Wizard Schools/Wood/Cooperative Defense"
+      }
+    },
+    {
+      "id": "effect-flexible-enhancement",
+      "category": "effect",
+      "name": "Flexible Enhancement",
+      "description": "A master of the wood element is able to bend like bamboo when stressed and snap back into place.",
+      "rulesData": {
+        "text": "A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain a +1 enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. This bonus increases by +1 for every five wizard levels you possess to a maximum of +5 at 20th level. You can change this bonus to a new ability score when you prepare spells. At 20th level, this bonus applies to two of these ability scores of your choice.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Wizard/Elemental Wizard Schools/Wood/Flexible Enhancement"
+      }
+    },
+    {
+      "id": "effect-splintered-spear",
+      "category": "effect",
+      "name": "Splintered Spear",
+      "description": "As a standard action, you can create a wooden shortspear appropriate to your size, which hurls itself as a ranged attack against one target within 100 feet (range penalties apply), using your Intelligence modifier as an attack bonus instead of your Strength or Dexterity modifier.",
+      "rulesData": {
+        "text": "As a standard action, you can create a wooden shortspear appropriate to your size, which hurls itself as a ranged attack against one target within 100 feet (range penalties apply), using your Intelligence modifier as an attack bonus instead of your Strength or Dexterity modifier. The spear deals normal damage according to its size, plus your Intelligence modifier, then breaks into countless splinters; the target takes 1 point of bleed damage each round on its turn. At 6th-level and every 6 levels thereafter, the spear gains a +1 enhancement bonus and the bleed damage increases by +1. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+        "sourceReference": "pfsrd://Ultimate Magic/Rules/Spellcasting Class Options/Wizard/Elemental Wizard Schools/Wood/Splintered Spear"
+      }
+    }
+  ],
+  "distribution": {
+    "redistributionStatus": "verified",
+    "licenses": [
+      {
+        "id": "OGL-1.0a",
+        "name": "Open Game License v1.0a",
+        "text": "OPEN GAME LICENSE Version 1.0a\n\nThe following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.\n\n1. Definitions: (a) \"Contributors\" means the copyright and/or trademark owners who have contributed Open Game Content; (b) \"Derivative Material\" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) \"Distribute\" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d) \"Open Game Content\" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) \"Product Identity\" means product and product line names, logos and identifying marks including trade dress; artifacts, creatures, characters, stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) \"Trademark\" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) \"Use\", \"Used\" or \"Using\" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) \"You\" or \"Your\" means the licensee in terms of this agreement.\n\n2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.\n\n3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.\n\n4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.\n\n5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.\n\n6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.\n\n7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.\n\n8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.\n\n9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.\n\n10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You distribute.\n\n11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.\n\n12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.\n\n13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.\n\n14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.\n\n15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.\n\nPathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.\n\nPathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.\n\nPathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.\n\nPathfinder Roleplaying Game GameMastery Guide. © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.\n\nPathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Advanced Player's Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn\n\nPathfinder Roleplaying Game Advanced Race Guide. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.\n\nPathfinder Roleplaying Game Monster Codex. © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.\n\nPathfinder Roleplaying Game NPC Codex. © 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Occult Adventures. © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.\n\nPathfinder Roleplaying Game Pathfinder Unchained. © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Byers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.\n\nPathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Equipment. © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.\n\nPathfinder Campaign Setting: Technology Guide. © 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.\n\nAnger of Angels. © 2003, Sean K Reynolds.\n\nAdvanced Bestiary. © 2004, Green Ronin Publishing, LLC; Author: Matt Sernett.\n\nBook of Fiends. © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.\n\nThe Book of Hallowed Might. © 2002, Monte J. Cook.\n\nMonte Cook's Arcana Unearthed. © 2003, Monte J. Cook.\n\nPath of the Magi. © 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.\n\nSkreyn's Register: The Bonds of Magic. © 2002, Sean K Reynolds.\n\nThe Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.\n\nTome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.\n\nKobold Quarterly Issue 7, © 2008, Open Design LLC, www.koboldquarterly.com; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!\n\nThe Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nAerial Servant from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterseon, based on original material by Gary Gygax.\n\nAdherer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Guy Shearer.\n\nAmphisbaena from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAngel, Monadic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAngel, Movanic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAnimal Lord from the Tome of Horrors, Revised, © 2002, Necromancer Games,Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAscomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAtomie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAurumvorax from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAxe Beak from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBaphomet from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nBat, Mobat from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Peterson and Clark Peterson, based on original material by Gary Gygax.\n\nBeetle, Slicer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBlindheim from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nBasidirond from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBrownie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nBunyip from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Dermot Jackson.\n\nCarbuncle from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene, based on original material by Albie Fiore.\n\nCaryatid Column from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nCave Fisher from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nCrypt Thing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nCrystal Ooze from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDaemon, Ceustodaemon (Guardian Daemon) from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Derghodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Guardian from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Hydrodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Piscodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDark Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.\n\nDark Stalker from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nDeath Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.\n\nDeath Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley.\n\nDecapus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nDemodand, Shaggy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Slimy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Tarry from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon, Shadow from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.\n\nDemon, Nabasu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Kostchtchie from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Pazuzu from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDire Corby from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jeff Wyndham.\n\nDisenchanter from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nDragon, Faerie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Brian Jaeger and Gary Gygax.\n\nDragon Horse from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDracolisk from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDust Digger from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nExecutioner's Hood from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nFlail Snail from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Tilbrook.\n\nFlind and Flindbar from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.\n\nFlumph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian McDowell and Douglas Naismith.\n\nFroghemoth from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nFoo Creature from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nForlarren from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone.\n\nGenie, Marid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGiant Slug from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGiant, Wood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Wizards of the Coast.\n\nGloomwing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGrippli from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\nNereid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGryph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.\n\nHangman Tree from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nHippocampus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.\n\nHuecuva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Underworld Oracle.\n\nIce Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nIron Cobra from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.\n\nJackalwere from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nKamadan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Nick Louth.\n\nKech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nKelpie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nKorred from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLeprechaun from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLurker Above from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMagma ooze from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nMarid from the Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nMihstu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nMite from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.\n\nMongrelman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nMoon Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMuckdweller from the Tome of Horrors Complete, © 20111, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nNabasu Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nNecrophidius from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.\n\nNereid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPhycomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPoltergeist from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lewis Pulsipher.\n\nQuickling from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nQuickwood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nRot Grub from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.\n\nRusset Mold from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSandman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nScarecrow from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nShadow Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.\n\nSkulk from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nSlime Mold from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSlithering Tracker from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSoul Eater from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by David Cook.\n\nSpriggan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.\n\nTenebrous Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTentamort from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Mike Roberts.\n\nTick, Giant & Dragon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTrapper from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nTroll, Ice from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Russell Cole.\n\nTroll, Rock from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nVegepygmy from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWolf-In-Sheep's-Clothing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWood Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.\n\nYellow Musk Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYellow Musk Zombie from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYeti from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nZombie, Juju from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax."
+      }
+    ],
+    "notices": [
+      {
+        "id": "paizo-product-identity-and-open-content",
+        "type": "designation",
+        "text": "Product Identity: The following items are hereby identified as Product Identity, as defined in the Open Game License 1.0a, Section 1(e), and are not Open Content: All trademarks, registered trademarks, proper names (characters, deities, etc.), dialogue, plots, storylines, locations, characters, artworks, and trade dress. (Elements that have previously been designated as Open Game Content are not included in this declaration.)\n\nOpen Content: Except for material designated as Product Identity (see above), the game mechanics of this Paizo Publishing game product are Open Game Content, as defined in the Open Game License version 1.0a Section 1(d). No portion of this work other than the material designated as Open Game Content may be reproduced in any form without written permission."
+      },
+      {
+        "id": "official-ogl-source",
+        "type": "attribution",
+        "text": "Paizo Publishing, LLC, Open Game License source declaration: https://legacy.aonprd.com/openGameLicense.html"
+      },
+      {
+        "id": "prd-section15",
+        "type": "section15",
+        "text": "15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.\n\nPathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.\n\nPathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.\n\nPathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.\n\nPathfinder Roleplaying Game GameMastery Guide. © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.\n\nPathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Advanced Player's Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn\n\nPathfinder Roleplaying Game Advanced Race Guide. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.\n\nPathfinder Roleplaying Game Monster Codex. © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.\n\nPathfinder Roleplaying Game NPC Codex. © 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Occult Adventures. © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.\n\nPathfinder Roleplaying Game Pathfinder Unchained. © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Byers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.\n\nPathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Equipment. © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.\n\nPathfinder Campaign Setting: Technology Guide. © 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.\n\nAnger of Angels. © 2003, Sean K Reynolds.\n\nAdvanced Bestiary. © 2004, Green Ronin Publishing, LLC; Author: Matt Sernett.\n\nBook of Fiends. © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.\n\nThe Book of Hallowed Might. © 2002, Monte J. Cook.\n\nMonte Cook's Arcana Unearthed. © 2003, Monte J. Cook.\n\nPath of the Magi. © 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.\n\nSkreyn's Register: The Bonds of Magic. © 2002, Sean K Reynolds.\n\nThe Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.\n\nTome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.\n\nKobold Quarterly Issue 7, © 2008, Open Design LLC, www.koboldquarterly.com; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!\n\nThe Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nAerial Servant from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterseon, based on original material by Gary Gygax.\n\nAdherer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Guy Shearer.\n\nAmphisbaena from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAngel, Monadic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAngel, Movanic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAnimal Lord from the Tome of Horrors, Revised, © 2002, Necromancer Games,Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAscomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAtomie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAurumvorax from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAxe Beak from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBaphomet from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nBat, Mobat from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Peterson and Clark Peterson, based on original material by Gary Gygax.\n\nBeetle, Slicer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBlindheim from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nBasidirond from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBrownie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nBunyip from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Dermot Jackson.\n\nCarbuncle from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene, based on original material by Albie Fiore.\n\nCaryatid Column from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nCave Fisher from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nCrypt Thing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nCrystal Ooze from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDaemon, Ceustodaemon (Guardian Daemon) from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Derghodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Guardian from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Hydrodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Piscodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDark Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.\n\nDark Stalker from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nDeath Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.\n\nDeath Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley.\n\nDecapus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nDemodand, Shaggy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Slimy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Tarry from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon, Shadow from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.\n\nDemon, Nabasu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Kostchtchie from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Pazuzu from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDire Corby from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jeff Wyndham.\n\nDisenchanter from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nDragon, Faerie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Brian Jaeger and Gary Gygax.\n\nDragon Horse from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDracolisk from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDust Digger from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nExecutioner's Hood from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nFlail Snail from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Tilbrook.\n\nFlind and Flindbar from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.\n\nFlumph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian McDowell and Douglas Naismith.\n\nFroghemoth from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nFoo Creature from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nForlarren from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone.\n\nGenie, Marid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGiant Slug from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGiant, Wood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Wizards of the Coast.\n\nGloomwing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGrippli from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\nNereid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGryph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.\n\nHangman Tree from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nHippocampus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.\n\nHuecuva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Underworld Oracle.\n\nIce Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nIron Cobra from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.\n\nJackalwere from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nKamadan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Nick Louth.\n\nKech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nKelpie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nKorred from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLeprechaun from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLurker Above from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMagma ooze from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nMarid from the Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nMihstu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nMite from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.\n\nMongrelman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nMoon Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMuckdweller from the Tome of Horrors Complete, © 20111, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nNabasu Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nNecrophidius from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.\n\nNereid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPhycomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPoltergeist from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lewis Pulsipher.\n\nQuickling from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nQuickwood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nRot Grub from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.\n\nRusset Mold from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSandman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nScarecrow from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nShadow Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.\n\nSkulk from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nSlime Mold from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSlithering Tracker from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSoul Eater from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by David Cook.\n\nSpriggan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.\n\nTenebrous Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTentamort from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Mike Roberts.\n\nTick, Giant & Dragon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTrapper from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nTroll, Ice from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Russell Cole.\n\nTroll, Rock from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nVegepygmy from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWolf-In-Sheep's-Clothing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWood Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.\n\nYellow Musk Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYellow Musk Zombie from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYeti from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nZombie, Juju from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax."
+      }
+    ],
+    "sources": [
+      {
+        "id": "psrd-ultimate-magic",
+        "name": "Pathfinder Roleplaying Game Ultimate Magic",
+        "url": "https://github.com/devonjones/PSRD-Data/blob/76ea4784604145ba3dea40eb56f83bb904759467/book-um.db",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467",
+        "itemIds": [
+          "effect-aging-touch",
+          "effect-ancestral-weapon",
+          "effect-armor-mastery-ultimate-magic",
+          "effect-bend-the-grain",
+          "effect-blood-of-heroes",
+          "effect-brain-drain-ultimate-magic",
+          "effect-burden-of-sin",
+          "effect-cloak-of-darkness",
+          "effect-cooperative-defense",
+          "effect-corpse-companion",
+          "effect-dance-of-the-blades",
+          "effect-deliver-touch-spells-ultimate-magic",
+          "effect-domain-secret",
+          "effect-eat-sin",
+          "effect-enhance-healing",
+          "effect-erase-from-time",
+          "effect-eyes-of-the-storm-ultimate-magic",
+          "effect-flexible-enhancement",
+          "effect-force-athame",
+          "effect-fortune-ultimate-magic",
+          "effect-fused-link",
+          "effect-gift-of-madness",
+          "effect-gift-of-prophecy",
+          "effect-greater-shielded-meld",
+          "effect-guiding-star-ultimate-magic",
+          "effect-improved-scroll-casting",
+          "effect-ink-cloud-ultimate-magic",
+          "effect-interstellar-void-ultimate-magic",
+          "effect-iron-constitution",
+          "effect-iron-skin-ultimate-magic-2",
+          "effect-iron-weapon",
+          "effect-jet-ultimate-magic",
+          "effect-know-direction",
+          "effect-knowledge-of-the-ages",
+          "effect-lignification",
+          "effect-maker-s-jump",
+          "effect-many-forms-ultimate-magic",
+          "effect-mental-acuity-ultimate-magic",
+          "effect-misfortune-ultimate-magic",
+          "effect-momentary-glimpse",
+          "effect-natural-divination-ultimate-magic",
+          "effect-natural-healing",
+          "effect-nature-bond-ultimate-magic",
+          "effect-pack-tactics",
+          "effect-phantom-touch",
+          "effect-pierce-the-veil",
+          "effect-planar-resistance",
+          "effect-poison-ultimate-magic",
+          "effect-poison-ultimate-magic-2",
+          "effect-poison-ultimate-magic-3",
+          "effect-pool-sourced-athame",
+          "effect-quarterstaff-defense",
+          "effect-quarterstaff-master",
+          "effect-read-the-tapestry",
+          "effect-reed-hunter",
+          "effect-rewind-time",
+          "effect-riddle-of-steel",
+          "effect-rusting-grasp",
+          "effect-sacred-council",
+          "effect-scroll-blade",
+          "effect-scroll-shield",
+          "effect-sea-creature-empathy",
+          "effect-shell-retreat",
+          "effect-shielded-meld",
+          "effect-slither",
+          "effect-speak-with-dead-ultimate-magic",
+          "effect-speak-with-wood",
+          "effect-speed-or-slow-time",
+          "effect-spellblade-parry",
+          "effect-spiny-defense",
+          "effect-spirit-of-the-warrior",
+          "effect-spirit-shield",
+          "effect-spirit-walk-ultimate-magic",
+          "effect-splintered-spear",
+          "effect-split-forms",
+          "effect-staff-weapon",
+          "effect-star-chart-ultimate-magic",
+          "effect-steel-scarf",
+          "effect-storm-lord-ultimate-magic",
+          "effect-storm-of-souls",
+          "effect-stormvoice",
+          "effect-temporal-celerity",
+          "effect-thorn-burst",
+          "effect-throw-athame",
+          "effect-time-flicker",
+          "effect-time-hop",
+          "effect-time-sight",
+          "effect-totem-transformation-ultimate-magic-2",
+          "effect-totem-transformation-ultimate-magic-3",
+          "effect-totemic-summons-ultimate-magic-2",
+          "effect-totemic-summons-ultimate-magic-3",
+          "effect-touch-of-the-void",
+          "effect-tree-form",
+          "effect-two-minds",
+          "effect-unlife-healer",
+          "effect-venom-immunity-ultimate-magic",
+          "effect-vision-in-iron",
+          "effect-voice-of-the-grave-ultimate-magic",
+          "effect-water-dependency-ultimate-magic",
+          "effect-wild-empathy-ultimate-magic-2",
+          "effect-wild-empathy-ultimate-magic-3",
+          "effect-wild-shape-ultimate-magic-2",
+          "effect-wild-shape-ultimate-magic-3",
+          "effect-wild-shape-ultimate-magic-4",
+          "effect-windwalker",
+          "effect-wings-of-darkness",
+          "effect-wisdom-of-the-ancestors",
+          "effect-wood-armor",
+          "effect-wood-bond",
+          "effect-wood-sight",
+          "effect-wooden-weapon",
+          "effect-woodland-stride-ultimate-magic"
+        ]
+      }
+    ]
+  }
+}

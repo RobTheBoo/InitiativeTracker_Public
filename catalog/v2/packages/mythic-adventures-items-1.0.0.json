@@ -1,0 +1,2364 @@
+{
+  "schemaVersion": 2,
+  "id": "mythic-adventures-items",
+  "name": "Mythic Adventures: game items",
+  "ruleset": {
+    "id": "PTFD",
+    "edition": "1e"
+  },
+  "items": [
+    {
+      "id": "item-ambrosia-mythic-adventures",
+      "category": "item",
+      "name": "Ambrosia",
+      "description": "Mundane equipment entry; price 10,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong conjuration",
+          "slot": "none",
+          "casterLevel": "18th",
+          "price": "10,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 5,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, greater heroism, heal",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Ambrosia"
+      }
+    },
+    {
+      "id": "item-anchoring-belt",
+      "category": "item",
+      "name": "Anchoring Belt",
+      "description": "Mundane equipment entry; price 60,000 gp, weight 10 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate abjuration",
+          "slot": "belt",
+          "casterLevel": "9th",
+          "price": "60,000 gp",
+          "weight": "10 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 30,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, bull's strength, dimensional anchor",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Anchoring Belt"
+      }
+    },
+    {
+      "id": "item-bastion-of-the-inheritor",
+      "category": "item",
+      "name": "Bastion of the Inheritor",
+      "description": "Mundane equipment entry; price 22,170 gp, weight 15 lbs.",
+      "rulesData": {
+        "group": "Specific Armors and Shields",
+        "details": {
+          "aura": "faint abjuration",
+          "slot": "shield",
+          "casterLevel": "5th",
+          "price": "22,170 gp",
+          "weight": "15 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 11,170 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, magic circle against evil, remove fear, sanctify armor",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Armors and Shields/Bastion of the Inheritor"
+      }
+    },
+    {
+      "id": "item-blind-helm",
+      "category": "item",
+      "name": "Blind Helm",
+      "description": "Mundane equipment entry; price 85,000 gp, weight 3 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong divination",
+          "slot": "head",
+          "casterLevel": "13th",
+          "price": "85,000 gp",
+          "weight": "3 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 42,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, echolocation, true seeing",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Blind Helm"
+      }
+    },
+    {
+      "id": "item-book-of-banishing",
+      "category": "item",
+      "name": "Book of Banishing",
+      "description": "Mundane equipment entry; price 50,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong abjuration",
+          "slot": "none",
+          "casterLevel": "18th",
+          "price": "50,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 25,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Creator, banishment, any one of cloak of chaos, holy aura, shield of law, or unholy aura",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Book of Banishing"
+      }
+    },
+    {
+      "id": "item-book-of-perfect-jokes",
+      "category": "item",
+      "name": "Book of Perfect Jokes",
+      "description": "Mundane equipment entry; price 27,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate enchantment",
+          "slot": "none",
+          "casterLevel": "8th",
+          "price": "27,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 13,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, hideous laughter, rage",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Book of Perfect Jokes"
+      }
+    },
+    {
+      "id": "item-boots-of-earth-and-wind",
+      "category": "item",
+      "name": "Boots of Earth and Wind",
+      "description": "Mundane equipment entry; price 20,000 gp, weight 3 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "feet",
+          "casterLevel": "9th",
+          "price": "20,000 gp",
+          "weight": "3 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 10,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, entangle, fly",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Boots of Earth and Wind"
+      }
+    },
+    {
+      "id": "item-bountiful-bottle",
+      "category": "item",
+      "name": "Bountiful Bottle",
+      "description": "Mundane equipment entry; price 4,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "6th",
+          "price": "4,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 2,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, universal formula",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Bountiful Bottle"
+      }
+    },
+    {
+      "id": "item-bow-of-erastil",
+      "category": "item",
+      "name": "Bow of Erastil",
+      "description": "Mundane equipment entry; price 38,000 gp, weight 5 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong transmutation",
+          "slot": "none",
+          "casterLevel": "15th",
+          "price": "38,000 gp",
+          "weight": "5 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 19,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, clairaudience/clairvoyance, haste",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Bow of Erastil"
+      }
+    },
+    {
+      "id": "item-bracers-of-might",
+      "category": "item",
+      "name": "Bracers of Might",
+      "description": "Mundane equipment entry; price 10,000 gp, weight 1/2 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "wrists",
+          "casterLevel": "10th",
+          "price": "10,000 gp",
+          "weight": "1/2 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 5,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, bull's strength",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Bracers of Might"
+      }
+    },
+    {
+      "id": "item-bracers-of-the-shield-mates",
+      "category": "item",
+      "name": "Bracers of the Shield Mates",
+      "description": "Mundane equipment entry; price 40,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate conjuration",
+          "slot": "wrists",
+          "casterLevel": "7th",
+          "price": "40,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "20,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Creator, dimension door, shield",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Bracers of the Shield Mates"
+      }
+    },
+    {
+      "id": "item-brutal-axe",
+      "category": "item",
+      "name": "Brutal Axe",
+      "description": "Mundane equipment entry; price 21,320 gp, weight 12 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "11th",
+          "price": "21,320 gp",
+          "weight": "12 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 12,320 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, bull's strength, ironwood",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Brutal Axe"
+      }
+    },
+    {
+      "id": "item-canopic-jar",
+      "category": "item",
+      "name": "Canopic Jar",
+      "description": "Mundane equipment entry; price 24,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong necromancy",
+          "slot": "none",
+          "casterLevel": "13th",
+          "price": "24,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 12,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, gentle repose, polymorph",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Canopic Jar"
+      }
+    },
+    {
+      "id": "item-cape-of-free-will",
+      "category": "item",
+      "name": "Cape of Free Will",
+      "description": "Mundane equipment entry; price Varies, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate abjuration",
+          "slot": "shoulders",
+          "casterLevel": "7th",
+          "price": "Varies",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "+1 bonus/+2 Will",
+            "value": "1,500 gp",
+            "subsection": "Cape of Free Will"
+          },
+          {
+            "field": "+2 bonus/+3 Will",
+            "value": "6,000 gp; +3 bonus/+4 Will 13,500 gp",
+            "subsection": "Cape of Free Will"
+          },
+          {
+            "field": "+4 bonus/+5 Will",
+            "value": "24,000 gp; +5 bonus/+6 Will 37,500 gp",
+            "subsection": "Cape of Free Will"
+          },
+          {
+            "field": "descriptor",
+            "value": "Cost Varies",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+1 bonus/+2 Will",
+            "value": "750 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+2 bonus/+3 Will",
+            "value": "3,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+3 bonus/+4 Will",
+            "value": "6,750 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+4 bonus/+5 Will",
+            "value": "12,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+5 bonus/+6 Will",
+            "value": "18,750 gpCraft Wondrous Item, Mythic Crafter, resistance, the creator must have the mythic saves ability",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Cape of Free Will"
+      }
+    },
+    {
+      "id": "item-cayden-s-cup",
+      "category": "item",
+      "name": "Cayden's Cup",
+      "description": "Mundane equipment entry; price 16,500 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "faint conjuration",
+          "slot": "none",
+          "casterLevel": "5th",
+          "price": "16,500 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 8,250 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft wondrous Item, Mythic Crafter, create food and water, heroism, neutralize poison",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Caydens Cup"
+      }
+    },
+    {
+      "id": "item-censer-of-sanctuary",
+      "category": "item",
+      "name": "Censer of Sanctuary",
+      "description": "Mundane equipment entry; price 18,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "faint abjuration",
+          "slot": "none",
+          "casterLevel": "3rd",
+          "price": "18,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 9,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Heighten Spell, Mythic Crafter, sanctuary",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Censer of Sanctuary"
+      }
+    },
+    {
+      "id": "item-chaos-hammer",
+      "category": "item",
+      "name": "Chaos Hammer",
+      "description": "Mundane equipment entry; price 38,312 gp, weight 10 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "moderate evocation [chaotic]",
+          "slot": "none",
+          "casterLevel": "9th",
+          "price": "38,312 gp",
+          "weight": "10 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 19,312 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, align weapon, chaos hammer, creator must be chaotic",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Chaos Hammer"
+      }
+    },
+    {
+      "id": "item-chime-of-disillusionment",
+      "category": "item",
+      "name": "Chime of Disillusionment",
+      "description": "Mundane equipment entry; price 35,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate enchantment",
+          "slot": "none",
+          "casterLevel": "9th",
+          "price": "35,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 17,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, calm emotions, darkness",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Chime of Disillusionment"
+      }
+    },
+    {
+      "id": "item-cloak-of-quick-reflexes",
+      "category": "item",
+      "name": "Cloak of Quick Reflexes",
+      "description": "Mundane equipment entry; price Varies.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "price": "Varies"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost Varies",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+1 bonus/+2 Reflex",
+            "value": "750 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+2 bonus/+3 Reflex",
+            "value": "3,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+3 bonus/+4 Reflex",
+            "value": "6,750 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+4 bonus/+5 Reflex",
+            "value": "12,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+5 bonus/+6 Reflex",
+            "value": "18,750 gp Craft Wondrous Item, Mythic Crafter, resistance, the creator must have the mythic saves ability",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Cloak of Quick Reflexes"
+      }
+    },
+    {
+      "id": "item-cloak-of-the-hunt",
+      "category": "item",
+      "name": "Cloak of the Hunt",
+      "description": "Mundane equipment entry; price 12,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong illusion",
+          "slot": "shoulders",
+          "casterLevel": "12th",
+          "price": "12,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 6,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, greater invisibility",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Cloak of the Hunt"
+      }
+    },
+    {
+      "id": "item-cornucopia-of-plenty",
+      "category": "item",
+      "name": "Cornucopia of Plenty",
+      "description": "Mundane equipment entry; price 35,000 gp, weight 5 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate conjuration",
+          "slot": "none",
+          "casterLevel": "11th",
+          "price": "35,000 gp",
+          "weight": "5 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 17,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, create food and water, heroes' feast",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Cornucopia of Plenty"
+      }
+    },
+    {
+      "id": "item-dagger-of-a-thousand-bites",
+      "category": "item",
+      "name": "Dagger of a Thousand Bites",
+      "description": "Mundane equipment entry; price 24,502 gp, weight 1/2 lb.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong conjuration",
+          "slot": "none",
+          "casterLevel": "18th",
+          "price": "24,502 gp",
+          "weight": "1/2 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 12,502 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, greater magic weapon, keen edge, telekinesis",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Dagger of a Thousand Bites"
+      }
+    },
+    {
+      "id": "item-death-warden-s-bandolier",
+      "category": "item",
+      "name": "Death Warden's Bandolier",
+      "description": "Mundane equipment entry; price 15,000 gp, weight 3 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate necromancy [good]",
+          "slot": "chest",
+          "casterLevel": "11th",
+          "price": "15,000 gp",
+          "weight": "3 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 7,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, death ward, ghostbane dirge, holy smite",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Death Wardens Bandolier"
+      }
+    },
+    {
+      "id": "item-deflecting",
+      "category": "item",
+      "name": "Deflecting",
+      "description": "Mundane equipment entry; price +3 bonus.",
+      "rulesData": {
+        "group": "Armor and Shield Special Abilities",
+        "details": {
+          "aura": "strong abjuration",
+          "casterLevel": "13th",
+          "price": "+3 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost +3 bonus",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, deflection",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Armor and Shield Special Abilities/Deflecting"
+      }
+    },
+    {
+      "id": "item-denying",
+      "category": "item",
+      "name": "Denying",
+      "description": "Mundane equipment entry; price +4 bonus.",
+      "rulesData": {
+        "group": "Armor and Shield Special Abilities",
+        "details": {
+          "aura": "strong abjuration",
+          "casterLevel": "13th",
+          "price": "+4 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost +4 bonus",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, limited wish or miracle",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Armor and Shield Special Abilities/Denying"
+      }
+    },
+    {
+      "id": "item-disjoining",
+      "category": "item",
+      "name": "Disjoining",
+      "description": "Mundane equipment entry; price +1 bonus.",
+      "rulesData": {
+        "group": "Weapon Special Abilities",
+        "details": {
+          "aura": "moderate necromancy",
+          "casterLevel": "7th",
+          "price": "+1 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost +1 bonus",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, mythic severance",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Weapon Special Abilities/Disjoining"
+      }
+    },
+    {
+      "id": "item-dolorous-rod",
+      "category": "item",
+      "name": "Dolorous Rod",
+      "description": "Mundane equipment entry; price 120,000 gp, weight 5 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate enchantment and necromancy",
+          "slot": "none",
+          "casterLevel": "10th",
+          "price": "120,000 gp",
+          "weight": "5 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 60,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Rod, Mythic Crafter, bestow curse, crushing despair",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Dolorous Rod"
+      }
+    },
+    {
+      "id": "item-dragonbreath-bow",
+      "category": "item",
+      "name": "Dragonbreath Bow",
+      "description": "Mundane equipment entry; price 50,375 gp, weight 3 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong evocation",
+          "slot": "none",
+          "casterLevel": "14th",
+          "price": "50,375 gp",
+          "weight": "3 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 25,375 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, flame strike, scorching ray",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Dragonbreath Bow"
+      }
+    },
+    {
+      "id": "item-everburning-lantern",
+      "category": "item",
+      "name": "Everburning Lantern",
+      "description": "Mundane equipment entry; price 3,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate evocation",
+          "slot": "none",
+          "casterLevel": "6th",
+          "price": "3,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 1,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, mythic daylight",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Everburning Lantern"
+      }
+    },
+    {
+      "id": "item-eye-orb",
+      "category": "item",
+      "name": "Eye Orb",
+      "description": "Mundane equipment entry; price 80,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate divination",
+          "slot": "none",
+          "casterLevel": "9th",
+          "price": "80,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 40,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, darkvision, true seeing",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Eye Orb"
+      }
+    },
+    {
+      "id": "item-figurine-of-wondrous-power-basalt-dragon",
+      "category": "item",
+      "name": "Figurine of Wondrous Power, Basalt Dragon",
+      "description": "Mundane equipment entry; price 60,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong transmutation",
+          "slot": "none",
+          "casterLevel": "20th",
+          "price": "60,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 30,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, animate objects, form of the dragon III, telepathic bond",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Figurine of Wondrous Power/Basalt Dragon"
+      }
+    },
+    {
+      "id": "item-fire-goddess-s-blade",
+      "category": "item",
+      "name": "Fire Goddess's Blade",
+      "description": "Mundane equipment entry; price 33,315 gp, weight 4 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong conjuration and transmutation",
+          "slot": "none",
+          "casterLevel": "18th",
+          "price": "33,315 gp",
+          "weight": "4 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 16,815 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, flame blade, greater magic weapon",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Fire Goddesss Blade"
+      }
+    },
+    {
+      "id": "item-gallows-rope",
+      "category": "item",
+      "name": "Gallows Rope",
+      "description": "Mundane equipment entry; price 18,000 gp, weight 4 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate necromancy",
+          "slot": "neck",
+          "casterLevel": "9th",
+          "price": "18,000 gp",
+          "weight": "4 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 9,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, mythic regenerate",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Gallows Rope"
+      }
+    },
+    {
+      "id": "item-gloves-of-distant-action",
+      "category": "item",
+      "name": "Gloves of Distant Action",
+      "description": "Mundane equipment entry; price 20,000 gp, weight -.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "hands",
+          "casterLevel": "9th",
+          "price": "20,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 10,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, mage hand, telekinesis",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Gloves of Distant Action"
+      }
+    },
+    {
+      "id": "item-gloves-of-spell-snaring",
+      "category": "item",
+      "name": "Gloves of Spell Snaring",
+      "description": "Mundane equipment entry; price 9,000 gp, weight -.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong abjuration",
+          "slot": "hands",
+          "casterLevel": "13th",
+          "price": "9,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 4,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, shield, spell turning, creator must have the parry spell path ability",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Gloves of Spell Snaring"
+      }
+    },
+    {
+      "id": "item-golden-holy-symbol",
+      "category": "item",
+      "name": "Golden Holy Symbol",
+      "description": "Mundane equipment entry; price 10,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate conjuration",
+          "slot": "neck",
+          "casterLevel": "10th",
+          "price": "10,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 5,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, cure critical wounds",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Golden Holy Symbol"
+      }
+    },
+    {
+      "id": "item-gun-with-no-name",
+      "category": "item",
+      "name": "Gun With No Name",
+      "description": "Mundane equipment entry; price 98,300 gp, weight 5 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "moderate abjuration and conjuration",
+          "slot": "none",
+          "casterLevel": "9th",
+          "price": "98,300 gp",
+          "weight": "5 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 50,800 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, divine favor, nondetection",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Gun With No Name"
+      }
+    },
+    {
+      "id": "item-harvesting",
+      "category": "item",
+      "name": "Harvesting",
+      "description": "Mundane equipment entry; price +2 bonus.",
+      "rulesData": {
+        "group": "Weapon Special Abilities",
+        "details": {
+          "aura": "moderate necromancy",
+          "casterLevel": "9th",
+          "price": "+2 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost +2 bonus",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, steal power",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Weapon Special Abilities/Harvesting"
+      }
+    },
+    {
+      "id": "item-headband-of-sealed-thoughts",
+      "category": "item",
+      "name": "Headband of Sealed Thoughts",
+      "description": "Mundane equipment entry; price 150,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong abjuration",
+          "slot": "headband",
+          "casterLevel": "15th",
+          "price": "150,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 75,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, fox's cunning, mind blank, spell turning",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Headband of Sealed Thoughts"
+      }
+    },
+    {
+      "id": "item-helm-of-the-serpent-king",
+      "category": "item",
+      "name": "Helm of the Serpent King",
+      "description": "Mundane equipment entry; price 96,000 gp, weight 3 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "faint transmutation",
+          "slot": "head",
+          "casterLevel": "5th",
+          "price": "96,000 gp",
+          "weight": "3 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 48,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, beast shape III, summon nature's ally III",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Helm of the Serpent King"
+      }
+    },
+    {
+      "id": "item-herbs-of-the-primal-beast",
+      "category": "item",
+      "name": "Herbs of the Primal Beast",
+      "description": "Mundane equipment entry; price 1,400 gp, weight 1/2 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "7th",
+          "price": "1,400 gp",
+          "weight": "1/2 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 700 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, beast shape II",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Herbs of the Primal Beast"
+      }
+    },
+    {
+      "id": "item-immolation-cloak",
+      "category": "item",
+      "name": "Immolation Cloak",
+      "description": "Mundane equipment entry; price 65,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate evocation",
+          "slot": "shoulders",
+          "casterLevel": "6th",
+          "price": "65,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 32,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, detonate, fire shield, resist fire",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Immolation Cloak"
+      }
+    },
+    {
+      "id": "item-inescapable-gloves",
+      "category": "item",
+      "name": "Inescapable Gloves",
+      "description": "Mundane equipment entry; price 9,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate abjuration",
+          "slot": "hands",
+          "casterLevel": "7th",
+          "price": "9,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 4,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, dimensional anchor, bull's strength",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Inescapable Gloves"
+      }
+    },
+    {
+      "id": "item-laurel-wreath",
+      "category": "item",
+      "name": "Laurel Wreath",
+      "description": "Mundane equipment entry; price 19,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "faint enchantment",
+          "slot": "head",
+          "casterLevel": "5th",
+          "price": "19,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 9,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, false hope, good hope",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Laurel Wreath"
+      }
+    },
+    {
+      "id": "item-lyre-of-storms",
+      "category": "item",
+      "name": "Lyre of Storms",
+      "description": "Mundane equipment entry; price 65,000 gp, weight 5 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "none",
+          "casterLevel": "7th",
+          "price": "65,000 gp",
+          "weight": "5 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 32,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, call lightning, control weather, water walk",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Lyre of Storms"
+      }
+    },
+    {
+      "id": "item-mantle-of-the-faithful-vessel",
+      "category": "item",
+      "name": "Mantle of the Faithful Vessel",
+      "description": "Mundane equipment entry; price 10,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "faint enchantment and necromancy",
+          "slot": "chest",
+          "casterLevel": "3rd",
+          "price": "10,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 5,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, bestow curse, bless, channel energy class feature",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Mantle of the Faithful Vessel"
+      }
+    },
+    {
+      "id": "item-mirroring-belt",
+      "category": "item",
+      "name": "Mirroring Belt",
+      "description": "Mundane equipment entry; price 36,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate illusion",
+          "slot": "belt",
+          "casterLevel": "6th",
+          "price": "36,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 18,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, cat's grace, mirror image",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Mirroring Belt"
+      }
+    },
+    {
+      "id": "item-mithral-rose",
+      "category": "item",
+      "name": "Mithral Rose",
+      "description": "Mundane equipment entry; price 9,000 gp, weight -.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "faint transmutation",
+          "slot": "none",
+          "casterLevel": "5th",
+          "price": "9,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 4,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, magic weapon",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Mithral Rose"
+      }
+    },
+    {
+      "id": "item-monocle-of-unveiled-auras",
+      "category": "item",
+      "name": "Monocle of Unveiled Auras",
+      "description": "Mundane equipment entry; price 12,700 gp, weight -.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "faint divination",
+          "slot": "eyes",
+          "casterLevel": "5th",
+          "price": "12,700 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 6,350 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, arcane sight, see invisibility, and any one of the following: detect chaos, detect evil, detect good, detect law, or detect magic",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Monocle of Unveiled Auras"
+      }
+    },
+    {
+      "id": "item-moonstone-cat",
+      "category": "item",
+      "name": "Moonstone Cat",
+      "description": "Mundane equipment entry; price 12,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate enchantment",
+          "slot": "none",
+          "casterLevel": "7th",
+          "price": "12,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 6,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, mythic deep slumber",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Moonstone Cat"
+      }
+    },
+    {
+      "id": "item-mythic-bane",
+      "category": "item",
+      "name": "Mythic Bane",
+      "description": "Mundane equipment entry; price +1 bonus.",
+      "rulesData": {
+        "group": "Weapon Special Abilities",
+        "details": {
+          "aura": "moderate evocation",
+          "casterLevel": "8th",
+          "price": "+1 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost +1 bonus",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, divine favor",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Weapon Special Abilities/Mythic Bane"
+      }
+    },
+    {
+      "id": "item-necklace-of-spectral-strikes",
+      "category": "item",
+      "name": "Necklace of Spectral Strikes",
+      "description": "Mundane equipment entry; price 35,500 gp, weight -.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate evocation",
+          "slot": "neck",
+          "casterLevel": "9th",
+          "price": "35,500 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 17,750 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, magic weapon, plane shift",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Necklace of Spectral Strikes"
+      }
+    },
+    {
+      "id": "item-nectar-of-the-gods",
+      "category": "item",
+      "name": "Nectar of the Gods",
+      "description": "Mundane equipment entry; price 5,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong conjuration",
+          "slot": "none",
+          "casterLevel": "12th",
+          "price": "5,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 2,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, heroism",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Nectar of the Gods"
+      }
+    },
+    {
+      "id": "item-pauldrons-of-unflinching-fortitude",
+      "category": "item",
+      "name": "Pauldrons of Unflinching Fortitude",
+      "description": "Mundane equipment entry; price Varies, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate abjuration",
+          "slot": "shoulders",
+          "casterLevel": "7th",
+          "price": "Varies",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "+1 bonus/+2 Fortitude",
+            "value": "1,500 gp",
+            "subsection": "Pauldrons of Unflinching Fortitude"
+          },
+          {
+            "field": "+2 bonus/+3 Fortitude",
+            "value": "6,000 gp; +3 bonus/+4 Fortitude 13,500 gp",
+            "subsection": "Pauldrons of Unflinching Fortitude"
+          },
+          {
+            "field": "+4 bonus/+5 Fortitude",
+            "value": "24,000 gp; +5 bonus/+6 Fortitude 37,500 gp",
+            "subsection": "Pauldrons of Unflinching Fortitude"
+          },
+          {
+            "field": "descriptor",
+            "value": "Cost Varies",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+1 bonus/+2 Fortitude",
+            "value": "750 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+2 bonus/+3 Fortitude",
+            "value": "3,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+3 bonus/+4 Fortitude",
+            "value": "6,750 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+4 bonus/+5 Fortitude",
+            "value": "12,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "+5 bonus/+6 Fortitude",
+            "value": "18,750 gp Craft Wondrous Item, Mythic Crafter, resistance, the creator must have the mythic saves ability",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Pauldrons of Unflinching Fortitude"
+      }
+    },
+    {
+      "id": "item-penitent-s-robes",
+      "category": "item",
+      "name": "Penitent's Robes",
+      "description": "Mundane equipment entry; price 95,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong varied",
+          "slot": "body",
+          "casterLevel": "16th",
+          "price": "95,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 47,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, magic vestment, prayer, resistance",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Penitents Robes"
+      }
+    },
+    {
+      "id": "item-phoenix-cloak",
+      "category": "item",
+      "name": "Phoenix Cloak",
+      "description": "Mundane equipment entry; price 55,000 gp, weight 7 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "shoulders",
+          "casterLevel": "9th",
+          "price": "55,000 gp",
+          "weight": "7 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 27,500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, breath of life, elemental body II",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Phoenix Cloak"
+      }
+    },
+    {
+      "id": "item-pick-of-stonecleaving",
+      "category": "item",
+      "name": "Pick of Stonecleaving",
+      "description": "Mundane equipment entry; price 11,308 gp, weight 6 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "faint evocation",
+          "slot": "none",
+          "casterLevel": "5th",
+          "price": "11,308 gp",
+          "weight": "6 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 7,308 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, shatter",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Pick of Stonecleaving"
+      }
+    },
+    {
+      "id": "item-potent",
+      "category": "item",
+      "name": "Potent",
+      "description": "Mundane equipment entry; price +2 bonus.",
+      "rulesData": {
+        "group": "Weapon Special Abilities",
+        "details": {
+          "aura": "strong transmutation",
+          "casterLevel": "12th",
+          "price": "+2 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost +2 bonus",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, greater heroism, greater magic weapon",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Weapon Special Abilities/Potent"
+      }
+    },
+    {
+      "id": "item-resonating",
+      "category": "item",
+      "name": "Resonating",
+      "description": "Mundane equipment entry; price +1 bonus.",
+      "rulesData": {
+        "group": "Armor and Shield Special Abilities",
+        "details": {
+          "aura": "moderate abjuration",
+          "casterLevel": "7th",
+          "price": "+1 bonus"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost +1 bonus",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, lend power",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Armor and Shield Special Abilities/Resonating"
+      }
+    },
+    {
+      "id": "item-ring-of-energy-dampening",
+      "category": "item",
+      "name": "Ring of Energy Dampening",
+      "description": "Mundane equipment entry; price 31,500 gp, weight -.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate abjuration",
+          "slot": "ring",
+          "casterLevel": "10th",
+          "price": "31,500 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 15,750 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Forge Ring, Mythic Crafter, protection from energy, shield other",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Ring of Energy Dampening"
+      }
+    },
+    {
+      "id": "item-ring-of-transcendent-spells",
+      "category": "item",
+      "name": "Ring of Transcendent Spells",
+      "description": "Mundane equipment entry; price 30,000 gp, weight -.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "strong universal",
+          "slot": "ring",
+          "casterLevel": "13th",
+          "price": "30,000 gp",
+          "weight": "-"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 15,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Forge Ring, Mythic Crafter limited wish, mnemonic enhancer",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Ring of Transcendent Spells"
+      }
+    },
+    {
+      "id": "item-root-of-the-world-tree",
+      "category": "item",
+      "name": "Root of the World Tree",
+      "description": "Mundane equipment entry; price Varies.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "price": "Varies"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost Varies",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "Lesser",
+            "value": "150 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "Normal",
+            "value": "500 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "Greater",
+            "value": "1,250 gp Craft Wondrous Item, Mythic Crafter, Augment Summoning, heroism",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Root of the World Tree"
+      }
+    },
+    {
+      "id": "item-sacred-avenger",
+      "category": "item",
+      "name": "Sacred Avenger",
+      "description": "Mundane equipment entry; price 202,630 gp, weight 4 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong abjuration",
+          "slot": "none",
+          "casterLevel": "20th",
+          "price": "202,630 gp",
+          "weight": "4 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 102,630 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, gaseous form, greater dispel magic, holy aura, creator must be good",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Sacred Avenger"
+      }
+    },
+    {
+      "id": "item-sacrosanct",
+      "category": "item",
+      "name": "Sacrosanct",
+      "description": "Mundane equipment entry; price +5,000 gp.",
+      "rulesData": {
+        "group": "Weapon Special Abilities",
+        "details": {
+          "aura": "moderate evocation",
+          "casterLevel": "8th",
+          "price": "+5,000 gp"
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost +5,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, the crafter must be able to channel energy",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Weapon Special Abilities/Sacrosanct"
+      }
+    },
+    {
+      "id": "item-seven-league-boots",
+      "category": "item",
+      "name": "Seven-League Boots",
+      "description": "Mundane equipment entry; price 80,000 gp, weight 1 lb.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "feet",
+          "casterLevel": "10th",
+          "price": "80,000 gp",
+          "weight": "1 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 40,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, expeditious retreat, haste",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Seven-League Boots"
+      }
+    },
+    {
+      "id": "item-shadow-spike",
+      "category": "item",
+      "name": "Shadow Spike",
+      "description": "Mundane equipment entry; price 96,600 gp, weight 4 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong conjuration",
+          "slot": "none",
+          "casterLevel": "12th",
+          "price": "96,600 gp",
+          "weight": "4 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 48,600 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, cause fear, death knell, deeper darkness, plane shift",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Shadow Spike"
+      }
+    },
+    {
+      "id": "item-shadow-s-touch",
+      "category": "item",
+      "name": "Shadow's Touch",
+      "description": "Mundane equipment entry; price 102,962 gp, weight 1/2 lb.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong illusion",
+          "slot": "none",
+          "casterLevel": "13th",
+          "price": "102,962 gp",
+          "weight": "1/2 lb."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 51,632 gp",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Shadows Touch"
+      }
+    },
+    {
+      "id": "item-skirmishing-spear",
+      "category": "item",
+      "name": "Skirmishing Spear",
+      "description": "Mundane equipment entry; price 19,502 gp, weight 6 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "moderate conjuration",
+          "slot": "none",
+          "casterLevel": "7th",
+          "price": "19,502 gp",
+          "weight": "6 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 9,902 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, dimension door, telekinesis",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Skirmishing Spear"
+      }
+    },
+    {
+      "id": "item-spellbreaker",
+      "category": "item",
+      "name": "Spellbreaker",
+      "description": "Mundane equipment entry; price 71,600 gp, weight 4 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong abjuration",
+          "slot": "none",
+          "casterLevel": "12th",
+          "price": "71,600 gp",
+          "weight": "4 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 36,100 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, antimagic field",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Spellbreaker"
+      }
+    },
+    {
+      "id": "item-spiritwalk-armor",
+      "category": "item",
+      "name": "Spiritwalk Armor",
+      "description": "Mundane equipment entry; price 25,160 gp, weight 15 lbs.",
+      "rulesData": {
+        "group": "Specific Armors and Shields",
+        "details": {
+          "aura": "strong illusion and transmutation",
+          "slot": "armor",
+          "casterLevel": "11th",
+          "price": "25,160 gp",
+          "weight": "15 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 12,660 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, vanish, ethereal jaunt",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Armors and Shields/Spiritwalk Armor"
+      }
+    },
+    {
+      "id": "item-stalwart-breastplate",
+      "category": "item",
+      "name": "Stalwart Breastplate",
+      "description": "Mundane equipment entry; price 22,350 gp, weight 40 lbs.",
+      "rulesData": {
+        "group": "Specific Armors and Shields",
+        "details": {
+          "aura": "strong abjuration",
+          "slot": "armor",
+          "casterLevel": "13th",
+          "price": "22,350 gp",
+          "weight": "40 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 11,350 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, iron body, either limited wish or miracle",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Armors and Shields/Stalwart Breastplate"
+      }
+    },
+    {
+      "id": "item-stonefist-gloves",
+      "category": "item",
+      "name": "Stonefist Gloves",
+      "description": "Mundane equipment entry; price 10,000 gp, weight 3 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "moderate transmutation",
+          "slot": "hands",
+          "casterLevel": "7th",
+          "price": "10,000 gp",
+          "weight": "3 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 5,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Magic Arms and Armor, Mythic Crafter, stoneskin",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Stonefist Gloves"
+      }
+    },
+    {
+      "id": "item-stormcaller",
+      "category": "item",
+      "name": "Stormcaller",
+      "description": "Mundane equipment entry; price 98,302 gp, weight 6 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong evocation [electricity]",
+          "slot": "none",
+          "casterLevel": "13th",
+          "price": "98,302 gp",
+          "weight": "6 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 49,302 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, call lightning, control weather",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Stormcaller"
+      }
+    },
+    {
+      "id": "item-sword-of-inner-fire",
+      "category": "item",
+      "name": "Sword of Inner Fire",
+      "description": "Mundane equipment entry; price 151,315 gp, weight 4 lbs.",
+      "rulesData": {
+        "group": "Specific Weapons",
+        "details": {
+          "aura": "strong transmutation [fire]",
+          "slot": "none",
+          "casterLevel": "16th",
+          "price": "151,315 gp",
+          "weight": "4 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 75,815 gp",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Specific Weapons/Sword of Inner Fire"
+      }
+    },
+    {
+      "id": "item-torc-of-truespeech",
+      "category": "item",
+      "name": "Torc of Truespeech",
+      "description": "Mundane equipment entry; price 60,000 gp, weight 2 lbs.",
+      "rulesData": {
+        "group": "Other Magic Items",
+        "details": {
+          "aura": "faint divination",
+          "slot": "neck",
+          "casterLevel": "5th",
+          "price": "60,000 gp",
+          "weight": "2 lbs."
+        },
+        "tableFields": [
+          {
+            "field": "descriptor",
+            "value": "Cost 30,000 gp",
+            "subsection": "Construction Requirements"
+          },
+          {
+            "field": "descriptor",
+            "value": "Craft Wondrous Item, Mythic Crafter, speak with animals, speak with plants, tongues",
+            "subsection": "Construction Requirements"
+          }
+        ],
+        "sourceReference": "pfsrd://Mythic Adventures/Rules/Mythic Items/Magic Items/Other Magic Items/Torc of Truespeech"
+      }
+    }
+  ],
+  "distribution": {
+    "redistributionStatus": "verified",
+    "licenses": [
+      {
+        "id": "OGL-1.0a",
+        "name": "Open Game License v1.0a",
+        "text": "OPEN GAME LICENSE Version 1.0a\n\nThe following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.\n\n1. Definitions: (a) \"Contributors\" means the copyright and/or trademark owners who have contributed Open Game Content; (b) \"Derivative Material\" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) \"Distribute\" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d) \"Open Game Content\" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) \"Product Identity\" means product and product line names, logos and identifying marks including trade dress; artifacts, creatures, characters, stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) \"Trademark\" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) \"Use\", \"Used\" or \"Using\" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) \"You\" or \"Your\" means the licensee in terms of this agreement.\n\n2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.\n\n3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.\n\n4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.\n\n5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.\n\n6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.\n\n7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.\n\n8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.\n\n9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.\n\n10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You distribute.\n\n11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.\n\n12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.\n\n13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.\n\n14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.\n\n15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.\n\nPathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.\n\nPathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.\n\nPathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.\n\nPathfinder Roleplaying Game GameMastery Guide. © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.\n\nPathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Advanced Player's Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn\n\nPathfinder Roleplaying Game Advanced Race Guide. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.\n\nPathfinder Roleplaying Game Monster Codex. © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.\n\nPathfinder Roleplaying Game NPC Codex. © 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Occult Adventures. © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.\n\nPathfinder Roleplaying Game Pathfinder Unchained. © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Byers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.\n\nPathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Equipment. © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.\n\nPathfinder Campaign Setting: Technology Guide. © 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.\n\nAnger of Angels. © 2003, Sean K Reynolds.\n\nAdvanced Bestiary. © 2004, Green Ronin Publishing, LLC; Author: Matt Sernett.\n\nBook of Fiends. © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.\n\nThe Book of Hallowed Might. © 2002, Monte J. Cook.\n\nMonte Cook's Arcana Unearthed. © 2003, Monte J. Cook.\n\nPath of the Magi. © 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.\n\nSkreyn's Register: The Bonds of Magic. © 2002, Sean K Reynolds.\n\nThe Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.\n\nTome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.\n\nKobold Quarterly Issue 7, © 2008, Open Design LLC, www.koboldquarterly.com; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!\n\nThe Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nAerial Servant from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterseon, based on original material by Gary Gygax.\n\nAdherer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Guy Shearer.\n\nAmphisbaena from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAngel, Monadic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAngel, Movanic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAnimal Lord from the Tome of Horrors, Revised, © 2002, Necromancer Games,Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAscomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAtomie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAurumvorax from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAxe Beak from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBaphomet from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nBat, Mobat from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Peterson and Clark Peterson, based on original material by Gary Gygax.\n\nBeetle, Slicer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBlindheim from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nBasidirond from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBrownie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nBunyip from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Dermot Jackson.\n\nCarbuncle from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene, based on original material by Albie Fiore.\n\nCaryatid Column from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nCave Fisher from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nCrypt Thing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nCrystal Ooze from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDaemon, Ceustodaemon (Guardian Daemon) from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Derghodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Guardian from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Hydrodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Piscodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDark Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.\n\nDark Stalker from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nDeath Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.\n\nDeath Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley.\n\nDecapus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nDemodand, Shaggy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Slimy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Tarry from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon, Shadow from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.\n\nDemon, Nabasu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Kostchtchie from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Pazuzu from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDire Corby from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jeff Wyndham.\n\nDisenchanter from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nDragon, Faerie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Brian Jaeger and Gary Gygax.\n\nDragon Horse from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDracolisk from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDust Digger from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nExecutioner's Hood from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nFlail Snail from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Tilbrook.\n\nFlind and Flindbar from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.\n\nFlumph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian McDowell and Douglas Naismith.\n\nFroghemoth from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nFoo Creature from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nForlarren from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone.\n\nGenie, Marid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGiant Slug from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGiant, Wood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Wizards of the Coast.\n\nGloomwing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGrippli from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\nNereid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGryph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.\n\nHangman Tree from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nHippocampus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.\n\nHuecuva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Underworld Oracle.\n\nIce Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nIron Cobra from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.\n\nJackalwere from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nKamadan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Nick Louth.\n\nKech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nKelpie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nKorred from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLeprechaun from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLurker Above from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMagma ooze from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nMarid from the Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nMihstu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nMite from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.\n\nMongrelman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nMoon Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMuckdweller from the Tome of Horrors Complete, © 20111, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nNabasu Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nNecrophidius from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.\n\nNereid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPhycomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPoltergeist from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lewis Pulsipher.\n\nQuickling from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nQuickwood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nRot Grub from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.\n\nRusset Mold from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSandman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nScarecrow from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nShadow Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.\n\nSkulk from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nSlime Mold from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSlithering Tracker from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSoul Eater from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by David Cook.\n\nSpriggan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.\n\nTenebrous Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTentamort from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Mike Roberts.\n\nTick, Giant & Dragon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTrapper from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nTroll, Ice from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Russell Cole.\n\nTroll, Rock from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nVegepygmy from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWolf-In-Sheep's-Clothing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWood Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.\n\nYellow Musk Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYellow Musk Zombie from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYeti from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nZombie, Juju from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax."
+      }
+    ],
+    "notices": [
+      {
+        "id": "paizo-product-identity-and-open-content",
+        "type": "designation",
+        "text": "Product Identity: The following items are hereby identified as Product Identity, as defined in the Open Game License 1.0a, Section 1(e), and are not Open Content: All trademarks, registered trademarks, proper names (characters, deities, etc.), dialogue, plots, storylines, locations, characters, artworks, and trade dress. (Elements that have previously been designated as Open Game Content are not included in this declaration.)\n\nOpen Content: Except for material designated as Product Identity (see above), the game mechanics of this Paizo Publishing game product are Open Game Content, as defined in the Open Game License version 1.0a Section 1(d). No portion of this work other than the material designated as Open Game Content may be reproduced in any form without written permission."
+      },
+      {
+        "id": "official-ogl-source",
+        "type": "attribution",
+        "text": "Paizo Publishing, LLC, Open Game License source declaration: https://legacy.aonprd.com/openGameLicense.html"
+      },
+      {
+        "id": "prd-section15",
+        "type": "section15",
+        "text": "15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.\n\nPathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.\n\nPathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.\n\nPathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.\n\nPathfinder Roleplaying Game GameMastery Guide. © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.\n\nPathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Advanced Player's Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn\n\nPathfinder Roleplaying Game Advanced Race Guide. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.\n\nPathfinder Roleplaying Game Monster Codex. © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.\n\nPathfinder Roleplaying Game NPC Codex. © 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Occult Adventures. © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.\n\nPathfinder Roleplaying Game Pathfinder Unchained. © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Byers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.\n\nPathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Equipment. © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.\n\nPathfinder Campaign Setting: Technology Guide. © 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.\n\nAnger of Angels. © 2003, Sean K Reynolds.\n\nAdvanced Bestiary. © 2004, Green Ronin Publishing, LLC; Author: Matt Sernett.\n\nBook of Fiends. © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.\n\nThe Book of Hallowed Might. © 2002, Monte J. Cook.\n\nMonte Cook's Arcana Unearthed. © 2003, Monte J. Cook.\n\nPath of the Magi. © 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.\n\nSkreyn's Register: The Bonds of Magic. © 2002, Sean K Reynolds.\n\nThe Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.\n\nTome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.\n\nKobold Quarterly Issue 7, © 2008, Open Design LLC, www.koboldquarterly.com; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!\n\nThe Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nAerial Servant from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterseon, based on original material by Gary Gygax.\n\nAdherer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Guy Shearer.\n\nAmphisbaena from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAngel, Monadic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAngel, Movanic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAnimal Lord from the Tome of Horrors, Revised, © 2002, Necromancer Games,Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAscomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAtomie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAurumvorax from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAxe Beak from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBaphomet from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nBat, Mobat from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Peterson and Clark Peterson, based on original material by Gary Gygax.\n\nBeetle, Slicer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBlindheim from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nBasidirond from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBrownie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nBunyip from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Dermot Jackson.\n\nCarbuncle from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene, based on original material by Albie Fiore.\n\nCaryatid Column from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nCave Fisher from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nCrypt Thing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nCrystal Ooze from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDaemon, Ceustodaemon (Guardian Daemon) from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Derghodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Guardian from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Hydrodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Piscodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDark Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.\n\nDark Stalker from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nDeath Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.\n\nDeath Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley.\n\nDecapus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nDemodand, Shaggy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Slimy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Tarry from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon, Shadow from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.\n\nDemon, Nabasu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Kostchtchie from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Pazuzu from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDire Corby from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jeff Wyndham.\n\nDisenchanter from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nDragon, Faerie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Brian Jaeger and Gary Gygax.\n\nDragon Horse from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDracolisk from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDust Digger from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nExecutioner's Hood from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nFlail Snail from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Tilbrook.\n\nFlind and Flindbar from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.\n\nFlumph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian McDowell and Douglas Naismith.\n\nFroghemoth from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nFoo Creature from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nForlarren from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone.\n\nGenie, Marid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGiant Slug from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGiant, Wood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Wizards of the Coast.\n\nGloomwing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGrippli from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\nNereid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGryph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.\n\nHangman Tree from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nHippocampus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.\n\nHuecuva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Underworld Oracle.\n\nIce Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nIron Cobra from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.\n\nJackalwere from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nKamadan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Nick Louth.\n\nKech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nKelpie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nKorred from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLeprechaun from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLurker Above from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMagma ooze from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nMarid from the Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nMihstu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nMite from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.\n\nMongrelman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nMoon Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMuckdweller from the Tome of Horrors Complete, © 20111, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nNabasu Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nNecrophidius from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.\n\nNereid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPhycomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPoltergeist from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lewis Pulsipher.\n\nQuickling from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nQuickwood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nRot Grub from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.\n\nRusset Mold from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSandman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nScarecrow from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nShadow Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.\n\nSkulk from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nSlime Mold from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSlithering Tracker from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSoul Eater from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by David Cook.\n\nSpriggan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.\n\nTenebrous Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTentamort from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Mike Roberts.\n\nTick, Giant & Dragon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTrapper from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nTroll, Ice from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Russell Cole.\n\nTroll, Rock from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nVegepygmy from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWolf-In-Sheep's-Clothing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWood Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.\n\nYellow Musk Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYellow Musk Zombie from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYeti from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nZombie, Juju from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax."
+      }
+    ],
+    "sources": [
+      {
+        "id": "psrd-mythic-adventures",
+        "name": "Pathfinder Roleplaying Game Mythic Adventures",
+        "url": "https://github.com/devonjones/PSRD-Data/blob/76ea4784604145ba3dea40eb56f83bb904759467/book-ma.db",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467",
+        "itemIds": [
+          "item-ambrosia-mythic-adventures",
+          "item-anchoring-belt",
+          "item-bastion-of-the-inheritor",
+          "item-blind-helm",
+          "item-book-of-banishing",
+          "item-book-of-perfect-jokes",
+          "item-boots-of-earth-and-wind",
+          "item-bountiful-bottle",
+          "item-bow-of-erastil",
+          "item-bracers-of-might",
+          "item-bracers-of-the-shield-mates",
+          "item-brutal-axe",
+          "item-canopic-jar",
+          "item-cape-of-free-will",
+          "item-cayden-s-cup",
+          "item-censer-of-sanctuary",
+          "item-chaos-hammer",
+          "item-chime-of-disillusionment",
+          "item-cloak-of-quick-reflexes",
+          "item-cloak-of-the-hunt",
+          "item-cornucopia-of-plenty",
+          "item-dagger-of-a-thousand-bites",
+          "item-death-warden-s-bandolier",
+          "item-deflecting",
+          "item-denying",
+          "item-disjoining",
+          "item-dolorous-rod",
+          "item-dragonbreath-bow",
+          "item-everburning-lantern",
+          "item-eye-orb",
+          "item-figurine-of-wondrous-power-basalt-dragon",
+          "item-fire-goddess-s-blade",
+          "item-gallows-rope",
+          "item-gloves-of-distant-action",
+          "item-gloves-of-spell-snaring",
+          "item-golden-holy-symbol",
+          "item-gun-with-no-name",
+          "item-harvesting",
+          "item-headband-of-sealed-thoughts",
+          "item-helm-of-the-serpent-king",
+          "item-herbs-of-the-primal-beast",
+          "item-immolation-cloak",
+          "item-inescapable-gloves",
+          "item-laurel-wreath",
+          "item-lyre-of-storms",
+          "item-mantle-of-the-faithful-vessel",
+          "item-mirroring-belt",
+          "item-mithral-rose",
+          "item-monocle-of-unveiled-auras",
+          "item-moonstone-cat",
+          "item-mythic-bane",
+          "item-necklace-of-spectral-strikes",
+          "item-nectar-of-the-gods",
+          "item-pauldrons-of-unflinching-fortitude",
+          "item-penitent-s-robes",
+          "item-phoenix-cloak",
+          "item-pick-of-stonecleaving",
+          "item-potent",
+          "item-resonating",
+          "item-ring-of-energy-dampening",
+          "item-ring-of-transcendent-spells",
+          "item-root-of-the-world-tree",
+          "item-sacred-avenger",
+          "item-sacrosanct",
+          "item-seven-league-boots",
+          "item-shadow-s-touch",
+          "item-shadow-spike",
+          "item-skirmishing-spear",
+          "item-spellbreaker",
+          "item-spiritwalk-armor",
+          "item-stalwart-breastplate",
+          "item-stonefist-gloves",
+          "item-stormcaller",
+          "item-sword-of-inner-fire",
+          "item-torc-of-truespeech"
+        ]
+      }
+    ]
+  }
+}

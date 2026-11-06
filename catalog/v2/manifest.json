@@ -1,7 +1,7 @@
 {
   "$schema": "./manifest.schema.json",
   "schemaVersion": 2,
-  "catalogVersion": "2.9.0",
+  "catalogVersion": "2.19.0",
   "packages": [
     {
       "id": "core-reviewed-spells",
@@ -630,6 +630,1206 @@
       },
       "categories": [
         "spell"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-reviewed-conditions",
+      "name": "Core rules: general conditions",
+      "version": "1.0.0",
+      "description": "The 34 standard condition entries indexed under Conditions in the Core Rulebook.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/core-reviewed-conditions-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 87744,
+      "sha256": "950fe1d6082c64e11855b7d9a2e5b388412669b28c9bd962a8f408680c5ce5f0",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "condition"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects",
+      "name": "Generic effects, afflictions, and class features",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 364339,
+      "sha256": "acf87a1a2c07bec16a09fa7fc39879a28420e1851837b6738c86a70499873617",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch2",
+      "name": "Generic effects, afflictions, and class features (2)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch2-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 452019,
+      "sha256": "849ce0c1c9f53e65aee1e9672a9effd2210696a566b8663cd2e55e6b8c974432",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 2",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch3",
+      "name": "Generic effects, afflictions, and class features (3)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch3-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 418275,
+      "sha256": "6c516720efc6ad0268fcc92234cbdf0ddfd71708c501358934c92603f902ae3d",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 3",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch4",
+      "name": "Generic effects, afflictions, and class features (4)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch4-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 414281,
+      "sha256": "d3e984e31d0bea039641bb6960eeae73e8de557dea5b774e776c4c95d639df05",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 4",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch5",
+      "name": "Generic effects, afflictions, and class features (5)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch5-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 403900,
+      "sha256": "72cd93e32fe643aa14658aa5c707f6650d0afe61cab339f9099f8b4766373589",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 5",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch6",
+      "name": "Generic effects, afflictions, and class features (6)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch6-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 373027,
+      "sha256": "9b2564712446b004159d9e5cb6419cd1a5dea2a67c3def240857499ab6a3a7a9",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 6",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch7",
+      "name": "Generic effects, afflictions, and class features (7)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch7-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 357363,
+      "sha256": "5c931407ae7a25068bda26a2326f7723dbedcf4c9057de50e066ec5879bd9335",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 7",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch8",
+      "name": "Generic effects, afflictions, and class features (8)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch8-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 370242,
+      "sha256": "fbe8943d80e4d6b22a01e87140c3887493a3c7436025716854f80983a5fe3305",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 8",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch9",
+      "name": "Generic effects, afflictions, and class features (9)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch9-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 360721,
+      "sha256": "48987f4196611699891d3400e5bf1e49e4ff83f02e31283b5689f179b0414b88",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 9",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch10",
+      "name": "Generic effects, afflictions, and class features (10)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch10-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 366426,
+      "sha256": "27caddfe567fa513ccdaa9e52b66b5dc2f68c5b380e891bc5de6cdb310e95115",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 10",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch11",
+      "name": "Generic effects, afflictions, and class features (11)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch11-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 376306,
+      "sha256": "f81634ce8e110496f80d5907e40e27645a9403a77b01b7cf68fee9847e9f95f3",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 11",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch12",
+      "name": "Generic effects, afflictions, and class features (12)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch12-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 386357,
+      "sha256": "395b6952f23e89ba90c94dd5bca5e0ffa8a921f95544153bbb2466b921ab16cd",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 12",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch13",
+      "name": "Generic effects, afflictions, and class features (13)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch13-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 415224,
+      "sha256": "29e032a51580e459bb6064218e0f54260e86274cd4519507849acf287b6dde28",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 13",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch14",
+      "name": "Generic effects, afflictions, and class features (14)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch14-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 416545,
+      "sha256": "e262fe8e2a71647e2913e3da25a279a24d9cb02d24703564c2cf3c592464d356",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 14",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch15",
+      "name": "Generic effects, afflictions, and class features (15)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch15-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 402281,
+      "sha256": "af0ef504315b5110953854ad7d2db78d890733378b344cce82325867c45308c0",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 15",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-general-effects-batch16",
+      "name": "Generic effects, afflictions, and class features (16)",
+      "version": "1.0.0",
+      "description": "Open Game Content rules mechanics from Section 15-listed sources; reviewed exceptions and record-level decisions are in the coverage audit.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-general-effects-batch16-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 159455,
+      "sha256": "2ae8d570d3d78d8bc35fa61f2dc4879fbe1e3f99ec475d90aedb540f239978e0",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data rules and bestiaries snapshot, additional set 16",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "effect"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-generic-creatures",
+      "name": "Generic creature stat blocks",
+      "version": "1.0.0",
+      "description": "Creature game statistics from Section 15-listed sources; named PI entries and flavor prose are omitted.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-generic-creatures-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 635382,
+      "sha256": "37eeab2dfa6593db3e60668b1622c57aaea443c160cbe7626ee4e423ec7f717e",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiaries and rules supplements snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "creature"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-generic-creatures-batch2",
+      "name": "Generic creature stat blocks (2)",
+      "version": "1.0.0",
+      "description": "Creature game statistics from Section 15-listed sources; named PI entries and flavor prose are omitted.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-generic-creatures-batch2-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 667556,
+      "sha256": "e8fca6bf1d9ef71b59a09040617f0df539c5f4a2e9bb7a48eb356e6a0af1c3cf",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiaries and rules supplements snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "creature"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-generic-creatures-batch3",
+      "name": "Generic creature stat blocks (3)",
+      "version": "1.0.0",
+      "description": "Creature game statistics from Section 15-listed sources; named PI entries and flavor prose are omitted.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-generic-creatures-batch3-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 676959,
+      "sha256": "76376e698e2b04f18617c99b09aeb9d335c0aab55fb85d20ec5dbdc120d54184",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiaries and rules supplements snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "creature"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-generic-creatures-batch4",
+      "name": "Generic creature stat blocks (4)",
+      "version": "1.0.0",
+      "description": "Creature game statistics from Section 15-listed sources; named PI entries and flavor prose are omitted.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-generic-creatures-batch4-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 718655,
+      "sha256": "7ce5fdc2193a073c581f56639431a922d53d7c5de6e424d3fef890ec8dba66bc",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiaries and rules supplements snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "creature"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-generic-creatures-batch5",
+      "name": "Generic creature stat blocks (5)",
+      "version": "1.0.0",
+      "description": "Creature game statistics from Section 15-listed sources; named PI entries and flavor prose are omitted.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-generic-creatures-batch5-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 386789,
+      "sha256": "c22fc85626a17319462f87811563e8a6e84e04be5aca8af6c93322ee1f2d94a5",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiaries and rules supplements snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "creature"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-mundane-items",
+      "name": "Core rules: ordinary equipment",
+      "version": "1.0.0",
+      "description": "400 game item entries from Core Rulebook; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/core-mundane-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 432112,
+      "sha256": "3330224e43081a0ba1a601d8117dd3f314451fdea0afe6c74b919541007abfee",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-mundane-items-batch2",
+      "name": "Core rules: ordinary equipment, additional set 2",
+      "version": "1.0.0",
+      "description": "172 game item entries from Core Rulebook; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/core-mundane-items-batch2-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 225227,
+      "sha256": "b2f9acfb990c40debb73436501aeb01c09dad7f760eb27f943ed7d6108ead0d4",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "apg-mundane-items",
+      "name": "Advanced Player's Guide: ordinary equipment",
+      "version": "1.0.0",
+      "description": "239 game item entries from Advanced Player's Guide; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/apg-mundane-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 283055,
+      "sha256": "f74b75f589b4045a647cc836ced473134f7b82a942237c26fd466d0ae69ceb90",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Advanced Player's Guide snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "acg-mundane-items",
+      "name": "Advanced Class Guide: alchemical and adventuring equipment",
+      "version": "1.0.0",
+      "description": "191 game item entries from Advanced Class Guide; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/acg-mundane-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 203735,
+      "sha256": "b6bae3d4b78c3943e1a5e44701893e5e834df62b18b7ff91746d0d71e3bee83b",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Advanced Class Guide snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "advanced-race-guide-items",
+      "name": "Advanced Race Guide: game items",
+      "version": "1.0.0",
+      "description": "163 game item entries from Advanced Race Guide; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/advanced-race-guide-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 204998,
+      "sha256": "58f495d62d77dd1aa98a68973b45b2cdb73cbd0038e5b1f46a3b006b7f1bbe3c",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Advanced Race Guide snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-items",
+      "name": "Bestiary: game items",
+      "version": "1.0.0",
+      "description": "5 game item entries from Bestiary; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 63051,
+      "sha256": "503562e239a3aa0e3617e96c94e1e159eea727d8a9330d762afd23b636b86f6b",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiary snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-2-items",
+      "name": "Bestiary 2: game items",
+      "version": "1.0.0",
+      "description": "7 game item entries from Bestiary 2; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-2-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 65219,
+      "sha256": "6f601266d915d36c62c649cba4a6a0d0bb589e859b3b47f3eb80129efef6c8a2",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiary 2 snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-3-items",
+      "name": "Bestiary 3: game items",
+      "version": "1.0.0",
+      "description": "18 game item entries from Bestiary 3; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-3-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 71774,
+      "sha256": "e4b6ecd9a18aff489970250fa7c317dd344ac9799bc7864e852c5c1d311054ba",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiary 3 snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bestiary-4-items",
+      "name": "Bestiary 4: game items",
+      "version": "1.0.0",
+      "description": "15 game item entries from Bestiary 4; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/bestiary-4-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 72961,
+      "sha256": "016294390ca02fd6f5c00f371352d2742d4b799fa5ecb133961ae2a9c50bfea0",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Bestiary 4 snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "monster-codex-items",
+      "name": "Monster Codex: game items",
+      "version": "1.0.0",
+      "description": "50 game item entries from Monster Codex; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/monster-codex-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 95378,
+      "sha256": "63469e83b6d717599c91de2dbc6489bf37372567f3af74c05aeb545fd38d6516",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Monster Codex snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "mythic-adventures-items",
+      "name": "Mythic Adventures: game items",
+      "version": "1.0.0",
+      "description": "75 game item entries from Mythic Adventures; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/mythic-adventures-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 135986,
+      "sha256": "818dde92dbd58e601d2db49257a38942431f05eb30d53de59c6e09ed6c5301a0",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Mythic Adventures snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "ultimate-combat-general-equipment",
+      "name": "Ultimate Combat: general weapons and equipment",
+      "version": "1.0.0",
+      "description": "139 game item entries from Ultimate Combat; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/ultimate-combat-general-equipment-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 276460,
+      "sha256": "90f14f84e0975c53c93fa1bb631a1b257cb880768d03effd147a1dfe7d130571",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Ultimate Combat snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "ultimate-equipment-mundane-items",
+      "name": "Ultimate Equipment: ordinary equipment",
+      "version": "1.0.0",
+      "description": "400 game item entries from Ultimate Equipment; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/ultimate-equipment-mundane-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 420726,
+      "sha256": "c56b8ab07145da14a06eea96cad63fcd9e9745693a427ae169949b29d99ea582",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Ultimate Equipment snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "ultimate-equipment-mundane-items-batch2",
+      "name": "Ultimate Equipment: ordinary equipment, additional set 2",
+      "version": "1.0.0",
+      "description": "400 game item entries from Ultimate Equipment; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/ultimate-equipment-mundane-items-batch2-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 425901,
+      "sha256": "908870487f8a5fed0273672f43a20415e49d6e482137e8584ab1df2062c40175",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Ultimate Equipment snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "ultimate-equipment-mundane-items-batch3",
+      "name": "Ultimate Equipment: ordinary equipment, additional set 3",
+      "version": "1.0.0",
+      "description": "400 game item entries from Ultimate Equipment; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/ultimate-equipment-mundane-items-batch3-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 448444,
+      "sha256": "3dfedc8f09a2d2f08035e2c7fd897f9959214f6a1d33fd2b245ba06d64492b47",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Ultimate Equipment snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "ultimate-equipment-mundane-items-batch4",
+      "name": "Ultimate Equipment: ordinary equipment, additional set 4",
+      "version": "1.0.0",
+      "description": "400 game item entries from Ultimate Equipment; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/ultimate-equipment-mundane-items-batch4-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 423981,
+      "sha256": "c50e418badff5c74033a52438f9881a50282912d719a83fc9ce375fa7508af22",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Ultimate Equipment snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "ultimate-equipment-mundane-items-batch5",
+      "name": "Ultimate Equipment: ordinary equipment, additional set 5",
+      "version": "1.0.0",
+      "description": "345 game item entries from Ultimate Equipment; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/ultimate-equipment-mundane-items-batch5-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 367499,
+      "sha256": "d04138ca668f51eee0b088446066ab1252687e6f89e41d835fba06fc0dd76ce0",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Ultimate Equipment snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "ultimate-magic-items",
+      "name": "Ultimate Magic: game items",
+      "version": "1.0.0",
+      "description": "10 game item entries from Ultimate Magic; mechanics and table facts only.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/ultimate-magic-items-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 65782,
+      "sha256": "df5189b9b14f4c3234d32b6b534da2d549a7ffadd5c05b5e31d1c1600e98e873",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "Includes Paizo's Product Identity/Open Game Content declaration; only generic game mechanics are selected.",
+        "Includes the complete OGL 1.0a and applicable Section 15 notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Ultimate Magic snapshot",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "item"
       ],
       "language": "en"
     }
