@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 2,
+  "id": "core-reviewed-spells-batch7",
+  "name": "Core rules: reviewed spells, seventh additional set",
+  "ruleset": {
+    "id": "PTFD",
+    "edition": "1e"
+  },
+  "distribution": {
+    "redistributionStatus": "verified",
+    "licenses": [
+      {
+        "id": "OGL-1.0a",
+        "name": "Open Game License v1.0a",
+        "text": "OPEN GAME LICENSE Version 1.0a\n\nThe following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.\n\n1. Definitions: (a) \"Contributors\" means the copyright and/or trademark owners who have contributed Open Game Content; (b) \"Derivative Material\" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) \"Distribute\" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d) \"Open Game Content\" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) \"Product Identity\" means product and product line names, logos and identifying marks including trade dress; artifacts, creatures, characters, stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) \"Trademark\" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) \"Use\", \"Used\" or \"Using\" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) \"You\" or \"Your\" means the licensee in terms of this agreement.\n\n2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.\n\n3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.\n\n4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.\n\n5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.\n\n6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.\n\n7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.\n\n8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.\n\n9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.\n\n10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You distribute.\n\n11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.\n\n12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.\n\n13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.\n\n14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.\n\n15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.\n\nPathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.\n\nPathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.\n\nPathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.\n\nPathfinder Roleplaying Game GameMastery Guide. © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.\n\nPathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Advanced Player's Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn\n\nPathfinder Roleplaying Game Advanced Race Guide. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.\n\nPathfinder Roleplaying Game Monster Codex. © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.\n\nPathfinder Roleplaying Game NPC Codex. © 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Occult Adventures. © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.\n\nPathfinder Roleplaying Game Pathfinder Unchained. © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Byers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.\n\nPathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Equipment. © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.\n\nPathfinder Campaign Setting: Technology Guide. © 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.\n\nAnger of Angels. © 2003, Sean K Reynolds.\n\nAdvanced Bestiary. © 2004, Green Ronin Publishing, LLC; Author: Matt Sernett.\n\nBook of Fiends. © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.\n\nThe Book of Hallowed Might. © 2002, Monte J. Cook.\n\nMonte Cook's Arcana Unearthed. © 2003, Monte J. Cook.\n\nPath of the Magi. © 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.\n\nSkreyn's Register: The Bonds of Magic. © 2002, Sean K Reynolds.\n\nThe Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.\n\nTome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.\n\nKobold Quarterly Issue 7, © 2008, Open Design LLC, www.koboldquarterly.com; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!\n\nThe Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nAerial Servant from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterseon, based on original material by Gary Gygax.\n\nAdherer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Guy Shearer.\n\nAmphisbaena from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAngel, Monadic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAngel, Movanic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAnimal Lord from the Tome of Horrors, Revised, © 2002, Necromancer Games,Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAscomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAtomie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAurumvorax from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAxe Beak from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBaphomet from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nBat, Mobat from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Peterson and Clark Peterson, based on original material by Gary Gygax.\n\nBeetle, Slicer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBlindheim from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nBasidirond from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBrownie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nBunyip from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Dermot Jackson.\n\nCarbuncle from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene, based on original material by Albie Fiore.\n\nCaryatid Column from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nCave Fisher from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nCrypt Thing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nCrystal Ooze from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDaemon, Ceustodaemon (Guardian Daemon) from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Derghodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Guardian from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Hydrodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Piscodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDark Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.\n\nDark Stalker from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nDeath Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.\n\nDeath Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley.\n\nDecapus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nDemodand, Shaggy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Slimy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Tarry from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon, Shadow from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.\n\nDemon, Nabasu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Kostchtchie from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Pazuzu from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDire Corby from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jeff Wyndham.\n\nDisenchanter from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nDragon, Faerie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Brian Jaeger and Gary Gygax.\n\nDragon Horse from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDracolisk from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDust Digger from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nExecutioner's Hood from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nFlail Snail from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Tilbrook.\n\nFlind and Flindbar from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.\n\nFlumph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian McDowell and Douglas Naismith.\n\nFroghemoth from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nFoo Creature from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nForlarren from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone.\n\nGenie, Marid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGiant Slug from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGiant, Wood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Wizards of the Coast.\n\nGloomwing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGrippli from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\nNereid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGryph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.\n\nHangman Tree from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nHippocampus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.\n\nHuecuva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Underworld Oracle.\n\nIce Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nIron Cobra from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.\n\nJackalwere from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nKamadan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Nick Louth.\n\nKech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nKelpie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nKorred from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLeprechaun from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLurker Above from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMagma ooze from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nMarid from the Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nMihstu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nMite from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.\n\nMongrelman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nMoon Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMuckdweller from the Tome of Horrors Complete, © 20111, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nNabasu Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nNecrophidius from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.\n\nNereid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPhycomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPoltergeist from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lewis Pulsipher.\n\nQuickling from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nQuickwood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nRot Grub from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.\n\nRusset Mold from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSandman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nScarecrow from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nShadow Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.\n\nSkulk from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nSlime Mold from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSlithering Tracker from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSoul Eater from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by David Cook.\n\nSpriggan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.\n\nTenebrous Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTentamort from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Mike Roberts.\n\nTick, Giant & Dragon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTrapper from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nTroll, Ice from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Russell Cole.\n\nTroll, Rock from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nVegepygmy from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWolf-In-Sheep's-Clothing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWood Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.\n\nYellow Musk Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYellow Musk Zombie from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYeti from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nZombie, Juju from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax."
+      }
+    ],
+    "notices": [
+      {
+        "id": "designation",
+        "type": "designation",
+        "text": "The spell descriptions and spell rules data in items are Open Game Content."
+      },
+      {
+        "id": "section15-prd",
+        "type": "section15",
+        "text": "15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nSystem Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.\n\nPathfinder Roleplaying Game Reference Document. © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.\n\nPathfinder Roleplaying Game Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.\n\nPathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.\n\nPathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.\n\nPathfinder Roleplaying Game GameMastery Guide. © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.\n\nPathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Advanced Player's Guide. © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn\n\nPathfinder Roleplaying Game Advanced Race Guide. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.\n\nPathfinder Roleplaying Game Monster Codex. © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.\n\nPathfinder Roleplaying Game NPC Codex. © 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Occult Adventures. © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.\n\nPathfinder Roleplaying Game Pathfinder Unchained. © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Byers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.\n\nPathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.\n\nPathfinder Roleplaying Game Ultimate Equipment. © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.\n\nPathfinder Campaign Setting: Technology Guide. © 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor.\n\nAnger of Angels. © 2003, Sean K Reynolds.\n\nAdvanced Bestiary. © 2004, Green Ronin Publishing, LLC; Author: Matt Sernett.\n\nBook of Fiends. © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.\n\nThe Book of Hallowed Might. © 2002, Monte J. Cook.\n\nMonte Cook's Arcana Unearthed. © 2003, Monte J. Cook.\n\nPath of the Magi. © 2002 Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.\n\nSkreyn's Register: The Bonds of Magic. © 2002, Sean K Reynolds.\n\nThe Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.\n\nTome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.\n\nKobold Quarterly Issue 7, © 2008, Open Design LLC, www.koboldquarterly.com; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!\n\nThe Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nAerial Servant from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterseon, based on original material by Gary Gygax.\n\nAdherer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Guy Shearer.\n\nAmphisbaena from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAngel, Monadic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAngel, Movanic Deva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nAnimal Lord from the Tome of Horrors, Revised, © 2002, Necromancer Games,Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAscomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAtomie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAurumvorax from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nAxe Beak from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBaphomet from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nBat, Mobat from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Peterson and Clark Peterson, based on original material by Gary Gygax.\n\nBeetle, Slicer from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBlindheim from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nBasidirond from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nBrownie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nBunyip from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Dermot Jackson.\n\nCarbuncle from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Authors Scott Greene, based on original material by Albie Fiore.\n\nCaryatid Column from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nCave Fisher from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nCrypt Thing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nCrystal Ooze from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDaemon, Ceustodaemon (Guardian Daemon) from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Derghodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Guardian from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Hydrodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDaemon, Piscodaemon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nDark Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.\n\nDark Stalker from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nDeath Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.\n\nDeath Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley.\n\nDecapus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jean Wells.\n\nDemodand, Shaggy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Slimy from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemodand, Tarry from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon, Shadow from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.\n\nDemon, Nabasu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Kostchtchie from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDemon Lord, Pazuzu from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nDire Corby from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Jeff Wyndham.\n\nDisenchanter from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Roger Musson.\n\nDragon, Faerie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Brian Jaeger and Gary Gygax.\n\nDragon Horse from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDracolisk from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nDust Digger from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nExecutioner's Hood from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nFlail Snail from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Tilbrook.\n\nFlind and Flindbar from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.\n\nFlumph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian McDowell and Douglas Naismith.\n\nFroghemoth from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nFoo Creature from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nForlarren from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone.\n\nGenie, Marid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGiant Slug from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGiant, Wood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Wizards of the Coast.\n\nGloomwing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nGrippli from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\nNereid from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nGryph from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.\n\nHangman Tree from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nHippocampus from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.\n\nHuecuva from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Underworld Oracle.\n\nIce Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nIron Cobra from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.\n\nJackalwere from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nJubilex from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nKamadan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Nick Louth.\n\nKech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nKelpie from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.\n\nKorred from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLeprechaun from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nLurker Above from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMagma ooze from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nMarid from the Tome of Horrors III, © 2005, Necromancer Games, Inc.; Author Scott Greene.\n\nMihstu from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by E. Gary Gygax.\n\nMite from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.\n\nMongrelman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nMoon Dog from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nMuckdweller from the Tome of Horrors Complete, © 20111, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nNabasu Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nNecrophidius from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.\n\nNereid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPech from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPhycomid from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nPoltergeist from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lewis Pulsipher.\n\nQuickling from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nQuickwood from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nRot Grub from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.\n\nRusset Mold from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSandman from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nScarecrow from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.\n\nShadow Demon from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.\n\nSkulk from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.\n\nSlime Mold from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSlithering Tracker from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nSoul Eater from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by David Cook.\n\nSpriggan from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.\n\nTenebrous Worm from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTentamort from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Mike Roberts.\n\nTick, Giant & Dragon from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nTrapper from the Tome of Horrors Complete, © 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.\n\nTroll, Ice from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Russell Cole.\n\nTroll, Rock from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene.\n\nVegepygmy from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWolf-In-Sheep's-Clothing from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nWood Golem from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.\n\nYellow Musk Creeper from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYellow Musk Zombie from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.\n\nYeti from the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.\n\nZombie, Juju from the Tome of Horrors, Revised, © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax."
+      }
+    ],
+    "sources": [
+      {
+        "id": "psrd-core",
+        "name": "PSRD-Data: Core Rulebook",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467",
+        "itemIds": [
+          "core-spell-mage-s-private-sanctum",
+          "core-spell-magic-aura",
+          "core-spell-magic-mouth",
+          "core-spell-magic-stone",
+          "core-spell-magic-vestment",
+          "core-spell-mark-of-justice",
+          "core-spell-meld-into-stone",
+          "core-spell-mending",
+          "core-spell-message",
+          "core-spell-meteor-swarm",
+          "core-spell-mind-blank"
+        ]
+      },
+      {
+        "id": "prd-mage-s-private-sanctum",
+        "name": "PRD: Mage's Private Sanctum",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/mageSPrivateSanctum.html#mage-s-private-sanctum",
+        "revision": "sha256:03df045f8dede4c31717e82214caeda8203ae7701ab6023b7242cbbae80102dd",
+        "itemIds": [
+          "core-spell-mage-s-private-sanctum"
+        ]
+      },
+      {
+        "id": "prd-magic-aura",
+        "name": "PRD: Magic Aura",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/magicAura.html#magic-aura",
+        "revision": "sha256:aa415de1e7a7b7aedc15708606b8a47dea77b3426181fe3d8a7e5a41265970b0",
+        "itemIds": [
+          "core-spell-magic-aura"
+        ]
+      },
+      {
+        "id": "prd-magic-mouth",
+        "name": "PRD: Magic Mouth",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/magicMouth.html#magic-mouth",
+        "revision": "sha256:8857f588df3e356bfa01edb1561815124c55e12d323df4d392ab986ad654dc5c",
+        "itemIds": [
+          "core-spell-magic-mouth"
+        ]
+      },
+      {
+        "id": "prd-magic-stone",
+        "name": "PRD: Magic Stone",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/magicStone.html#magic-stone",
+        "revision": "sha256:c09dc3a0a8b1ffd15440bdd283f9822430f0451d59c533baf6f4d985c7542fd0",
+        "itemIds": [
+          "core-spell-magic-stone"
+        ]
+      },
+      {
+        "id": "prd-magic-vestment",
+        "name": "PRD: Magic Vestment",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/magicVestment.html#magic-vestment",
+        "revision": "sha256:0d3c27f3b50015fdbc4b8783d2b802fac790768aea893c9d8d1eb7c00c9c2029",
+        "itemIds": [
+          "core-spell-magic-vestment"
+        ]
+      },
+      {
+        "id": "prd-mark-of-justice",
+        "name": "PRD: Mark of Justice",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/markOfJustice.html#mark-of-justice",
+        "revision": "sha256:5cce35d4993f22326f5acab4f4bf71c8b662299646b01a99376bed32b19a5132",
+        "itemIds": [
+          "core-spell-mark-of-justice"
+        ]
+      },
+      {
+        "id": "prd-meld-into-stone",
+        "name": "PRD: Meld into Stone",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/meldIntoStone.html#meld-into-stone",
+        "revision": "sha256:2c40faedad8799a2ec3147f2569fc2a4bced90648a8f1706e8b76898aabdd21e",
+        "itemIds": [
+          "core-spell-meld-into-stone"
+        ]
+      },
+      {
+        "id": "prd-mending",
+        "name": "PRD: Mending",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/mending.html#mending",
+        "revision": "sha256:e971a5c357a45943d8e966d4315125d047f21a90ef63dcd05e75632036844c7a",
+        "itemIds": [
+          "core-spell-mending"
+        ]
+      },
+      {
+        "id": "prd-message",
+        "name": "PRD: Message",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/message.html#message",
+        "revision": "sha256:0521225c05b9063f6541c106afcb4c8186e3b1b8ee552a6e4714a62b137947cc",
+        "itemIds": [
+          "core-spell-message"
+        ]
+      },
+      {
+        "id": "prd-meteor-swarm",
+        "name": "PRD: Meteor Swarm",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/meteorSwarm.html#meteor-swarm",
+        "revision": "sha256:f11c1c4409eb48757dc3d935c0f9bb55cfb9a30934d3ffe6d8859ddfe1b3308b",
+        "itemIds": [
+          "core-spell-meteor-swarm"
+        ]
+      },
+      {
+        "id": "prd-mind-blank",
+        "name": "PRD: Mind Blank",
+        "url": "https://legacy.aonprd.com/coreRulebook/spells/mindBlank.html#mind-blank",
+        "revision": "sha256:8a35e8a4f99b14c4ebb0ffcce6ac0029f1dcefa5ce60b11f6c34ace0dfbd8700",
+        "itemIds": [
+          "core-spell-mind-blank"
+        ]
+      },
+      {
+        "id": "prd-ogl",
+        "name": "PRD Open Game License and copyright notices",
+        "url": "https://legacy.aonprd.com/openGameLicense.html",
+        "revision": "sha256:9997bcddc3063d6c624e26cdb46c15fb3541ee0599d991728e20e92809a4a6c3",
+        "itemIds": [
+          "core-spell-mage-s-private-sanctum",
+          "core-spell-magic-aura",
+          "core-spell-magic-mouth",
+          "core-spell-magic-stone",
+          "core-spell-magic-vestment",
+          "core-spell-mark-of-justice",
+          "core-spell-meld-into-stone",
+          "core-spell-mending",
+          "core-spell-message",
+          "core-spell-meteor-swarm",
+          "core-spell-mind-blank"
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "core-spell-mage-s-private-sanctum",
+      "category": "spell",
+      "name": "Mage's Private Sanctum",
+      "description": "This spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass. Darkvision cannot penetrate it. No sounds, no matter how loud, can escape the area, so nobody can eavesdrop from outside. Those inside can see out normally.\n\nDivination (scrying) spells cannot perceive anything within the area, and those within are immune to detect thoughts. The ward prevents speech between those inside and those outside (because it blocks sound), but it does not prevent other communication, such as a sending or message spell, or telepathic communication, such as that between a wizard and his familiar.\n\nThe spell does not prevent creatures or objects from moving into and out of the area.\n\nMage's private sanctum can be made permanent with a permanency spell.",
+      "rulesData": {
+        "statBlock": [
+          "School abjuration; Level sorcerer/wizard 5",
+          "Casting Time 10 minutes",
+          "Components V, S, M (a sheet of lead, a piece of glass, a wad of cotton, and powdered chrysolite)",
+          "Range close (25 ft. + 5 ft./2 levels)",
+          "Area 30-ft. cube/level (S)",
+          "Duration 24 hours (D)",
+          "Saving Throw none; Spell Resistance no"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/mageSPrivateSanctum.html#mage-s-private-sanctum",
+          "database": "book-cr.db",
+          "sectionId": 350,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-magic-aura",
+      "category": "spell",
+      "name": "Magic Aura",
+      "description": "You alter an item's aura so that it registers to detect spells (and spells with similar capabilities) as though it were nonmagical, or a magic item of a kind you specify, or the subject of a spell you specify. If the object bearing magic aura has identify cast on it or is similarly examined, the examiner recognizes that the aura is false and detects the object's actual qualities if he succeeds on a Will save. Otherwise, he believes the aura and no amount of testing reveals what the true magic is.\n\nIf the targeted item's own aura is exceptionally powerful (if it is an artifact, for instance), magic aura doesn't work.\n\nNote: A magic weapon, shield, or suit of armor must be a masterwork item, so a sword of average make, for example, looks suspicious if it has a magical aura.",
+      "rulesData": {
+        "statBlock": [
+          "School illusion (glamer); Level bard 1, sorcerer/wizard 1",
+          "Casting Time 1 standard action",
+          "Components V, S, F (a small square of silk that must be passed over the object that receives the aura)",
+          "Range touch",
+          "Target one touched object weighing up to 5 lbs./level",
+          "Duration 1 day/level (D)",
+          "Saving Throw none; see text; Spell Resistance no"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/magicAura.html#magic-aura",
+          "database": "book-cr.db",
+          "sectionId": 352,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-magic-mouth",
+      "category": "spell",
+      "name": "Magic Mouth",
+      "description": "This spell imbues the chosen object or creature with an enchanted mouth that suddenly appears and speaks its message the next time a specified event occurs. The message, which must be 25 or fewer words long, can be in any language known by you and can be delivered over a period of 10 minutes. The mouth cannot utter verbal components, use command words, or activate magical effects. It does, however, move according to the words articulated; if it were placed upon a statue, the mouth of the statue would move and appear to speak. Magic mouth can also be placed upon a tree, rock, or any other object or creature.\n\nThe spell functions when specific conditions are fulfilled according to your command as set in the spell. Commands can be as general or as detailed as desired, although only visual and audible triggers can be used. Triggers react to what appears to be the case. Disguises and illusions can fool them. Normal darkness does not defeat a visual trigger, but magical darkness or invisibility does. Silent movement or magical silence defeats audible triggers. Audible triggers can be keyed to general types of noises or to a specific noise or spoken word. Actions can serve as triggers if they are visible or audible. A magic mouth cannot distinguish alignment, level, Hit Dice, or class except by external garb.\n\nThe range limit of a trigger is 15 feet per caster level, so a 6th-level caster can command a magic mouth to respond to triggers as far as 90 feet away. Regardless of range, the mouth can respond only to visible or audible triggers and actions in line of sight or within hearing distance.\n\nMagic mouth can be made permanent with a permanency spell.",
+      "rulesData": {
+        "statBlock": [
+          "School illusion (glamer); Level bard 1, sorcerer/wizard 2",
+          "Casting Time 1 standard action",
+          "Components V, S, M (a small bit of honeycomb and jade dust worth 10 gp)",
+          "Range close (25 ft. + 5 ft./2 levels)",
+          "Target one creature or object",
+          "Duration permanent until discharged",
+          "Saving Throw Will negates (object); Spell Resistance yes (object)"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/magicMouth.html#magic-mouth",
+          "database": "book-cr.db",
+          "sectionId": 360,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-magic-stone",
+      "category": "spell",
+      "name": "Magic Stone",
+      "description": "You transmute as many as three pebbles, which can be no larger than sling bullets, so that they strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If slung, treat them as sling bullets (range increment 50 feet). The spell gives them a +1 enhancement bonus on attack and damage rolls. The user of the stones makes a normal ranged attack. Each stone that hits deals 1d6+1 points of damage (including the spell's enhancement bonus), or 2d6+2 points against undead.",
+      "rulesData": {
+        "statBlock": [
+          "School transmutation; Level cleric 1, druid 1",
+          "Casting Time 1 standard action",
+          "Components V, S, DF",
+          "Range touch",
+          "Targets up to three pebbles touched",
+          "Duration 30 minutes or until discharged",
+          "Saving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/magicStone.html#magic-stone",
+          "database": "book-cr.db",
+          "sectionId": 361,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-magic-vestment",
+      "category": "spell",
+      "name": "Magic Vestment",
+      "description": "You imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels (maximum +5 at 20th level).\n\nAn outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell.",
+      "rulesData": {
+        "statBlock": [
+          "School transmutation; Level cleric 3",
+          "Casting Time 1 standard action",
+          "Components V, S, DF",
+          "Range touch",
+          "Target armor or shield touched",
+          "Duration 1 hour/level",
+          "Saving Throw Will negates (harmless, object); Spell Resistance yes (harmless, object)"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/magicVestment.html#magic-vestment",
+          "database": "book-cr.db",
+          "sectionId": 362,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-mark-of-justice",
+      "category": "spell",
+      "name": "Mark of Justice",
+      "description": "You mark a subject and state some behavior on the part of the subject that will activate the mark. When activated, the mark curses the subject. Typically, you designate some sort of undesirable behavior that activates the mark, but you can pick any act you please. The effect of the mark is identical with the effect of bestow curse.\n\nSince this spell takes 10 minutes to cast and involves writing on the target, you can cast it only on a creature that is willing or restrained.\n\nLike the effect of bestow curse, a mark of justice cannot be dispelled, but it can be removed with a break enchantment, limited wish, miracle, remove curse, or wish spell. Remove curse works only if its caster level is equal to or higher than your mark of justice caster level. These restrictions apply regardless of whether the mark has activated.",
+      "rulesData": {
+        "statBlock": [
+          "School necromancy; Level cleric 5, paladin 4",
+          "Casting Time 10 minutes",
+          "Components V, S, DF",
+          "Range touch",
+          "Target creature touched",
+          "Duration permanent; see text",
+          "Saving Throw none; Spell Resistance yes"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/markOfJustice.html#mark-of-justice",
+          "database": "book-cr.db",
+          "sectionId": 367,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-meld-into-stone",
+      "category": "spell",
+      "name": "Meld into Stone",
+      "description": "Meld into stone enables you to meld your body and possessions into a single block of stone. The stone must be large enough to accommodate your body in all three dimensions. When the casting is complete, you and not more than 100 pounds of nonliving gear merge with the stone. If either condition is violated, the spell fails and is wasted.\n\nWhile in the stone, you remain in contact, however tenuous, with the face of the stone through which you melded. You remain aware of the passage of time and can cast spells on yourself while hiding in the stone. Nothing that goes on outside the stone can be seen, but you can still hear what happens around you. Minor physical damage to the stone does not harm you, but its partial destruction (to the extent that you no longer fit within it) expels you and deals you 5d6 points of damage. The stone's complete destruction expels you and slays you instantly unless you make a DC 18 Fortitude save. Even if you make your save, you still take 5d6 points of damage.\n\nAny time before the duration expires, you can step out of the stone through the surface that you entered. If the spell's duration expires or the effect is dispelled before you voluntarily exit the stone, you are violently expelled and take 5d6 points of damage.\n\nThe following spells harm you if cast upon the stone that you are occupying. Stone to flesh expels you and deals you 5d6 points of damage. Stone shape deals 3d6 points of damage but does not expel you. Transmute rock to mud expels you and then slays you instantly unless you make a DC 18 Fortitude save, in which case you are merely expelled. Finally, passwall expels you without damage.",
+      "rulesData": {
+        "statBlock": [
+          "School transmutation [earth]; Level cleric 3, druid 3",
+          "Casting Time 1 standard action",
+          "Components V, S, DF",
+          "Range personal",
+          "Target you",
+          "Duration 10 min./level"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/meldIntoStone.html#meld-into-stone",
+          "database": "book-cr.db",
+          "sectionId": 369,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-mending",
+      "category": "spell",
+      "name": "Mending",
+      "description": "This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. All of the pieces of an object must be present for this spell to function. Magic items can be repaired by this spell, but you must have a caster level equal to or higher than that of the object. Magic items that are destroyed (at 0 hit points or less) can be repaired with this spell, but this spell does not restore their magic abilities. This spell does not affect creatures (including constructs). This spell has no effect on objects that have been warped or otherwise transmuted, but it can still repair damage done to such items.",
+      "rulesData": {
+        "statBlock": [
+          "School transmutation; Level bard 0, cleric 0, druid 0, sorcerer/wizard 0",
+          "Casting Time 10 minutes",
+          "Components V, S",
+          "Range 10 ft.",
+          "Target one object of up to 1 lb./level",
+          "Duration instantaneous",
+          "Saving Throw: Will negates (harmless, object); Spell Resistance: yes (harmless, object)"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/mending.html#mending",
+          "database": "book-cr.db",
+          "sectionId": 370,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-message",
+      "category": "spell",
+      "name": "Message",
+      "description": "You can whisper messages and receive whispered replies. Those nearby can hear these messages with a DC 25 Perception check. You point your finger at each creature you want to receive the message. When you whisper, the whispered message is audible to all targeted creatures within range. Magical silence, 1 foot of stone, 1 inch of common metal (or a thin sheet of lead), or 3 feet of wood or dirt blocks the spell. The message does not have to travel in a straight line. It can circumvent a barrier if there is an open path between you and the subject, and the path's entire length lies within the spell's range. The creatures that receive the message can whisper a reply that you hear. The spell transmits sound, not meaning; it doesn't transcend language barriers. To speak a message, you must mouth the words and whisper.",
+      "rulesData": {
+        "statBlock": [
+          "School transmutation [language-dependent]; Level bard 0, sorcerer/wizard 0",
+          "Casting Time 1 standard action",
+          "Components V, S, F (a piece of copper wire)",
+          "Range medium (100 ft. + 10 ft./level)",
+          "Targets one creature/level",
+          "Duration 10 min./level",
+          "Saving Throw none; Spell Resistance no"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/message.html#message",
+          "database": "book-cr.db",
+          "sectionId": 371,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-meteor-swarm",
+      "category": "spell",
+      "name": "Meteor Swarm",
+      "description": "Meteor swarm is a very powerful and spectacular spell that is similar to fireball in many aspects. When you cast it, four 2-foot-diameter spheres spring from your outstretched hand and streak in straight lines to the spots you select. The meteor spheres leave a fiery trail of sparks.\n\nIf you aim a sphere at a specific creature, you may make a ranged touch attack to strike the target with the meteor. Any creature struck by a sphere takes 2d6 points of bludgeoning damage (no save) and takes a –4 penalty on the saving throw against the sphere's fire damage (see below). If a targeted sphere misses its target, it simply explodes at the nearest corner of the target's space. You may aim more than one sphere at the same target.\n\nOnce a sphere reaches its destination, it explodes in a 40-foot-radius spread, dealing 6d6 points of fire damage to each creature in the area. If a creature is within the area of more than one sphere, it must save separately against each. Despite stemming from separate spheres, all of the fire damage is added together after the saves have been made, and fire resistance is applied only once.",
+      "rulesData": {
+        "statBlock": [
+          "School evocation [fire]; Level sorcerer/wizard 9",
+          "Casting Time 1 standard action",
+          "Components V, S",
+          "Range long (400 ft. + 40 ft./level)",
+          "Area four 40-ft.-radius spreads, see text",
+          "Duration instantaneous",
+          "Saving Throw none or Reflex half, see text; Spell Resistance yes"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/meteorSwarm.html#meteor-swarm",
+          "database": "book-cr.db",
+          "sectionId": 372,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    },
+    {
+      "id": "core-spell-mind-blank",
+      "category": "spell",
+      "name": "Mind Blank",
+      "description": "The subject is protected from all devices and spells that gather information about the target through divination magic (such as detect evil, locate creature, scry, and see invisible). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. Mind blank even foils limited wish, miracle, and wish spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as arcane eye, the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.",
+      "rulesData": {
+        "statBlock": [
+          "School abjuration; Level sorcerer/wizard 8",
+          "Casting Time 1 standard action",
+          "Components V, S",
+          "Range close (25 ft. + 5 ft./2 levels)",
+          "Target one creature",
+          "Duration 24 hours",
+          "Saving Throw Will negates (harmless); Spell Resistance yes (harmless)"
+        ],
+        "source": {
+          "url": "https://legacy.aonprd.com/coreRulebook/spells/mindBlank.html#mind-blank",
+          "database": "book-cr.db",
+          "sectionId": 373,
+          "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+        },
+        "contentDesignation": "Open Game Content under OGL 1.0a"
+      }
+    }
+  ]
+}
