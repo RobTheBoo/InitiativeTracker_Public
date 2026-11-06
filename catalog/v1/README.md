@@ -29,8 +29,7 @@ The asset schema is in `package.schema.json`. For backward compatibility, the ro
       {
         "id": "prd-section15",
         "type": "section15",
-        "text": "<complete, exact applicable Section 15 notice>",
-        "appliesToItemIds": ["item-id"]
+        "text": "<complete, exact applicable Section 15 notice>"
       }
     ],
     "sources": [
@@ -46,7 +45,7 @@ The asset schema is in `package.schema.json`. For backward compatibility, the ro
 }
 ```
 
-`licenses[].text` and `notices[].text` must contain the full text, not a URL or identifier in place of it. Include all applicable license texts and copyright/attribution/Section 15 notices for the items in that asset. Source `itemIds` must collectively map every item to one or more exact sources; notice `appliesToItemIds` identifies the items to which that complete notice applies. For OGL packages the validator requires the embedded OGL license, at least one Section 15 notice covering every item, and source coverage of every item. The validator checks structure and mapping, not the legal accuracy or completeness of the supplied text; publishers must compare the exact text to the verified source before setting `verified`.
+`licenses[].text` and `notices[].text` must contain the full text, not a URL or identifier in place of it. To match the consumer contract, notices have exactly `id`, `type`, and `text`, and each notice applies to the whole package. Include all applicable license texts and copyright/attribution/Section 15 notices for every item in that asset; split packages when a notice would apply to only a subset. Source `itemIds` must collectively map every item to one or more exact sources. For OGL packages the validator requires the embedded OGL license, a non-empty package-wide Section 15 notice, and source coverage of every item. The validator checks structure and mapping, not the legal accuracy or completeness of the supplied text; publishers must compare the exact text to the verified source before setting `verified`.
 
 Older v1 packages without `distribution` remain valid. Consumers must preserve `distribution` when importing a new package into a campaign and expose its license and notices; silently discarding unknown root fields would lose required distribution terms. The embedded legal text counts toward the 2 MiB package limit, so packages may need fewer than 500 items.
 

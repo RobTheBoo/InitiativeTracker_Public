@@ -155,7 +155,6 @@ class CatalogValidationTests(unittest.TestCase):
                     "id": "test-section15",
                     "type": "section15",
                     "text": "Complete Section 15 notice included for structural testing.",
-                    "appliesToItemIds": item_ids,
                 }
             ],
             "sources": [
@@ -191,7 +190,6 @@ class CatalogValidationTests(unittest.TestCase):
                     "id": "test-copyright",
                     "type": "copyright",
                     "text": "Copyright notice",
-                    "appliesToItemIds": item_ids,
                 }
             ],
             "sources": [
@@ -228,7 +226,6 @@ class CatalogValidationTests(unittest.TestCase):
                     "id": "test-section15",
                     "type": "section15",
                     "text": "Section 15 notice",
-                    "appliesToItemIds": item_ids,
                 }
             ],
             "sources": [

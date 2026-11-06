@@ -297,32 +297,14 @@ def validate_distribution(distribution, items, package_id, manifest_license):
             and all(
                 isinstance(notice.get(field), str) and notice[field].strip()
                 for field in ("id", "type", "text")
-            )
-            and isinstance(notice.get("appliesToItemIds"), list)
-            and bool(notice["appliesToItemIds"]),
-            f"{package_id}: every notice needs id, type, full text, and item mapping",
+            ),
+            f"{package_id}: every notice needs id, type, and full text",
         )
         require(notice["id"] not in notice_ids, f"{package_id}: duplicate notice id")
         notice_ids.add(notice["id"])
         require(
             notice["type"] in ("section15", "copyright", "attribution", "other"),
             f"{package_id}: unsupported notice type",
-        )
-        require(
-            all(item_id in item_ids for item_id in notice["appliesToItemIds"]),
-            f"{package_id}: notice maps to an unknown item id",
-        )
-        require(
-            all(
-                isinstance(item_id, str) and item_id
-                for item_id in notice["appliesToItemIds"]
-            ),
-            f"{package_id}: notice item ids must be non-empty strings",
-        )
-        require(
-            len(notice["appliesToItemIds"])
-            == len(set(notice["appliesToItemIds"])),
-            f"{package_id}: notice item ids must be unique",
         )
         if notice["type"] == "section15":
             has_section15_notice = True
@@ -331,17 +313,6 @@ def validate_distribution(distribution, items, package_id, manifest_license):
             has_section15_notice,
             f"{package_id}: OGL package must embed its Section 15 notice",
         )
-        section15_item_ids = {
-            item_id
-            for notice in notices
-            if notice["type"] == "section15"
-            for item_id in notice["appliesToItemIds"]
-        }
-        require(
-            section15_item_ids == item_ids,
-            f"{package_id}: Section 15 notices must cover every package item",
-        )
-
     sources = distribution.get("sources")
     require(
         isinstance(sources, list) and bool(sources),
