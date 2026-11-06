@@ -12,7 +12,7 @@ Repository pubblico per il download dell'installer Windows.
 - Manifest v2: [catalogo con distribuzione incorporata](https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/main/catalog/v2/manifest.json)
 - Struttura e validazione: [documentazione catalogo](./catalog/v1/README.md)
 
-Il catalogo v1 mantiene il fixture originale di prova. Il catalogo v2 contiene una selezione limitata di 107 incantesimi, divisa in sette pacchetti e revisionata voce per voce; non è il database PSRD-Data completo e gli altri record restano esclusi e non revisionati. Ogni manifest riporta provenienza, licenza, avvisi, dimensione e SHA-256. `redistributionStatus: "verified"` è un'attestazione del publisher, non una garanzia legale né una revisione legale indipendente.
+Il catalogo v1 mantiene il fixture originale di prova. Il catalogo v2 contiene una selezione limitata di 143 incantesimi, divisa in dieci pacchetti e revisionata voce per voce; non è il database PSRD-Data completo e gli altri record restano esclusi e non revisionati. Ogni manifest riporta provenienza, licenza, avvisi, dimensione e SHA-256. `redistributionStatus: "verified"` è un'attestazione del publisher, non una garanzia legale né una revisione legale indipendente.
 
 L'identificatore ruleset `PTFD` (edizione `1e`) è usato per compatibilità tecnica. I pacchetti non sono affiliati, sponsorizzati né approvati da titolari di marchi o diritti.
 
