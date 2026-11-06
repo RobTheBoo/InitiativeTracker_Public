@@ -1,7 +1,7 @@
 {
   "$schema": "./manifest.schema.json",
   "schemaVersion": 2,
-  "catalogVersion": "2.1.0",
+  "catalogVersion": "2.2.0",
   "packages": [
     {
       "id": "core-reviewed-spells",
@@ -73,6 +73,126 @@
       "assetSchemaVersion": 2,
       "sizeBytes": 105485,
       "sha256": "c171283e931979e330614d0997a8053e8509be080c3a42800b47fc3dff293def",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "The spell descriptions and spell rules data are Open Game Content under OGL 1.0a.",
+        "The package includes the complete OGL 1.0a and the PRD Section 15 copyright notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook and PRD",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "spell"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-reviewed-spells-batch3",
+      "name": "Core rules: reviewed spells, third additional set",
+      "version": "1.0.0",
+      "description": "Seventeen individually reviewed core spells with complete rules descriptions and OGL notices.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/fc8d40bc4fbca01750dbe6b93f0f79e1fef566fb/catalog/v2/packages/core-reviewed-spells-batch3-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 91404,
+      "sha256": "530f25498da6c33f3c3a6d83d17e755f7b5c7b289a657ac4a6d1bb92af7a33b5",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "The spell descriptions and spell rules data are Open Game Content under OGL 1.0a.",
+        "The package includes the complete OGL 1.0a and the PRD Section 15 copyright notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook and PRD",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "spell"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-reviewed-spells-batch4",
+      "name": "Core rules: reviewed spells, fourth additional set",
+      "version": "1.0.0",
+      "description": "Eleven individually reviewed core spells with complete rules descriptions and OGL notices.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/fc8d40bc4fbca01750dbe6b93f0f79e1fef566fb/catalog/v2/packages/core-reviewed-spells-batch4-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 79336,
+      "sha256": "f17bfc778a736bbaab40a51d18805946abb3a6edd083657b1d39c950d61a248f",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "The spell descriptions and spell rules data are Open Game Content under OGL 1.0a.",
+        "The package includes the complete OGL 1.0a and the PRD Section 15 copyright notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook and PRD",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "spell"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-reviewed-spells-batch5",
+      "name": "Core rules: reviewed spells, fifth additional set",
+      "version": "1.0.0",
+      "description": "Sixteen individually reviewed core spells with complete rules descriptions and OGL notices.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/fc8d40bc4fbca01750dbe6b93f0f79e1fef566fb/catalog/v2/packages/core-reviewed-spells-batch5-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 88479,
+      "sha256": "6101f2c9330c6b702323e0f0678ef1062ea4b4713b0041bf15afd0d235e444e7",
+      "license": "OGL-1.0a",
+      "redistributionStatus": "verified",
+      "notices": [
+        "The spell descriptions and spell rules data are Open Game Content under OGL 1.0a.",
+        "The package includes the complete OGL 1.0a and the PRD Section 15 copyright notices."
+      ],
+      "source": {
+        "name": "PSRD-Data Core Rulebook and PRD",
+        "url": "https://github.com/devonjones/PSRD-Data",
+        "revision": "76ea4784604145ba3dea40eb56f83bb904759467"
+      },
+      "ruleset": {
+        "id": "PTFD",
+        "edition": "1e"
+      },
+      "categories": [
+        "spell"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "core-reviewed-spells-batch6",
+      "name": "Core rules: reviewed spells, sixth additional set",
+      "version": "1.0.0",
+      "description": "Sixteen individually reviewed core spells with complete rules descriptions and OGL notices.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/fc8d40bc4fbca01750dbe6b93f0f79e1fef566fb/catalog/v2/packages/core-reviewed-spells-batch6-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 89704,
+      "sha256": "3cf5cead62751d9e86db498b45ec6c38abab0ba731607543066adcc05378607b",
       "license": "OGL-1.0a",
       "redistributionStatus": "verified",
       "notices": [

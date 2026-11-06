@@ -6,7 +6,7 @@ The v2 manifest is served separately from the legacy catalog:
 
 Manifest v2 contains only packages built with asset schemaVersion 2. Each package URL is pinned to the immutable commit containing its JSON bytes. V2 assets require `distribution` with verified redistribution status, full license text, package-wide notices, and source revision mappings for every item. The 500-item and 2 MiB limits include the embedded license and notices.
 
-The catalog contains three packages for ruleset identifier `PTFD`, edition `1e`: a 2-spell pilot, a non-overlapping 19-spell supplement, and a 26-spell second supplement, for 47 individually reviewed spells total. This is a small reviewed selection, not a complete database; every other source record remains excluded and unreviewed. The identifier is a technical label only and does not imply affiliation, sponsorship, or endorsement.
+The catalog contains seven non-overlapping packages for ruleset identifier `PTFD`, edition `1e`, totaling 107 individually reviewed spells. This is a small reviewed selection, not a complete database; every other source record remains excluded and unreviewed. The identifier is a technical label only and does not imply affiliation, sponsorship, or endorsement.
 
 `redistributionStatus: "verified"` records the publisher's documented assessment. It is not a legal opinion, independent legal review, or guarantee. The included distribution metadata must remain with every distributed copy of a package.
 
