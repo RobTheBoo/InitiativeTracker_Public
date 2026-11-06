@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "original-sample",
+  "name": "Original sample ruleset",
+  "ruleset": {
+    "id": "initiative-tracker-demo",
+    "edition": "1.0"
+  },
+  "items": [
+    {
+      "id": "steady-footing",
+      "category": "condition",
+      "name": "Steady Footing",
+      "description": "A creature that takes a moment to brace itself is harder to move until its next turn.",
+      "rulesData": {
+        "durationRounds": 1,
+        "forcedMovementResistance": 2
+      }
+    },
+    {
+      "id": "field-lantern",
+      "category": "equipment",
+      "name": "Field Lantern",
+      "description": "A hooded lamp that gives a small team a reliable pool of light during travel.",
+      "rulesData": {
+        "lightRadiusMeters": 8,
+        "burnHours": 6
+      }
+    },
+    {
+      "id": "measured-step",
+      "category": "maneuver",
+      "name": "Measured Step",
+      "description": "Move carefully to improve your position without rushing into the next exchange.",
+      "rulesData": {
+        "movementMeters": 3,
+        "grantsCover": true
+      }
+    }
+  ]
+}
