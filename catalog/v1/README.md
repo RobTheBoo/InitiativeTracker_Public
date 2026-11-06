@@ -10,6 +10,46 @@ Each asset is `{schemaVersion: 1, id, name, ruleset: {id, edition}, items: [...]
 
 The verified status is a required publisher attestation, not an automated legal or content review. Before setting it, confirm the rights for the exact included material and satisfy any license and attribution obligations. Keep unverified content out of the manifest and package directory; do not infer permissions or notices from a parser's license or another dataset.
 
+## Embedded distribution metadata
+
+The asset schema is in `package.schema.json`. For backward compatibility, the root-level `distribution` object is optional for existing schema-version-1 packages. Any new OGL package must include it in the downloaded JSON itself; manifest metadata alone is not a copy of the license delivered with the data.
+
+```json
+{
+  "distribution": {
+    "redistributionStatus": "verified",
+    "licenses": [
+      {
+        "id": "OGL-1.0a",
+        "name": "Open Game License v1.0a",
+        "text": "<complete, exact license text>"
+      }
+    ],
+    "notices": [
+      {
+        "id": "prd-section15",
+        "type": "section15",
+        "text": "<complete, exact applicable Section 15 notice>",
+        "appliesToItemIds": ["item-id"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "prd-source",
+        "name": "Source title",
+        "url": "https://example.org/source",
+        "revision": "<immutable source revision>",
+        "itemIds": ["item-id"]
+      }
+    ]
+  }
+}
+```
+
+`licenses[].text` and `notices[].text` must contain the full text, not a URL or identifier in place of it. Include all applicable license texts and copyright/attribution/Section 15 notices for the items in that asset. Source `itemIds` must collectively map every item to one or more exact sources; notice `appliesToItemIds` identifies the items to which that complete notice applies. For OGL packages the validator requires the embedded OGL license, at least one Section 15 notice covering every item, and source coverage of every item. The validator checks structure and mapping, not the legal accuracy or completeness of the supplied text; publishers must compare the exact text to the verified source before setting `verified`.
+
+Older v1 packages without `distribution` remain valid. Consumers must preserve `distribution` when importing a new package into a campaign and expose its license and notices; silently discarding unknown root fields would lose required distribution terms. The embedded legal text counts toward the 2 MiB package limit, so packages may need fewer than 500 items.
+
 ## Validate
 
 ```powershell

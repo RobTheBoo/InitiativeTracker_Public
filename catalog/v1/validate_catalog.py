@@ -18,6 +18,7 @@ SHA256 = re.compile(r"^[a-f0-9]{64}$")
 VERSION = re.compile(r"^[0-9]+\.[0-9]+\.[0-9]+$")
 LANGUAGE = re.compile(r"^[a-z]{2,3}(-[A-Z]{2})?$")
 PLACEHOLDER = "__DATA_COMMIT_SHA__"
+OGL_LICENSE = re.compile(r"\bOGL(?:-|\b)", re.IGNORECASE)
 
 
 class CatalogValidationError(ValueError):
@@ -234,7 +235,154 @@ def validate_catalog(
                 and isinstance(item["rulesData"], dict),
                 f"{package_id}: invalid item field type",
             )
+        distribution = asset.get("distribution")
+        requires_embedded_legal = bool(OGL_LICENSE.search(entry["license"]))
+        require(
+            not requires_embedded_legal or isinstance(distribution, dict),
+            f"{package_id}: OGL packages must embed distribution text in the asset",
+        )
+        if distribution is not None:
+            validate_distribution(distribution, items, package_id, entry["license"])
     return manifest
+
+
+def validate_distribution(distribution, items, package_id, manifest_license):
+    require(
+        isinstance(distribution, dict),
+        f"{package_id}: distribution must be an object",
+    )
+    require(
+        distribution.get("redistributionStatus") == "verified",
+        f"{package_id}: embedded redistribution status must be verified",
+    )
+    item_ids = {item["id"] for item in items}
+
+    licenses = distribution.get("licenses")
+    require(
+        isinstance(licenses, list) and bool(licenses),
+        f"{package_id}: distribution must include full license texts",
+    )
+    license_ids = set()
+    for license_entry in licenses:
+        require(
+            isinstance(license_entry, dict)
+            and all(
+                isinstance(license_entry.get(field), str)
+                and license_entry[field].strip()
+                for field in ("id", "name", "text")
+            ),
+            f"{package_id}: every embedded license needs id, name, and full text",
+        )
+        require(
+            license_entry["id"] not in license_ids,
+            f"{package_id}: duplicate embedded license id",
+        )
+        license_ids.add(license_entry["id"])
+    if OGL_LICENSE.search(manifest_license):
+        require(
+            any(OGL_LICENSE.search(identifier) for identifier in license_ids),
+            f"{package_id}: manifest OGL license must be included in the asset",
+        )
+
+    notices = distribution.get("notices")
+    require(
+        isinstance(notices, list) and bool(notices),
+        f"{package_id}: distribution must include applicable notices",
+    )
+    notice_ids = set()
+    has_section15_notice = False
+    for notice in notices:
+        require(
+            isinstance(notice, dict)
+            and all(
+                isinstance(notice.get(field), str) and notice[field].strip()
+                for field in ("id", "type", "text")
+            )
+            and isinstance(notice.get("appliesToItemIds"), list)
+            and bool(notice["appliesToItemIds"]),
+            f"{package_id}: every notice needs id, type, full text, and item mapping",
+        )
+        require(notice["id"] not in notice_ids, f"{package_id}: duplicate notice id")
+        notice_ids.add(notice["id"])
+        require(
+            notice["type"] in ("section15", "copyright", "attribution", "other"),
+            f"{package_id}: unsupported notice type",
+        )
+        require(
+            all(item_id in item_ids for item_id in notice["appliesToItemIds"]),
+            f"{package_id}: notice maps to an unknown item id",
+        )
+        require(
+            all(
+                isinstance(item_id, str) and item_id
+                for item_id in notice["appliesToItemIds"]
+            ),
+            f"{package_id}: notice item ids must be non-empty strings",
+        )
+        require(
+            len(notice["appliesToItemIds"])
+            == len(set(notice["appliesToItemIds"])),
+            f"{package_id}: notice item ids must be unique",
+        )
+        if notice["type"] == "section15":
+            has_section15_notice = True
+    if OGL_LICENSE.search(manifest_license):
+        require(
+            has_section15_notice,
+            f"{package_id}: OGL package must embed its Section 15 notice",
+        )
+        section15_item_ids = {
+            item_id
+            for notice in notices
+            if notice["type"] == "section15"
+            for item_id in notice["appliesToItemIds"]
+        }
+        require(
+            section15_item_ids == item_ids,
+            f"{package_id}: Section 15 notices must cover every package item",
+        )
+
+    sources = distribution.get("sources")
+    require(
+        isinstance(sources, list) and bool(sources),
+        f"{package_id}: distribution must include item-level sources",
+    )
+    source_ids = set()
+    covered_item_ids = set()
+    for source in sources:
+        require(
+            isinstance(source, dict)
+            and all(
+                isinstance(source.get(field), str) and source[field].strip()
+                for field in ("id", "name", "url", "revision")
+            )
+            and isinstance(source.get("itemIds"), list)
+            and bool(source["itemIds"]),
+            f"{package_id}: every source needs id, name, URL, revision, and item ids",
+        )
+        require(source["id"] not in source_ids, f"{package_id}: duplicate source id")
+        source_ids.add(source["id"])
+        require(
+            urlparse(source["url"]).scheme in ("http", "https"),
+            f"{package_id}: source URL must be HTTP(S)",
+        )
+        require(
+            all(isinstance(item_id, str) and item_id for item_id in source["itemIds"]),
+            f"{package_id}: source item ids must be non-empty strings",
+        )
+        require(
+            len(source["itemIds"]) == len(set(source["itemIds"])),
+            f"{package_id}: source item ids must be unique",
+        )
+        require(
+            all(item_id in item_ids for item_id in source["itemIds"]),
+            f"{package_id}: source maps to an unknown item id",
+        )
+        covered_item_ids.update(source["itemIds"])
+    require(
+        covered_item_ids == item_ids,
+        f"{package_id}: every item must map to at least one source",
+    )
 
 
 if __name__ == "__main__":

@@ -19,6 +19,19 @@ from validate_catalog import (
 
 
 class CatalogValidationTests(unittest.TestCase):
+    def write_catalog_variant(self, folder, manifest, asset):
+        root = Path(folder)
+        asset_dir = root / "packages"
+        asset_dir.mkdir()
+        asset_bytes = json.dumps(asset, ensure_ascii=False).encode("utf-8")
+        package = manifest["packages"][0]
+        package["sizeBytes"] = len(asset_bytes)
+        package["sha256"] = hashlib.sha256(asset_bytes).hexdigest()
+        (asset_dir / "original-sample-1.0.0.json").write_bytes(asset_bytes)
+        manifest_path = root / "manifest.json"
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        return manifest_path, asset_dir
+
     def test_included_fixture_matches_manifest_and_integrity_metadata(self):
         manifest = validate_catalog(allow_placeholder=True)
         package = manifest["packages"][0]
@@ -33,6 +46,15 @@ class CatalogValidationTests(unittest.TestCase):
         self.assertEqual(package["license"], "CC0-1.0")
         self.assertEqual(package["redistributionStatus"], "verified")
         self.assertTrue(package["notices"])
+
+    def test_existing_v1_asset_without_distribution_remains_valid(self):
+        asset = json.loads(
+            (ROOT / "packages" / "original-sample-1.0.0.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertNotIn("distribution", asset)
+        self.assertEqual(validate_catalog(allow_placeholder=True)["schemaVersion"], 1)
 
     def test_prepare_manifest_pins_the_data_commit(self):
         commit = "a" * 40
@@ -96,6 +118,133 @@ class CatalogValidationTests(unittest.TestCase):
             target.write_text(json.dumps(manifest), encoding="utf-8")
             with self.assertRaisesRegex(CatalogValidationError, "at least one"):
                 validate_catalog(target, ROOT / "packages")
+
+    def test_rejects_ogl_package_without_embedded_distribution(self):
+        manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+        manifest["packages"][0]["license"] = "OGL-1.0a"
+        asset = json.loads(
+            (ROOT / "packages" / "original-sample-1.0.0.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        with tempfile.TemporaryDirectory() as folder:
+            target, asset_dir = self.write_catalog_variant(folder, manifest, asset)
+            with self.assertRaisesRegex(CatalogValidationError, "must embed distribution"):
+                validate_catalog(target, asset_dir)
+
+    def test_accepts_ogl_distribution_with_full_texts_and_item_mappings(self):
+        manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+        manifest["packages"][0]["license"] = "OGL-1.0a"
+        asset = json.loads(
+            (ROOT / "packages" / "original-sample-1.0.0.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        item_ids = [item["id"] for item in asset["items"]]
+        asset["distribution"] = {
+            "redistributionStatus": "verified",
+            "licenses": [
+                {
+                    "id": "OGL-1.0a",
+                    "name": "Open Game License v1.0a",
+                    "text": "Complete license text included for structural testing.",
+                }
+            ],
+            "notices": [
+                {
+                    "id": "test-section15",
+                    "type": "section15",
+                    "text": "Complete Section 15 notice included for structural testing.",
+                    "appliesToItemIds": item_ids,
+                }
+            ],
+            "sources": [
+                {
+                    "id": "test-source",
+                    "name": "Verified source",
+                    "url": "https://example.org/source",
+                    "revision": "test-revision",
+                    "itemIds": item_ids,
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            target, asset_dir = self.write_catalog_variant(folder, manifest, asset)
+            self.assertEqual(validate_catalog(target, asset_dir)["schemaVersion"], 1)
+
+    def test_rejects_ogl_distribution_without_section15_notice(self):
+        manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+        manifest["packages"][0]["license"] = "OGL-1.0a"
+        asset = json.loads(
+            (ROOT / "packages" / "original-sample-1.0.0.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        item_ids = [item["id"] for item in asset["items"]]
+        asset["distribution"] = {
+            "redistributionStatus": "verified",
+            "licenses": [
+                {"id": "OGL-1.0a", "name": "OGL", "text": "Full license text"}
+            ],
+            "notices": [
+                {
+                    "id": "test-copyright",
+                    "type": "copyright",
+                    "text": "Copyright notice",
+                    "appliesToItemIds": item_ids,
+                }
+            ],
+            "sources": [
+                {
+                    "id": "test-source",
+                    "name": "Verified source",
+                    "url": "https://example.org/source",
+                    "revision": "test-revision",
+                    "itemIds": item_ids,
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            target, asset_dir = self.write_catalog_variant(folder, manifest, asset)
+            with self.assertRaisesRegex(CatalogValidationError, "Section 15 notice"):
+                validate_catalog(target, asset_dir)
+
+    def test_rejects_distribution_source_map_missing_package_items(self):
+        manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+        manifest["packages"][0]["license"] = "OGL-1.0a"
+        asset = json.loads(
+            (ROOT / "packages" / "original-sample-1.0.0.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        item_ids = [item["id"] for item in asset["items"]]
+        asset["distribution"] = {
+            "redistributionStatus": "verified",
+            "licenses": [
+                {"id": "OGL-1.0a", "name": "OGL", "text": "Full license text"}
+            ],
+            "notices": [
+                {
+                    "id": "test-section15",
+                    "type": "section15",
+                    "text": "Section 15 notice",
+                    "appliesToItemIds": item_ids,
+                }
+            ],
+            "sources": [
+                {
+                    "id": "test-source",
+                    "name": "Verified source",
+                    "url": "https://example.org/source",
+                    "revision": "test-revision",
+                    "itemIds": item_ids[:1],
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            target, asset_dir = self.write_catalog_variant(folder, manifest, asset)
+            with self.assertRaisesRegex(CatalogValidationError, "every item must map"):
+                validate_catalog(target, asset_dir)
 
     def test_rejects_more_than_500_items(self):
         manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
