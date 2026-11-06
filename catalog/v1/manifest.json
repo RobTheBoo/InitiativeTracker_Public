@@ -8,7 +8,7 @@
       "name": "Original sample ruleset",
       "version": "1.0.0",
       "description": "Small, original English-language fixture for validating catalog downloads.",
-      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v1/packages/original-sample-1.0.0.json",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/94a29f8a2347dbebb7baad4a6ec155484cd832da/catalog/v1/packages/original-sample-1.0.0.json",
       "format": "json",
       "sizeBytes": 1120,
       "sha256": "88d15ef16e59533a68b8fac3c751b07fb28b7b5979543d2e2f656956366a5be5",

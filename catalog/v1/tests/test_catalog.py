@@ -1,5 +1,6 @@
 import hashlib
 import json
+import re
 import sys
 import tempfile
 import unittest
@@ -35,7 +36,17 @@ class CatalogValidationTests(unittest.TestCase):
         commit = "a" * 40
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / "manifest.json"
-            target.write_bytes((ROOT / "manifest.json").read_bytes())
+            manifest = json.loads(
+                (ROOT / "manifest.json").read_text(encoding="utf-8")
+            )
+            package = manifest["packages"][0]
+            package["downloadUrl"] = re.sub(
+                r"/[0-9a-f]{40}/catalog/",
+                "/__DATA_COMMIT_SHA__/catalog/",
+                package["downloadUrl"],
+                count=1,
+            )
+            target.write_text(json.dumps(manifest), encoding="utf-8")
             self.assertEqual(prepare_manifest(commit, target), 1)
             manifest = json.loads(target.read_text(encoding="utf-8"))
             self.assertIn(
