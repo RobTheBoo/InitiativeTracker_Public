@@ -123,6 +123,107 @@ class V2CatalogTests(unittest.TestCase):
             )
         )
 
+    def test_official_dnd_selected_content_has_exact_partial_coverage(self):
+        manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+        expected = {
+            "dnd-5e-2014-srd-5-1-selected-content": {
+                "ruleset": {"id": "DND5E", "edition": "2014-SRD-5.1"},
+                "counts": {
+                    "class": 1,
+                    "creature": 3,
+                    "equipment": 5,
+                    "magic-item": 3,
+                    "rule": 1,
+                    "spell": 4,
+                    "tool": 1,
+                },
+                "source_revision": (
+                    "SRD 5.1 official PDF; SHA-256 "
+                    "2504d2a0abb0a4d491a939be4f17910a2dde0312570ab8d208080225ccf0a1f0"
+                ),
+            },
+            "dnd-5e-2024-srd-5-2-1-selected-content": {
+                "ruleset": {"id": "DND5E", "edition": "2024-SRD-5.2.1"},
+                "counts": {
+                    "class": 1,
+                    "creature": 4,
+                    "effect": 1,
+                    "equipment": 7,
+                    "magic-item": 3,
+                    "rule": 1,
+                    "spell": 5,
+                },
+                "source_revision": (
+                    "SRD 5.2.1 official PDF; SHA-256 "
+                    "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87"
+                ),
+            },
+        }
+        entries = {entry["id"]: entry for entry in manifest["packages"]}
+        all_ids = set()
+        for package_id, expected_package in expected.items():
+            entry = entries[package_id]
+            asset = json.loads(
+                (ROOT / "packages" / f"{package_id}-1.0.0.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            items = asset["items"]
+            counts = Counter(item["category"] for item in items)
+            item_ids = {item["id"] for item in items}
+
+            self.assertEqual(entry["ruleset"], expected_package["ruleset"])
+            self.assertEqual(dict(counts), expected_package["counts"])
+            self.assertEqual(set(entry["categories"]), set(counts))
+            self.assertTrue(all(item["rulesData"].get("summary") for item in items))
+            self.assertTrue(
+                all(item["rulesData"].get("sourceReference") for item in items)
+            )
+            self.assertIn("partial", entry["description"].casefold())
+            self.assertEqual(asset["distribution"]["licenses"][0]["id"], "CC-BY-4.0")
+            self.assertIn(
+                "Creative Commons Attribution 4.0 International Public License",
+                asset["distribution"]["licenses"][0]["text"],
+            )
+            self.assertTrue(
+                any(
+                    notice["type"] == "attribution"
+                    and "System Reference Document" in notice["text"]
+                    for notice in asset["distribution"]["notices"]
+                )
+            )
+            self.assertTrue(
+                any(
+                    notice["id"] == "modifications"
+                    and "partial" in notice["text"].casefold()
+                    for notice in asset["distribution"]["notices"]
+                )
+            )
+            source = asset["distribution"]["sources"][0]
+            self.assertEqual(source["revision"], expected_package["source_revision"])
+            self.assertEqual(set(source["itemIds"]), item_ids)
+            self.assertFalse(all_ids & item_ids)
+            all_ids.update(item_ids)
+
+        review = json.loads(
+            (ROOT / "evidence" / "dnd-srd-selected-content-review.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertEqual(
+            review["includedCountsByPackageAndCategory"],
+            {
+                package_id: expected_package["counts"]
+                for package_id, expected_package in expected.items()
+            },
+        )
+        self.assertTrue(
+            all(
+                source["omissions"]
+                for source in review["sources"]
+            )
+        )
+
     def test_v2_rejects_asset_without_embedded_distribution(self):
         manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
         asset = json.loads(

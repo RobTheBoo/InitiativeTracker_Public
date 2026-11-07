@@ -1,7 +1,7 @@
 {
   "$schema": "./manifest.schema.json",
   "schemaVersion": 2,
-  "catalogVersion": "2.20.0",
+  "catalogVersion": "2.21.0",
   "packages": [
     {
       "id": "core-reviewed-spells",
@@ -1890,6 +1890,78 @@
       },
       "categories": [
         "condition"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "dnd-5e-2014-srd-5-1-selected-content",
+      "name": "D&D 5e (2014 SRD 5.1): selected content (partial)",
+      "version": "1.0.0",
+      "description": "Partial selection of official SRD 2014-SRD-5.1 records; all other entries/categories are not claimed as covered.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/dnd-5e-2014-srd-5-1-selected-content-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 31399,
+      "sha256": "8116cd274ef3eb4ac63df290b3d7ba678909758a90faa50f13869de70c034098",
+      "license": "CC-BY-4.0",
+      "redistributionStatus": "verified",
+      "notices": [
+        "CC BY 4.0; see embedded license text and the official version-specific SRD attribution in the asset.",
+        "Partial selected content only; see the linked evidence review for exact counts and gaps."
+      ],
+      "source": {
+        "name": "Wizards of the Coast, System Reference Document 5.1 (Creative Commons PDF)",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD_CC_v5.1.pdf",
+        "revision": "SRD 5.1 official PDF; SHA-256 2504d2a0abb0a4d491a939be4f17910a2dde0312570ab8d208080225ccf0a1f0"
+      },
+      "ruleset": {
+        "id": "DND5E",
+        "edition": "2014-SRD-5.1"
+      },
+      "categories": [
+        "class",
+        "creature",
+        "equipment",
+        "magic-item",
+        "rule",
+        "spell",
+        "tool"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "dnd-5e-2024-srd-5-2-1-selected-content",
+      "name": "D&D 5e (2024 SRD 5.2.1): selected content (partial)",
+      "version": "1.0.0",
+      "description": "Partial selection of official SRD 2024-SRD-5.2.1 records; all other entries/categories are not claimed as covered.",
+      "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/__DATA_COMMIT_SHA__/catalog/v2/packages/dnd-5e-2024-srd-5-2-1-selected-content-1.0.0.json",
+      "format": "json",
+      "assetSchemaVersion": 2,
+      "sizeBytes": 33387,
+      "sha256": "fc48369d60e311a02476fc5945ad1260a0dd2e3d5561b71069d938bfd67663cb",
+      "license": "CC-BY-4.0",
+      "redistributionStatus": "verified",
+      "notices": [
+        "CC BY 4.0; see embedded license text and the official version-specific SRD attribution in the asset.",
+        "Partial selected content only; see the linked evidence review for exact counts and gaps."
+      ],
+      "source": {
+        "name": "Wizards of the Coast LLC, System Reference Document 5.2.1 (Creative Commons PDF)",
+        "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "revision": "SRD 5.2.1 official PDF; SHA-256 8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87"
+      },
+      "ruleset": {
+        "id": "DND5E",
+        "edition": "2024-SRD-5.2.1"
+      },
+      "categories": [
+        "class",
+        "creature",
+        "equipment",
+        "effect",
+        "magic-item",
+        "rule",
+        "spell"
       ],
       "language": "en"
     }
