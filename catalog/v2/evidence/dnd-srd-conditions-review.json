@@ -1,0 +1,83 @@
+{
+  "reviewScope": "Condition definitions only; no complete SRD dataset is claimed.",
+  "method": "The condition names and mechanics summaries were checked against the specified pages in the official Wizards PDFs. Summaries are condensed and arranged as JSON records; source page wording was not copied verbatim.",
+  "includedCounts": {
+    "dnd-5e-2014-srd-5-1-conditions": 14,
+    "dnd-5e-2024-srd-5-2-1-conditions": 15
+  },
+  "sources": [
+    {
+      "edition": "2014-SRD-5.1",
+      "title": "System Reference Document 5.1 (Creative Commons PDF)",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.1/SRD_CC_v5.1.pdf",
+      "pdfSha256": "2504d2a0abb0a4d491a939be4f17910a2dde0312570ab8d208080225ccf0a1f0",
+      "section": "Appendix PH-A: Conditions",
+      "pages": [
+        358,
+        359
+      ],
+      "includedConditions": [
+        "Blinded",
+        "Charmed",
+        "Deafened",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Incapacitated",
+        "Invisible",
+        "Paralyzed",
+        "Poisoned",
+        "Prone",
+        "Restrained",
+        "Stunned",
+        "Unconscious"
+      ]
+    },
+    {
+      "edition": "2024-SRD-5.2.1",
+      "title": "System Reference Document 5.2.1 (Creative Commons PDF)",
+      "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+      "pdfSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+      "section": "Rules Glossary",
+      "pages": [
+        177,
+        178,
+        181,
+        182,
+        184,
+        186,
+        187,
+        189,
+        191
+      ],
+      "includedConditions": [
+        "Blinded",
+        "Charmed",
+        "Deafened",
+        "Exhaustion",
+        "Frightened",
+        "Grappled",
+        "Incapacitated",
+        "Invisible",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone",
+        "Restrained",
+        "Stunned",
+        "Unconscious"
+      ]
+    }
+  ],
+  "omissions": {
+    "2014-SRD-5.1": [
+      "Petrified condition: excluded because PDF text extraction on its source page was corrupted and the extracted wording could not be verified reliably.",
+      "All SRD sections other than the listed conditions."
+    ],
+    "2024-SRD-5.2.1": [
+      "All SRD sections other than the listed conditions."
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "attributionAndChangeNotes": "Each asset embeds the exact attribution statement required by its SRD PDF, the full CC BY 4.0 legal text, and a notice that its condition summaries were condensed and converted to JSON."
+}

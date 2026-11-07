@@ -22,6 +22,107 @@ class V2CatalogTests(unittest.TestCase):
         self.assertEqual(manifest["packages"][0]["assetSchemaVersion"], 2)
         self.assertEqual(manifest["packages"][0]["id"], "core-reviewed-spells")
 
+    def test_official_dnd_condition_excerpts_are_separate_and_attributed(self):
+        manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+        expected = {
+            "dnd-5e-2014-srd-5-1-conditions": {
+                "ruleset": {"id": "DND5E", "edition": "2014-SRD-5.1"},
+                "count": 14,
+                "source_revision": (
+                    "SRD 5.1 official PDF; SHA-256 "
+                    "2504d2a0abb0a4d491a939be4f17910a2dde0312570ab8d208080225ccf0a1f0"
+                ),
+                "conditions": {
+                    "Blinded", "Charmed", "Deafened", "Exhaustion", "Frightened",
+                    "Grappled", "Incapacitated", "Invisible", "Paralyzed",
+                    "Poisoned", "Prone", "Restrained", "Stunned", "Unconscious",
+                },
+                "omitted": "Petrified",
+            },
+            "dnd-5e-2024-srd-5-2-1-conditions": {
+                "ruleset": {"id": "DND5E", "edition": "2024-SRD-5.2.1"},
+                "count": 15,
+                "source_revision": (
+                    "SRD 5.2.1 official PDF; SHA-256 "
+                    "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87"
+                ),
+                "conditions": {
+                    "Blinded", "Charmed", "Deafened", "Exhaustion", "Frightened",
+                    "Grappled", "Incapacitated", "Invisible", "Paralyzed",
+                    "Petrified", "Poisoned", "Prone", "Restrained", "Stunned",
+                    "Unconscious",
+                },
+                "omitted": None,
+            },
+        }
+        entries = {entry["id"]: entry for entry in manifest["packages"]}
+        for package_id, expected_package in expected.items():
+            entry = entries[package_id]
+            asset = json.loads(
+                (ROOT / "packages" / f"{package_id}-1.0.0.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            items = asset["items"]
+            names = {item["name"] for item in items}
+
+            self.assertEqual(entry["ruleset"], expected_package["ruleset"])
+            self.assertEqual(len(items), expected_package["count"])
+            self.assertTrue(all(item["category"] == "condition" for item in items))
+            self.assertEqual(names, expected_package["conditions"])
+            self.assertTrue(all(item["rulesData"].get("summary") for item in items))
+            self.assertTrue(all(item["rulesData"].get("sourceReference") for item in items))
+            self.assertIn("partial", entry["description"].casefold())
+            self.assertEqual(asset["distribution"]["licenses"][0]["id"], "CC-BY-4.0")
+            self.assertIn(
+                "Creative Commons Attribution 4.0 International Public License",
+                asset["distribution"]["licenses"][0]["text"],
+            )
+            self.assertIn(
+                "Section 3 -- License Conditions",
+                asset["distribution"]["licenses"][0]["text"],
+            )
+            self.assertTrue(
+                any(
+                    notice["type"] == "attribution"
+                    and "System Reference Document" in notice["text"]
+                    for notice in asset["distribution"]["notices"]
+                )
+            )
+            self.assertTrue(
+                any(
+                    notice["id"] == "modifications"
+                    and "JSON" in notice["text"]
+                    for notice in asset["distribution"]["notices"]
+                )
+            )
+            source = asset["distribution"]["sources"][0]
+            self.assertEqual(source["revision"], expected_package["source_revision"])
+            self.assertEqual(set(source["itemIds"]), {item["id"] for item in items})
+            self.assertEqual(
+                "Petrified" in names,
+                expected_package["omitted"] is None,
+            )
+
+        review = json.loads(
+            (ROOT / "evidence" / "dnd-srd-conditions-review.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertEqual(
+            review["includedCounts"],
+            {
+                "dnd-5e-2014-srd-5-1-conditions": 14,
+                "dnd-5e-2024-srd-5-2-1-conditions": 15,
+            },
+        )
+        self.assertTrue(
+            any(
+                "Petrified" in omission
+                for omission in review["omissions"]["2014-SRD-5.1"]
+            )
+        )
+
     def test_v2_rejects_asset_without_embedded_distribution(self):
         manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
         asset = json.loads(
@@ -59,6 +160,7 @@ class V2CatalogTests(unittest.TestCase):
         entries = [
             entry for entry in manifest["packages"]
             if set(entry["categories"]) & {"condition", "effect", "creature", "item"}
+            and entry["ruleset"]["id"] == "PTFD"
         ]
         self.assertTrue(entries)
         self.assertTrue(any(entry["id"] == "core-reviewed-conditions" for entry in entries))
