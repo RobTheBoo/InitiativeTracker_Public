@@ -1901,8 +1901,8 @@
       "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/62b60a4c84a4258448479fbea2552eedb7914d3a/catalog/v2/packages/dnd-5e-2014-srd-5-1-selected-content-1.0.0.json",
       "format": "json",
       "assetSchemaVersion": 2,
-      "sizeBytes": 31399,
-      "sha256": "8116cd274ef3eb4ac63df290b3d7ba678909758a90faa50f13869de70c034098",
+      "sizeBytes": 31153,
+      "sha256": "004f29fb68c8f5b5cd85d406f58e083a1f0dcdd01c83bd4c6a9891f33cebd653",
       "license": "CC-BY-4.0",
       "redistributionStatus": "verified",
       "notices": [
@@ -1937,8 +1937,8 @@
       "downloadUrl": "https://raw.githubusercontent.com/RobTheBoo/InitiativeTracker_Public/62b60a4c84a4258448479fbea2552eedb7914d3a/catalog/v2/packages/dnd-5e-2024-srd-5-2-1-selected-content-1.0.0.json",
       "format": "json",
       "assetSchemaVersion": 2,
-      "sizeBytes": 33387,
-      "sha256": "fc48369d60e311a02476fc5945ad1260a0dd2e3d5561b71069d938bfd67663cb",
+      "sizeBytes": 33097,
+      "sha256": "8f2c345f9b00f397d1964ffc6b951e0625e8eda5b2373b344696ea2a58e0db05",
       "license": "CC-BY-4.0",
       "redistributionStatus": "verified",
       "notices": [
